@@ -1,0 +1,41 @@
+{
+  "version": "2026-07-10-v1",
+  "description": "系统预置英语词汇库 — 采集提问角色注册表",
+  "personas": [
+    {
+      "id": "english_primary_parent",
+      "role_name": "小学生家长",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "knowledge_base_title": "小学英语词汇库",
+      "seed_path": "data/training_collector/seeds/english_primary.json"
+    },
+    {
+      "id": "english_junior_student",
+      "role_name": "初二学生",
+      "knowledge_base_id": "6178a9c2-4446-4df8-9a03-44525f09277d",
+      "knowledge_base_title": "初中英语词汇库",
+      "seed_path": "data/training_collector/seeds/english_junior.json"
+    },
+    {
+      "id": "english_senior_student",
+      "role_name": "高三备考学生",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "knowledge_base_title": "高中英语词汇库",
+      "seed_path": "data/training_collector/seeds/english_senior.json"
+    },
+    {
+      "id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "knowledge_base_title": "大学英语四级词汇库",
+      "seed_path": "data/training_collector/seeds/english_cet4.json"
+    },
+    {
+      "id": "english_cet6_student",
+      "role_name": "研一 CET-6 备考者",
+      "knowledge_base_id": "e3535603-81b0-442c-88a3-3fb894824497",
+      "knowledge_base_title": "大学英语六级词汇库",
+      "seed_path": "data/training_collector/seeds/english_cet6.json"
+    }
+  ]
+}

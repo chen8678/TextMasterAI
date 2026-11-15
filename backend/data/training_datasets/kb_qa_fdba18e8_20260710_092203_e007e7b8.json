@@ -1,0 +1,523 @@
+{
+  "meta": {
+    "workflow": "kb_qa_collector",
+    "version": "2026-07-10-v2",
+    "run_id": "e007e7b8-975d-4e0b-a763-add952098943",
+    "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+    "knowledge_base_title": "高中英语词汇库",
+    "persona_id": "english_senior_student",
+    "role_name": "高三备考学生",
+    "question_source": "seed_file",
+    "agent_id": "qa",
+    "retrieval_params": {
+      "strategy": "hybrid",
+      "top_k": 5,
+      "score_threshold": 0.15,
+      "alpha": 0.5
+    },
+    "total_questions": 8,
+    "total_collected": 8,
+    "total_errors": 0,
+    "dry_run": false,
+    "created_at": "2026-07-10T09:22:03.741464+00:00"
+  },
+  "records": [
+    {
+      "id": "067916f5-314b-4bf9-b609-738d58bf30fb",
+      "question": "influence 和 effect 在词库里有什么区别？",
+      "answer": "根据您提供的知识库上下文，**无法直接回答“influence”和“effect”在词库中的区别**，因为这两个单词并未出现在所给的任何文档中。\n\n**说明：**\n- 知识库上下文包含的文档（如《高中英语词汇库 · 第15批》《第42批》《第40批》《第47批》《第51批》）中，均未收录“influence”或“effect”这两个词汇及其词性、释义或短语。\n- 因此，我无法依据知识库内容对这两个词进行对比分析。\n\n**补充常识（非知识库来源）：**\n在英语中，“influence”通常指**影响**（可作名词或动词，侧重潜移默化的作用），而“effect”多指**效果、结果**（通常作名词，强调由某原因直接导致的结果）。如需更准确的词汇辨析，建议查阅专门的英语词汇辨析资料或完整词汇库。\n\n**建议：**\n如果您能提供包含“influence”和“effect”的词汇库文档，我可以基于新内容进行精确对比。",
+      "sources": [
+        "高中英语词汇库 · 第15批",
+        "高中英语词汇库 · 第42批",
+        "高中英语词汇库 · 第40批",
+        "高中英语词汇库 · 第47批",
+        "高中英语词汇库 · 第51批"
+      ],
+      "context_docs": [
+        {
+          "id": "e36615ab-2a5a-4908-91d5-011c85671bf8",
+          "title": "高中英语词汇库 · 第15批",
+          "content": "# 高中英语词汇库 · 词汇第 15 批\n\n## Indian\n- **词性**: adj\n- **释义**: 印度的；印第安人的；印第安语的；印度人；印第安人；印第安语\n- **短语**:\n  - indian ocean — n. 印度洋\n  - american indian — 美洲印第安人\n  - indian corn — 玉米；玉蜀黍\n  - indian summer — 小阳春；兴旺的晚期；深秋初冬季节风和日丽的宜人气候\n  - indian territory — 印第安准州；印第安人保留区\n  - red indian — n. 印第安人（贬义）\n\n## Indicate\n- **词性**: v\n- **释义**: 表明；指出；预示；象征\n\n## industry\n- **词性**: n\n- **释义**: 产业；工业；勤勉\n- **短语**:\n  - industry and commerce — 工商业\n  - chemical industry — 化学工业\n  - manufacturing industry — 制造业，制造工业\n  - food ind"
+        },
+        {
+          "id": "74564aae-463b-4539-bb8f-272561d470e3",
+          "title": "高中英语词汇库 · 第42批",
+          "content": "# 高中英语词汇库 · 词汇第 42 批\n\n## respect\n- **词性**: n\n- **释义**: 尊敬，尊重；方面；尊敬， 尊重\n- **短语**:\n  - respect oneself — 自重\n  - in respect of — 关于，涉及\n  - respect for — 尊重…；对…的尊敬\n  - in this respect — 在这方面\n  - in all respects — 在各方面\n  - in many respects — 在许多方面\n\n## ache\n- **词性**: vi\n- **释义**: 疼痛；痛， 疼痛\n- **短语**:\n  - aches and pains — 痛苦；不适；各种各样的病痛\n  - stomach ache — 胃疼\n  - ache for — 想念，渴望\n  - tooth ache — 牙痛\n  - ache all over — 全身疼痛\n\n## loose\n- **词性**: adj\n- **释义**: 松散的； 宽松的\n- **短语**:\n  - let loose — 释放；使随心所欲；屈服；突"
+        },
+        {
+          "id": "e275cab4-527e-4e17-9bec-8b506d5cde99",
+          "title": "高中英语词汇库 · 第40批",
+          "content": "# 高中英语词汇库 · 词汇第 40 批\n\n## common\n- **词性**: adj\n- **释义**: 普通的； 公共的； 共有的\n- **短语**:\n  - in common — 共同的；共有的\n  - common people — 大众，平民\n  - common ground — （争论双方的）共同基础；一致之处\n  - in common with — 与…一样\n  - common sense — 常识\n  - common use — 共同使用；多畜共牧\n\n## interest\n- **词性**: n\n- **释义**: 兴趣，趣味；利息；使产生兴趣\n- **短语**:\n  - interest in — 对…有兴趣\n  - of interest — 有…兴趣；权益的转易\n  - interest rate — [经]利率\n  - public interest — 公共利益\n  - no interest — 没兴趣；免付利息\n  - with interest — 有兴趣地；付利息地\n\n## wonder\n- **词性**: v\n- **释义**: 想知"
+        },
+        {
+          "id": "6f186520-39f3-4381-85c8-528cb9896913",
+          "title": "高中英语词汇库 · 第47批",
+          "content": "# 高中英语词汇库 · 词汇第 47 批\n\n## salute\n- **词性**: n&v\n- **释义**: 敬礼； 问候\n\n## random\n- **词性**: adj\n- **释义**: 随意的， 任意的\n- **短语**:\n  - at random — 胡乱地；随便地；任意地\n  - random sampling — 随机抽样；随意采样\n  - random variable — 随机变数，随机变量；无规变量\n  - random vibration — 随机振动\n  - random number — 随机数\n  - random noise — 随机噪声；不规则噪声\n\n## perhaps\n- **词性**: adv\n- **释义**: 可能， 或许\n\n## plot\n- **词性**: vt\n- **释义**: 密谋；情节\n- **短语**:\n  - plot of land — 地块；基址\n  - plot against — 暗算；阴谋策划\n  - plot out — 划分；分配；描绘，提出…纲要\n  - plot area — 图形区\n  - sample "
+        },
+        {
+          "id": "305f5011-fd60-4cfa-8bb4-0e39f702be35",
+          "title": "高中英语词汇库 · 第51批",
+          "content": "# 高中英语词汇库 · 词汇第 51 批\n\n## hard-working\n- **词性**: adj\n- **释义**: 勤劳的， 辛勤工作的\n\n## carrier\n- **词性**: n\n- **释义**: 搬运者；  置物架\n- **短语**:\n  - aircraft carrier — n. 航空母舰；全能篮球中锋\n  - carrier frequency — 载波频率\n  - carrier phase — 载波相位\n  - carrier wave — [电信]载波\n  - carrier gas — 运载气体\n  - bulk carrier — 散装货船，散货船\n\n## dignity\n- **词性**: n\n- **释义**: 尊严； 高贵\n\n## challenge\n- **词性**: n\n- **释义**: 挑战；挑战性；挑战\n- **短语**:\n  - meet the challenge — 迎接挑战；满足要求\n  - rise to the challenge — 接受挑战，奋起应付挑战\n  - take up the challenge — 应战\n "
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:21:38.128677+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "influence 和 effect 在词库里有什么区别？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第15批】\n# 高中英语词汇库 · 词汇第 15 批\n\n## Indian\n- **词性**: adj\n- **释义**: 印度的；印第安人的；印第安语的；印度人；印第安人；印第安语\n- **短语**:\n  - indian ocean — n. 印度洋\n  - american indian — 美洲印第安人\n  - indian corn — 玉米；玉蜀黍\n  - indian summer — 小阳春；兴旺的晚期；深秋初冬季节风和日丽的宜人气候\n  - indian territory — 印第安准州；印第安人保留区\n  - red indian — n. 印第安人（贬义）\n\n## Indicate\n- **词性**: v\n- **释义**: 表明；指出；预示；象征\n\n## industry\n- **词性**: n\n- **释义**: 产业；工业；勤勉\n- **短语**:\n  - industry and commerce — 工商业\n  - chemical industry — 化学工业\n  - manufacturing industry — 制造业，制造工业\n  - food ind\n\n【高中英语词汇库 · 第42批】\n# 高中英语词汇库 · 词汇第 42 批\n\n## respect\n- **词性**: n\n- **释义**: 尊敬，尊重；方面；尊敬， 尊重\n- **短语**:\n  - respect oneself — 自重\n  - in respect of — 关于，涉及\n  - respect for — 尊重…；对…的尊敬\n  - in this respect — 在这方面\n  - in all respects — 在各方面\n  - in many respects — 在许多方面\n\n## ache\n- **词性**: vi\n- **释义**: 疼痛；痛， 疼痛\n- **短语**:\n  - aches and pains — 痛苦；不适；各种各样的病痛\n  - stomach ache — 胃疼\n  - ache for — 想念，渴望\n  - tooth ache — 牙痛\n  - ache all over — 全身疼痛\n\n## loose\n- **词性**: adj\n- **释义**: 松散的； 宽松的\n- **短语**:\n  - let loose — 释放；使随心所欲；屈服；突\n\n【高中英语词汇库 · 第40批】\n# 高中英语词汇库 · 词汇第 40 批\n\n## common\n- **词性**: adj\n- **释义**: 普通的； 公共的； 共有的\n- **短语**:\n  - in common — 共同的；共有的\n  - common people — 大众，平民\n  - common ground — （争论双方的）共同基础；一致之处\n  - in common with — 与…一样\n  - common sense — 常识\n  - common use — 共同使用；多畜共牧\n\n## interest\n- **词性**: n\n- **释义**: 兴趣，趣味；利息；使产生兴趣\n- **短语**:\n  - interest in — 对…有兴趣\n  - of interest — 有…兴趣；权益的转易\n  - interest rate — [经]利率\n  - public interest — 公共利益\n  - no interest — 没兴趣；免付利息\n  - with interest — 有兴趣地；付利息地\n\n## wonder\n- **词性**: v\n- **释义**: 想知\n\n【高中英语词汇库 · 第47批】\n# 高中英语词汇库 · 词汇第 47 批\n\n## salute\n- **词性**: n&v\n- **释义**: 敬礼； 问候\n\n## random\n- **词性**: adj\n- **释义**: 随意的， 任意的\n- **短语**:\n  - at random — 胡乱地；随便地；任意地\n  - random sampling — 随机抽样；随意采样\n  - random variable — 随机变数，随机变量；无规变量\n  - random vibration — 随机振动\n  - random number — 随机数\n  - random noise — 随机噪声；不规则噪声\n\n## perhaps\n- **词性**: adv\n- **释义**: 可能， 或许\n\n## plot\n- **词性**: vt\n- **释义**: 密谋；情节\n- **短语**:\n  - plot of land — 地块；基址\n  - plot against — 暗算；阴谋策划\n  - plot out — 划分；分配；描绘，提出…纲要\n  - plot area — 图形区\n  - sample\n\n【高中英语词汇库 · 第51批】\n# 高中英语词汇库 · 词汇第 51 批\n\n## hard-working\n- **词性**: adj\n- **释义**: 勤劳的， 辛勤工作的\n\n## carrier\n- **词性**: n\n- **释义**: 搬运者；  置物架\n- **短语**:\n  - aircraft carrier — n. 航空母舰；全能篮球中锋\n  - carrier frequency — 载波频率\n  - carrier phase — 载波相位\n  - carrier wave — [电信]载波\n  - carrier gas — 运载气体\n  - bulk carrier — 散装货船，散货船\n\n## dignity\n- **词性**: n\n- **释义**: 尊严； 高贵\n\n## challenge\n- **词性**: n\n- **释义**: 挑战；挑战性；挑战\n- **短语**:\n  - meet the challenge — 迎接挑战；满足要求\n  - rise to the challenge — 接受挑战，奋起应付挑战\n  - take up the challenge — 应战",
+        "output": "根据您提供的知识库上下文，**无法直接回答“influence”和“effect”在词库中的区别**，因为这两个单词并未出现在所给的任何文档中。\n\n**说明：**\n- 知识库上下文包含的文档（如《高中英语词汇库 · 第15批》《第42批》《第40批》《第47批》《第51批》）中，均未收录“influence”或“effect”这两个词汇及其词性、释义或短语。\n- 因此，我无法依据知识库内容对这两个词进行对比分析。\n\n**补充常识（非知识库来源）：**\n在英语中，“influence”通常指**影响**（可作名词或动词，侧重潜移默化的作用），而“effect”多指**效果、结果**（通常作名词，强调由某原因直接导致的结果）。如需更准确的词汇辨析，建议查阅专门的英语词汇辨析资料或完整词汇库。\n\n**建议：**\n如果您能提供包含“influence”和“effect”的词汇库文档，我可以基于新内容进行精确对比。"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    },
+    {
+      "id": "c6ca4f11-64e5-4685-b6e6-e141bc57dcf0",
+      "question": "affect 作动词时是什么意思？",
+      "answer": "根据您提供的知识库上下文，我检索了所有文档，**未找到单词 \"affect\" 的相关词条**。\n\n因此，**知识库中没有关于 \"affect\" 作动词时的释义信息**。\n\n作为补充，在通用英语中，\"affect\" 作动词时通常意为 **“影响”**（如：The weather affects my mood.），有时也可表示 **“感动”**（如：I was deeply affected by the story.）。这部分信息属于通用常识补充，并非来自您提供的知识库文档。",
+      "sources": [
+        "高中英语词汇库 · 第35批",
+        "高中英语词汇库 · 第39批",
+        "高中英语词汇库 · 第23批",
+        "高中英语词汇库 · 第15批",
+        "高中英语词汇库 · 第42批"
+      ],
+      "context_docs": [
+        {
+          "id": "a8f652b7-71db-410e-aa2b-fb87ccfef1cf",
+          "title": "高中英语词汇库 · 第35批",
+          "content": "# 高中英语词汇库 · 词汇第 35 批\n\n## away\n- **词性**: adv\n- **释义**: 离开， 远离\n- **短语**:\n  - away from — 远离，离开；避开痛苦\n  - far away — 遥远的\n  - right away — 立刻\n  - away with — ◎把(物)拿走；去掉；把(人)带走\n  - far away from — 远离；离…远\n  - go away — 走开\n\n## memory\n- **词性**: n\n- **释义**: 回忆， 记忆\n- **短语**:\n  - in memory of — 纪念…\n  - shape memory — 形状记忆；外形记忆\n  - from memory — 根据记忆\n  - shape memory alloy — 形状记忆合金\n  - memory card — 记忆卡，存储插件\n  - working memory — 内存储器；工作存储器\n\n## concept\n- **词性**: n\n- **释义**: 概念， 观念\n- **短语**:\n  - new concept — "
+        },
+        {
+          "id": "8ca8f677-7cb2-47dd-888e-9e4021058c2a",
+          "title": "高中英语词汇库 · 第39批",
+          "content": "# 高中英语词汇库 · 词汇第 39 批\n\n## crash\n- **词性**: v&n\n- **释义**: 碰撞； 坠毁\n- **短语**:\n  - car crash — 车祸；汽车碰撞\n  - air crash — 飞机失事\n  - stock market crash — 股市崩盘；股市行情暴跌\n  - crash course — 速成课（等于cram course）\n  - crash into — v. 闯入；撞到…上\n  - crash test — 碰撞试验\n\n## cover\n- **词性**: n\n- **释义**: 盖子；罩；封面；覆盖； 掩盖； 包括； 报道\n- **短语**:\n  - from cover to cover — 从头至尾\n  - under cover — 隐藏着；秘密地\n  - cover up — 掩盖，盖住\n  - cover for — 代替\n  - cover with — 覆盖\n  - cover to cover — 完整收录\n\n## firm\n- **词性**: adj\n- **释义**: 坚固的； 坚定的；公司，企业\n- "
+        },
+        {
+          "id": "1a60ce0f-0905-4769-882e-b652aeffa0ec",
+          "title": "高中英语词汇库 · 第23批",
+          "content": "# 高中英语词汇库 · 词汇第 23 批\n\n## reserve\n- **词性**: n\n- **释义**: 储备，储存；自然保护区；预备队；缄默；[金融] 储备金；储备；保留；预约\n- **短语**:\n  - federal reserve — （美国）联邦储备系统\n  - nature reserve — n. 自然保护区\n  - in reserve — 备用的；留下的\n  - without reserve — 无保留地\n  - natural reserve — 自然保护区\n  - reserve currency — 储备货币\n\n## resign\n- **词性**: v\n- **释义**: 辞职；放弃；委托；使听从；辞去职务\n- **短语**:\n  - resign from — 辞职\n\n## resist\n- **词性**: v\n- **释义**: 抵抗，抗拒；忍耐；[助剂] 抗蚀剂；防染剂\n- **短语**:\n  - resist the temptation — 抵制诱惑；抵挡住诱惑\n  - hard to resist — 人见人爱；无法抗拒；惹人喜爱\n  - r"
+        },
+        {
+          "id": "e36615ab-2a5a-4908-91d5-011c85671bf8",
+          "title": "高中英语词汇库 · 第15批",
+          "content": "# 高中英语词汇库 · 词汇第 15 批\n\n## Indian\n- **词性**: adj\n- **释义**: 印度的；印第安人的；印第安语的；印度人；印第安人；印第安语\n- **短语**:\n  - indian ocean — n. 印度洋\n  - american indian — 美洲印第安人\n  - indian corn — 玉米；玉蜀黍\n  - indian summer — 小阳春；兴旺的晚期；深秋初冬季节风和日丽的宜人气候\n  - indian territory — 印第安准州；印第安人保留区\n  - red indian — n. 印第安人（贬义）\n\n## Indicate\n- **词性**: v\n- **释义**: 表明；指出；预示；象征\n\n## industry\n- **词性**: n\n- **释义**: 产业；工业；勤勉\n- **短语**:\n  - industry and commerce — 工商业\n  - chemical industry — 化学工业\n  - manufacturing industry — 制造业，制造工业\n  - food ind"
+        },
+        {
+          "id": "74564aae-463b-4539-bb8f-272561d470e3",
+          "title": "高中英语词汇库 · 第42批",
+          "content": "# 高中英语词汇库 · 词汇第 42 批\n\n## respect\n- **词性**: n\n- **释义**: 尊敬，尊重；方面；尊敬， 尊重\n- **短语**:\n  - respect oneself — 自重\n  - in respect of — 关于，涉及\n  - respect for — 尊重…；对…的尊敬\n  - in this respect — 在这方面\n  - in all respects — 在各方面\n  - in many respects — 在许多方面\n\n## ache\n- **词性**: vi\n- **释义**: 疼痛；痛， 疼痛\n- **短语**:\n  - aches and pains — 痛苦；不适；各种各样的病痛\n  - stomach ache — 胃疼\n  - ache for — 想念，渴望\n  - tooth ache — 牙痛\n  - ache all over — 全身疼痛\n\n## loose\n- **词性**: adj\n- **释义**: 松散的； 宽松的\n- **短语**:\n  - let loose — 释放；使随心所欲；屈服；突"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:21:41.045370+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "affect 作动词时是什么意思？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第35批】\n# 高中英语词汇库 · 词汇第 35 批\n\n## away\n- **词性**: adv\n- **释义**: 离开， 远离\n- **短语**:\n  - away from — 远离，离开；避开痛苦\n  - far away — 遥远的\n  - right away — 立刻\n  - away with — ◎把(物)拿走；去掉；把(人)带走\n  - far away from — 远离；离…远\n  - go away — 走开\n\n## memory\n- **词性**: n\n- **释义**: 回忆， 记忆\n- **短语**:\n  - in memory of — 纪念…\n  - shape memory — 形状记忆；外形记忆\n  - from memory — 根据记忆\n  - shape memory alloy — 形状记忆合金\n  - memory card — 记忆卡，存储插件\n  - working memory — 内存储器；工作存储器\n\n## concept\n- **词性**: n\n- **释义**: 概念， 观念\n- **短语**:\n  - new concept —\n\n【高中英语词汇库 · 第39批】\n# 高中英语词汇库 · 词汇第 39 批\n\n## crash\n- **词性**: v&n\n- **释义**: 碰撞； 坠毁\n- **短语**:\n  - car crash — 车祸；汽车碰撞\n  - air crash — 飞机失事\n  - stock market crash — 股市崩盘；股市行情暴跌\n  - crash course — 速成课（等于cram course）\n  - crash into — v. 闯入；撞到…上\n  - crash test — 碰撞试验\n\n## cover\n- **词性**: n\n- **释义**: 盖子；罩；封面；覆盖； 掩盖； 包括； 报道\n- **短语**:\n  - from cover to cover — 从头至尾\n  - under cover — 隐藏着；秘密地\n  - cover up — 掩盖，盖住\n  - cover for — 代替\n  - cover with — 覆盖\n  - cover to cover — 完整收录\n\n## firm\n- **词性**: adj\n- **释义**: 坚固的； 坚定的；公司，企业\n-\n\n【高中英语词汇库 · 第23批】\n# 高中英语词汇库 · 词汇第 23 批\n\n## reserve\n- **词性**: n\n- **释义**: 储备，储存；自然保护区；预备队；缄默；[金融] 储备金；储备；保留；预约\n- **短语**:\n  - federal reserve — （美国）联邦储备系统\n  - nature reserve — n. 自然保护区\n  - in reserve — 备用的；留下的\n  - without reserve — 无保留地\n  - natural reserve — 自然保护区\n  - reserve currency — 储备货币\n\n## resign\n- **词性**: v\n- **释义**: 辞职；放弃；委托；使听从；辞去职务\n- **短语**:\n  - resign from — 辞职\n\n## resist\n- **词性**: v\n- **释义**: 抵抗，抗拒；忍耐；[助剂] 抗蚀剂；防染剂\n- **短语**:\n  - resist the temptation — 抵制诱惑；抵挡住诱惑\n  - hard to resist — 人见人爱；无法抗拒；惹人喜爱\n  - r\n\n【高中英语词汇库 · 第15批】\n# 高中英语词汇库 · 词汇第 15 批\n\n## Indian\n- **词性**: adj\n- **释义**: 印度的；印第安人的；印第安语的；印度人；印第安人；印第安语\n- **短语**:\n  - indian ocean — n. 印度洋\n  - american indian — 美洲印第安人\n  - indian corn — 玉米；玉蜀黍\n  - indian summer — 小阳春；兴旺的晚期；深秋初冬季节风和日丽的宜人气候\n  - indian territory — 印第安准州；印第安人保留区\n  - red indian — n. 印第安人（贬义）\n\n## Indicate\n- **词性**: v\n- **释义**: 表明；指出；预示；象征\n\n## industry\n- **词性**: n\n- **释义**: 产业；工业；勤勉\n- **短语**:\n  - industry and commerce — 工商业\n  - chemical industry — 化学工业\n  - manufacturing industry — 制造业，制造工业\n  - food ind\n\n【高中英语词汇库 · 第42批】\n# 高中英语词汇库 · 词汇第 42 批\n\n## respect\n- **词性**: n\n- **释义**: 尊敬，尊重；方面；尊敬， 尊重\n- **短语**:\n  - respect oneself — 自重\n  - in respect of — 关于，涉及\n  - respect for — 尊重…；对…的尊敬\n  - in this respect — 在这方面\n  - in all respects — 在各方面\n  - in many respects — 在许多方面\n\n## ache\n- **词性**: vi\n- **释义**: 疼痛；痛， 疼痛\n- **短语**:\n  - aches and pains — 痛苦；不适；各种各样的病痛\n  - stomach ache — 胃疼\n  - ache for — 想念，渴望\n  - tooth ache — 牙痛\n  - ache all over — 全身疼痛\n\n## loose\n- **词性**: adj\n- **释义**: 松散的； 宽松的\n- **短语**:\n  - let loose — 释放；使随心所欲；屈服；突",
+        "output": "根据您提供的知识库上下文，我检索了所有文档，**未找到单词 \"affect\" 的相关词条**。\n\n因此，**知识库中没有关于 \"affect\" 作动词时的释义信息**。\n\n作为补充，在通用英语中，\"affect\" 作动词时通常意为 **“影响”**（如：The weather affects my mood.），有时也可表示 **“感动”**（如：I was deeply affected by the story.）。这部分信息属于通用常识补充，并非来自您提供的知识库文档。"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    },
+    {
+      "id": "8d9072f8-ab8b-4fc2-bd19-cbb877a8cc25",
+      "question": "patient 和 patience 怎么区分？",
+      "answer": "根据您提供的知识库内容，**patient** 与 **patience** 的区分如下：\n\n**1. 词性与含义不同**\n- **patience** 是名词，出现在《高中英语词汇库 · 第20批》中，释义为“耐性，耐心；忍耐，容忍”。\n- **patient** 在您提供的知识库中**并未出现**。作为补充常识，**patient** 常用作名词（意为“病人”）或形容词（意为“有耐心的”）。\n\n**2. 记忆区分方法（基于知识库与常识）**\n- 知识库中 **patience** 明确为名词，结尾是 **-ence**，这是常见的名词后缀（如 dependence、excellence）。\n- **patient** 如果作名词，结尾是 **-ent**；作形容词时，其名词形式正是 **patience**。\n\n**结论**：  \n- 想要表示“耐心”这个品质时，用 **patience**（来自文档《高中英语词汇库 · 第20批》）。  \n- 表示“病人”或“有耐心的”时，用 **patient**（此为常识补充，知识库未收录该词条）。",
+      "sources": [
+        "高中英语词汇库 · 第20批",
+        "高中英语词汇库 · 第38批",
+        "高中英语词汇库 · 第9批",
+        "高中英语词汇库 · 第30批",
+        "高中英语词汇库 · 第24批"
+      ],
+      "context_docs": [
+        {
+          "id": "53bb3450-cd95-43b1-92b3-7c931a766418",
+          "title": "高中英语词汇库 · 第20批",
+          "content": "# 高中英语词汇库 · 词汇第 20 批\n\n## patent\n- **词性**: v\n- **释义**: 授予专利；取得…的专利权；专利的；新奇的；显然的；专利权；执照；专利品\n- **短语**:\n  - national patent — 国家专利\n  - patent law — 专利法，专利权法\n  - patent application — 专利申请书\n  - patent protection — 专利保护\n  - patent office — 专利局\n  - patent system — 专利制度，专利制\n\n## path\n- **词性**: n\n- **释义**: 道路；小路；轨道\n- **短语**:\n  - shortest path — 最短路径\n  - new path — 新路\n  - tool path — 刀具轨迹；刀位轨迹\n  - optical path — 光路；光程\n  - flow path — 流程\n  - career path — 职业道路\n\n## patience\n- **词性**: n\n- **释义**: 耐性，耐心；忍耐，容忍\n-"
+        },
+        {
+          "id": "a7afac7d-80f5-47f0-988b-12630bcf4f50",
+          "title": "高中英语词汇库 · 第38批",
+          "content": "# 高中英语词汇库 · 词汇第 38 批\n\n## mention\n- **词性**: vt\n- **释义**: 提到，说起；提及\n- **短语**:\n  - not to mention — 更不必说；不必提及\n  - mention of — 提及…\n  - make mention of — v. 提到，提及\n  - at the mention of — 在提到……时；一提起\n  - don't mention it — 不用介意\n  - special mention — 特别提名奖；（贷款等级）应加注意级\n\n## mad\n- **词性**: adj\n- **释义**: 发疯的； 生气的\n- **短语**:\n  - mad at — 生气；恼火\n  - mad dog — 疯狗\n  - mad cow disease — n. 疯牛病；牛绵状脑病\n  - mad with — 因...发狂\n  - get mad — 变的恼怒，发火；变得着迷\n  - mad money — n. 自备的零钱；女子备急用的钱\n\n## barbecue\n- **词性**: n\n- **释义**: "
+        },
+        {
+          "id": "d0ce404e-6822-4406-ab69-2e30e9a55234",
+          "title": "高中英语词汇库 · 第9批",
+          "content": "# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心"
+        },
+        {
+          "id": "d2fb87a6-f534-4feb-b50e-88537189bd19",
+          "title": "高中英语词汇库 · 第30批",
+          "content": "# 高中英语词汇库 · 词汇第 30 批\n\n## violence\n- **词性**: n\n- **释义**: 暴力；侵犯；激烈；歪曲\n- **短语**:\n  - domestic violence — 家庭暴力\n  - family violence — 家庭暴力；家庭暴力事件\n  - physical violence — 身体暴力，躯体暴力\n  - do violence to — 破坏；歪曲；强暴对待\n  - marital violence — 婚姻暴力；婚后暴力\n  - brutal violence — 暴力\n\n## violent\n- **词性**: adj\n- **释义**: 暴力的；猛烈的\n- **短语**:\n  - violent crime — 暴力犯罪，暴力罪行\n  - violent death — 暴力死亡；横死\n  - violent storm — 暴风；十一级风\n  - violent earthquake — 大地震；强烈地震\n\n## violin\n- **词性**: n\n- **释义**: 小提琴；小提琴手\n- **短语**:\n  - violi"
+        },
+        {
+          "id": "2eae3d4a-9164-40cb-8877-30f9b160a4cf",
+          "title": "高中英语词汇库 · 第24批",
+          "content": "# 高中英语词汇库 · 词汇第 24 批\n\n## scold\n- **词性**: v\n- **释义**: 责骂；叱责；责骂；爱责骂的人\n\n## score\n- **词性**: n\n- **释义**: 分数；二十；配乐；刻痕；获得；评价；划线，刻划；把…记下\n- **短语**:\n  - total score — 总分数\n  - score for — 为（某队）进球/得分；为…得分；把…改写成器乐曲\n  - score card — 记分卡\n  - in score — adv. [音]用总谱\n  - final score — 最后得分；最后比分\n  - score a goal — 踢进一球；得一分\n\n## scores\n- **词性**: n\n- **释义**: 考试成绩；比分（score的复数）；得分（score的第三人称单数形式）；刻划\n- **短语**:\n  - scores of — 许多，大量\n  - high scores — 高分；最高分；分数排行榜\n  - old scores — 宿怨；（wrong done in the past）旧仇\n\n## Scotlan"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:21:45.138273+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "patient 和 patience 怎么区分？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第20批】\n# 高中英语词汇库 · 词汇第 20 批\n\n## patent\n- **词性**: v\n- **释义**: 授予专利；取得…的专利权；专利的；新奇的；显然的；专利权；执照；专利品\n- **短语**:\n  - national patent — 国家专利\n  - patent law — 专利法，专利权法\n  - patent application — 专利申请书\n  - patent protection — 专利保护\n  - patent office — 专利局\n  - patent system — 专利制度，专利制\n\n## path\n- **词性**: n\n- **释义**: 道路；小路；轨道\n- **短语**:\n  - shortest path — 最短路径\n  - new path — 新路\n  - tool path — 刀具轨迹；刀位轨迹\n  - optical path — 光路；光程\n  - flow path — 流程\n  - career path — 职业道路\n\n## patience\n- **词性**: n\n- **释义**: 耐性，耐心；忍耐，容忍\n-\n\n【高中英语词汇库 · 第38批】\n# 高中英语词汇库 · 词汇第 38 批\n\n## mention\n- **词性**: vt\n- **释义**: 提到，说起；提及\n- **短语**:\n  - not to mention — 更不必说；不必提及\n  - mention of — 提及…\n  - make mention of — v. 提到，提及\n  - at the mention of — 在提到……时；一提起\n  - don't mention it — 不用介意\n  - special mention — 特别提名奖；（贷款等级）应加注意级\n\n## mad\n- **词性**: adj\n- **释义**: 发疯的； 生气的\n- **短语**:\n  - mad at — 生气；恼火\n  - mad dog — 疯狗\n  - mad cow disease — n. 疯牛病；牛绵状脑病\n  - mad with — 因...发狂\n  - get mad — 变的恼怒，发火；变得着迷\n  - mad money — n. 自备的零钱；女子备急用的钱\n\n## barbecue\n- **词性**: n\n- **释义**:\n\n【高中英语词汇库 · 第9批】\n# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心\n\n【高中英语词汇库 · 第30批】\n# 高中英语词汇库 · 词汇第 30 批\n\n## violence\n- **词性**: n\n- **释义**: 暴力；侵犯；激烈；歪曲\n- **短语**:\n  - domestic violence — 家庭暴力\n  - family violence — 家庭暴力；家庭暴力事件\n  - physical violence — 身体暴力，躯体暴力\n  - do violence to — 破坏；歪曲；强暴对待\n  - marital violence — 婚姻暴力；婚后暴力\n  - brutal violence — 暴力\n\n## violent\n- **词性**: adj\n- **释义**: 暴力的；猛烈的\n- **短语**:\n  - violent crime — 暴力犯罪，暴力罪行\n  - violent death — 暴力死亡；横死\n  - violent storm — 暴风；十一级风\n  - violent earthquake — 大地震；强烈地震\n\n## violin\n- **词性**: n\n- **释义**: 小提琴；小提琴手\n- **短语**:\n  - violi\n\n【高中英语词汇库 · 第24批】\n# 高中英语词汇库 · 词汇第 24 批\n\n## scold\n- **词性**: v\n- **释义**: 责骂；叱责；责骂；爱责骂的人\n\n## score\n- **词性**: n\n- **释义**: 分数；二十；配乐；刻痕；获得；评价；划线，刻划；把…记下\n- **短语**:\n  - total score — 总分数\n  - score for — 为（某队）进球/得分；为…得分；把…改写成器乐曲\n  - score card — 记分卡\n  - in score — adv. [音]用总谱\n  - final score — 最后得分；最后比分\n  - score a goal — 踢进一球；得一分\n\n## scores\n- **词性**: n\n- **释义**: 考试成绩；比分（score的复数）；得分（score的第三人称单数形式）；刻划\n- **短语**:\n  - scores of — 许多，大量\n  - high scores — 高分；最高分；分数排行榜\n  - old scores — 宿怨；（wrong done in the past）旧仇\n\n## Scotlan",
+        "output": "根据您提供的知识库内容，**patient** 与 **patience** 的区分如下：\n\n**1. 词性与含义不同**\n- **patience** 是名词，出现在《高中英语词汇库 · 第20批》中，释义为“耐性，耐心；忍耐，容忍”。\n- **patient** 在您提供的知识库中**并未出现**。作为补充常识，**patient** 常用作名词（意为“病人”）或形容词（意为“有耐心的”）。\n\n**2. 记忆区分方法（基于知识库与常识）**\n- 知识库中 **patience** 明确为名词，结尾是 **-ence**，这是常见的名词后缀（如 dependence、excellence）。\n- **patient** 如果作名词，结尾是 **-ent**；作形容词时，其名词形式正是 **patience**。\n\n**结论**：  \n- 想要表示“耐心”这个品质时，用 **patience**（来自文档《高中英语词汇库 · 第20批》）。  \n- 表示“病人”或“有耐心的”时，用 **patient**（此为常识补充，知识库未收录该词条）。"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    },
+    {
+      "id": "f8527f35-82a1-4d3e-8eb8-255dbfcaeb6e",
+      "question": "address 除了地址还有什么常见意思？",
+      "answer": "根据提供的知识库上下文，**没有找到关于“address”一词的释义或常见意思**。知识库中只包含了其他词汇（如 port、land、border 等）的解释。\n\n因此，我无法基于知识库回答您的问题。\n\n作为补充常识：在英语中，“address”除了常见的“地址”（如居住地址、邮寄地址）外，还常表示“演讲、致辞”（如 deliver an address）、“处理、应对”（如 address a problem）或“称呼”（如 address someone as Mr.）。这部分信息来自我的通用知识库，而非您提供的文档。",
+      "sources": [
+        "高中英语词汇库 · 第21批",
+        "高中英语词汇库 · 第16批",
+        "高中英语词汇库 · 第43批",
+        "高中英语词汇库 · 第9批",
+        "高中英语词汇库 · 第17批"
+      ],
+      "context_docs": [
+        {
+          "id": "2f1bc49c-5fc7-4a6a-a395-2331532838d5",
+          "title": "高中英语词汇库 · 第21批",
+          "content": "# 高中英语词汇库 · 词汇第 21 批\n\n## port\n- **词性**: n\n- **释义**: 港口，口岸；（计算机的）端口；左舷；舱门；转向左舷\n- **短语**:\n  - at the port — 作持枪的姿势\n  - in port — 在港内\n  - serial port — [计]串行端口；序列埠\n  - port city — n. 港口城市\n  - port area — 码头区；港口区；喷口面积\n  - port of destination — 目的港\n\n## portable\n- **词性**: adj\n- **释义**: 手提的，便携式的；轻便的；手提式打字机\n- **短语**:\n  - portable computer — 便携式计算机\n  - portable equipment — 便携设备，手提设备；移动式设备\n  - portable type — 便携式\n  - portable water — 饮料水；便携式水\n  - portable system — 可移植系统\n  - portable radio — 便携式收音机；便携式无线电台"
+        },
+        {
+          "id": "e7b52fb2-814d-4bf4-961b-683494aa8291",
+          "title": "高中英语词汇库 · 第16批",
+          "content": "# 高中英语词汇库 · 词汇第 16 批\n\n## lame\n- **词性**: adj\n- **释义**: 跛足的；僵痛的；不完全的；无说服力的；差劲的，蹩脚的；变跛\n- **短语**:\n  - lame duck — n. 投机者；无用的人\n\n## lamp\n- **词性**: n\n- **释义**: 灯；照射器；照亮；发亮\n- **短语**:\n  - fluorescent lamp — 荧光灯；日光灯；荧光灯管\n  - street lamp — n. 路灯\n  - table lamp — 台灯\n  - wall lamp — 壁灯\n  - incandescent lamp — 白热灯，白炽灯\n  - floor lamp — 落地灯，立灯\n\n## land\n- **词性**: n\n- **释义**: 国土；陆地；地面；使…登陆；使…陷于；将…卸下\n- **短语**:\n  - land use — 土地利用，土地用途；土地使用，土壤使用\n  - on land — 在陆地上\n  - cultivated land — 耕地\n  - land management — 土地管理"
+        },
+        {
+          "id": "2d508091-2354-4d2f-8210-ebfab9ef1721",
+          "title": "高中英语词汇库 · 第43批",
+          "content": "# 高中英语词汇库 · 词汇第 43 批\n\n## always\n- **词性**: adv\n- **释义**: 总是； 一直； 永远\n- **短语**:\n  - as always — ◎同平时一样\n  - almost always — 几乎总是；通常\n  - always ready — 随时候命（电视剧）\n  - always the case — 常常如此\n  - always on top — 总在最上面\n  - always online — 永远在线；随时在线\n\n## border\n- **词性**: n\n- **释义**: 边缘； 边境， 国界\n- **短语**:\n  - border area — 边境区域\n  - border region — 边界地区\n  - on the border of — 临近；将要\n  - border on — 接界；相邻于；近似于\n  - border trade — 边境贸易\n  - border crossing — 边境通道，过境处\n\n## below\n- **词性**: adv\n- **释义**: 在下面；在…下面\n- **"
+        },
+        {
+          "id": "d0ce404e-6822-4406-ab69-2e30e9a55234",
+          "title": "高中英语词汇库 · 第9批",
+          "content": "# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心"
+        },
+        {
+          "id": "ece26e34-5783-4498-8f3f-93df2cfb8dc6",
+          "title": "高中英语词汇库 · 第17批",
+          "content": "# 高中英语词汇库 · 词汇第 17 批\n\n## manager\n- **词性**: n\n- **释义**: 经理；管理人员\n- **短语**:\n  - general manager — 总经理\n  - project manager — 项目经理\n  - sales manager — 销售经理；营业主任\n  - department manager — 部门经理\n  - assistant manager — 协理，副经理\n  - fund manager — 基金经理，财务经理；基金管理人\n\n## mankind\n- **词性**: n\n- **释义**: 人类；男性\n\n## manner\n- **词性**: n\n- **释义**: 方式；习惯；种类；规矩；风俗\n- **短语**:\n  - in a manner — 在某种意义上；在某种程度上\n  - in the manner — 在现行中；当场\n  - in this manner — 以这种方式；如此\n  - all manner of — adj. 各种各样的；形形色色的（人，东西等）\n  - in the manne"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:21:48.499718+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "address 除了地址还有什么常见意思？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第21批】\n# 高中英语词汇库 · 词汇第 21 批\n\n## port\n- **词性**: n\n- **释义**: 港口，口岸；（计算机的）端口；左舷；舱门；转向左舷\n- **短语**:\n  - at the port — 作持枪的姿势\n  - in port — 在港内\n  - serial port — [计]串行端口；序列埠\n  - port city — n. 港口城市\n  - port area — 码头区；港口区；喷口面积\n  - port of destination — 目的港\n\n## portable\n- **词性**: adj\n- **释义**: 手提的，便携式的；轻便的；手提式打字机\n- **短语**:\n  - portable computer — 便携式计算机\n  - portable equipment — 便携设备，手提设备；移动式设备\n  - portable type — 便携式\n  - portable water — 饮料水；便携式水\n  - portable system — 可移植系统\n  - portable radio — 便携式收音机；便携式无线电台\n\n【高中英语词汇库 · 第16批】\n# 高中英语词汇库 · 词汇第 16 批\n\n## lame\n- **词性**: adj\n- **释义**: 跛足的；僵痛的；不完全的；无说服力的；差劲的，蹩脚的；变跛\n- **短语**:\n  - lame duck — n. 投机者；无用的人\n\n## lamp\n- **词性**: n\n- **释义**: 灯；照射器；照亮；发亮\n- **短语**:\n  - fluorescent lamp — 荧光灯；日光灯；荧光灯管\n  - street lamp — n. 路灯\n  - table lamp — 台灯\n  - wall lamp — 壁灯\n  - incandescent lamp — 白热灯，白炽灯\n  - floor lamp — 落地灯，立灯\n\n## land\n- **词性**: n\n- **释义**: 国土；陆地；地面；使…登陆；使…陷于；将…卸下\n- **短语**:\n  - land use — 土地利用，土地用途；土地使用，土壤使用\n  - on land — 在陆地上\n  - cultivated land — 耕地\n  - land management — 土地管理\n\n【高中英语词汇库 · 第43批】\n# 高中英语词汇库 · 词汇第 43 批\n\n## always\n- **词性**: adv\n- **释义**: 总是； 一直； 永远\n- **短语**:\n  - as always — ◎同平时一样\n  - almost always — 几乎总是；通常\n  - always ready — 随时候命（电视剧）\n  - always the case — 常常如此\n  - always on top — 总在最上面\n  - always online — 永远在线；随时在线\n\n## border\n- **词性**: n\n- **释义**: 边缘； 边境， 国界\n- **短语**:\n  - border area — 边境区域\n  - border region — 边界地区\n  - on the border of — 临近；将要\n  - border on — 接界；相邻于；近似于\n  - border trade — 边境贸易\n  - border crossing — 边境通道，过境处\n\n## below\n- **词性**: adv\n- **释义**: 在下面；在…下面\n- **\n\n【高中英语词汇库 · 第9批】\n# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心\n\n【高中英语词汇库 · 第17批】\n# 高中英语词汇库 · 词汇第 17 批\n\n## manager\n- **词性**: n\n- **释义**: 经理；管理人员\n- **短语**:\n  - general manager — 总经理\n  - project manager — 项目经理\n  - sales manager — 销售经理；营业主任\n  - department manager — 部门经理\n  - assistant manager — 协理，副经理\n  - fund manager — 基金经理，财务经理；基金管理人\n\n## mankind\n- **词性**: n\n- **释义**: 人类；男性\n\n## manner\n- **词性**: n\n- **释义**: 方式；习惯；种类；规矩；风俗\n- **短语**:\n  - in a manner — 在某种意义上；在某种程度上\n  - in the manner — 在现行中；当场\n  - in this manner — 以这种方式；如此\n  - all manner of — adj. 各种各样的；形形色色的（人，东西等）\n  - in the manne",
+        "output": "根据提供的知识库上下文，**没有找到关于“address”一词的释义或常见意思**。知识库中只包含了其他词汇（如 port、land、border 等）的解释。\n\n因此，我无法基于知识库回答您的问题。\n\n作为补充常识：在英语中，“address”除了常见的“地址”（如居住地址、邮寄地址）外，还常表示“演讲、致辞”（如 deliver an address）、“处理、应对”（如 address a problem）或“称呼”（如 address someone as Mr.）。这部分信息来自我的通用知识库，而非您提供的文档。"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    },
+    {
+      "id": "f28990f9-a3b8-4117-9cf4-aa021e6a09fc",
+      "question": "expand 有哪些固定搭配？",
+      "answer": "根据提供的知识库上下文，**未找到“expand”的任何固定搭配或相关信息**。\n\n知识库中包含了多个词汇文档（如《高中英语词汇库 · 第5批》《第9批》《第11批》《第48批》《第49批》等），但其中均未收录“expand”一词及其短语。\n\n**补充常识**（非知识库内容）：在英语中，“expand”常见的固定搭配包括：\n- expand on/upon（详述）\n- expand into（扩展成）\n- expand the scope（扩大范围）\n\n**建议**：请提供包含“expand”词条的文档，以便我为您准确查找其固定搭配。",
+      "sources": [
+        "高中英语词汇库 · 第9批",
+        "高中英语词汇库 · 第5批",
+        "高中英语词汇库 · 第11批",
+        "高中英语词汇库 · 第48批",
+        "高中英语词汇库 · 第49批"
+      ],
+      "context_docs": [
+        {
+          "id": "d0ce404e-6822-4406-ab69-2e30e9a55234",
+          "title": "高中英语词汇库 · 第9批",
+          "content": "# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心"
+        },
+        {
+          "id": "ab416c0b-d428-4a3d-9ab1-5d140d19284b",
+          "title": "高中英语词汇库 · 第5批",
+          "content": "# 高中英语词汇库 · 词汇第 5 批\n\n## bread\n- **词性**: n\n- **释义**: 面包；生计；在…上洒面包屑\n- **短语**:\n  - steamed bread — n. 馒头\n  - bread and butter — 涂黄油的面包；基本生活资料；生计\n  - daily bread — n. 日常食品；生计\n  - a piece of bread — 一片面包\n  - white bread — 白面包\n  - slice of bread — 面包片\n\n## break\n- **词性**: v\n- **释义**: 打破；折断；弄坏；削弱；破裂；间断；（持续一段时间的状况的）改变；间歇\n- **短语**:\n  - break through — 突破；突围；有重要创见\n  - break up — 打碎，破碎；结束；解散；衰落\n  - break down — 分解；发生故障；失败；毁掉；制服\n  - take a break — 休息一下\n  - break out — v. 爆发；突发\n  - break in — 打断；闯入；训练；使逐渐习惯\n\n"
+        },
+        {
+          "id": "e0b43216-08b4-472f-b755-f38c0ec09434",
+          "title": "高中英语词汇库 · 第11批",
+          "content": "# 高中英语词汇库 · 词汇第 11 批\n\n## exercise\n- **词性**: n\n- **释义**: 运动；练习；运用；操练；礼拜；典礼；锻炼；练习；使用；使忙碌；使惊恐\n- **短语**:\n  - take exercise — 做运动；做体操\n  - physical exercise — 体育运动；身体操练\n  - regular exercise — 常规性的锻炼；经常操练，按时训练\n  - aerobic exercise — 有氧运动\n  - do exercise — 锻炼；做运动；做练习\n  - exercise more — 多锻炼，多运动\n\n## exhibition\n- **词性**: n\n- **释义**: 展览，显示；展览会；展览品\n- **短语**:\n  - exhibition hall — 展览厅\n  - art exhibition — 艺术展览；美术展览\n  - exhibition centre — 展览中心\n  - exhibition area — 展区；参展面积\n  - on exhibition — 展出中\n  - exhibit"
+        },
+        {
+          "id": "42e6ab82-c6e9-4cdc-ab93-ebf99bc90865",
+          "title": "高中英语词汇库 · 第48批",
+          "content": "# 高中英语词汇库 · 词汇第 48 批\n\n## split\n- **词性**: vt\n- **释义**: 撕开， 切开\n- **短语**:\n  - split up — 分裂，分离\n  - split second — 一刹那；极快的\n  - split hairs — 斤斤计较，在小事上争论不休；作无益的、琐碎的分析\n  - split off — 分离；分裂\n  - split type — 拼合式\n  - split share — 分割股\n\n## than\n- **词性**: conj\n- **释义**: 比\n- **短语**:\n  - than ever — 比以前\n  - no more than — adv. 只是；仅仅\n  - none other than — 不是别的而正是…\n  - no other than — 只有；就是\n\n## limit\n- **词性**: vt\n- **释义**: 限制， 限定； 减少\n- **短语**:\n  - time limit — 期限；限期\n  - upper limit — 上限；最高极限\n  - speed limit —"
+        },
+        {
+          "id": "8a56cb27-512e-412d-ba26-24a23b24f427",
+          "title": "高中英语词汇库 · 第49批",
+          "content": "# 高中英语词汇库 · 词汇第 49 批\n\n## recite\n- **词性**: v\n- **释义**: 背诵\n\n## seek\n- **词性**: v\n- **释义**: 试图； 寻找， 寻求\n- **短语**:\n  - seek for — v. 寻找；追求；探索\n  - seek out — 找出；搜出；想获得\n  - seek advice — 征求意见；请教\n  - seek help — 寻求帮助，求助\n  - seek after — 追求；探索\n  - hide and seek — 捉迷藏\n\n## seem\n- **词性**: v\n- **释义**: 似乎， 好像\n- **短语**:\n  - seem to be — 看来，好像\n  - seem like — 看起来像；看上去像…；好像…\n  - seem to do — 似乎做；好像\n\n## heel\n- **词性**: n\n- **释义**: 脚后跟\n- **短语**:\n  - achilles heel — 致命要害；薄弱环节\n  - high heel — 高跟鞋\n  - achilles' heel — "
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:21:51.499597+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "expand 有哪些固定搭配？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第9批】\n# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心\n\n【高中英语词汇库 · 第5批】\n# 高中英语词汇库 · 词汇第 5 批\n\n## bread\n- **词性**: n\n- **释义**: 面包；生计；在…上洒面包屑\n- **短语**:\n  - steamed bread — n. 馒头\n  - bread and butter — 涂黄油的面包；基本生活资料；生计\n  - daily bread — n. 日常食品；生计\n  - a piece of bread — 一片面包\n  - white bread — 白面包\n  - slice of bread — 面包片\n\n## break\n- **词性**: v\n- **释义**: 打破；折断；弄坏；削弱；破裂；间断；（持续一段时间的状况的）改变；间歇\n- **短语**:\n  - break through — 突破；突围；有重要创见\n  - break up — 打碎，破碎；结束；解散；衰落\n  - break down — 分解；发生故障；失败；毁掉；制服\n  - take a break — 休息一下\n  - break out — v. 爆发；突发\n  - break in — 打断；闯入；训练；使逐渐习惯\n\n【高中英语词汇库 · 第11批】\n# 高中英语词汇库 · 词汇第 11 批\n\n## exercise\n- **词性**: n\n- **释义**: 运动；练习；运用；操练；礼拜；典礼；锻炼；练习；使用；使忙碌；使惊恐\n- **短语**:\n  - take exercise — 做运动；做体操\n  - physical exercise — 体育运动；身体操练\n  - regular exercise — 常规性的锻炼；经常操练，按时训练\n  - aerobic exercise — 有氧运动\n  - do exercise — 锻炼；做运动；做练习\n  - exercise more — 多锻炼，多运动\n\n## exhibition\n- **词性**: n\n- **释义**: 展览，显示；展览会；展览品\n- **短语**:\n  - exhibition hall — 展览厅\n  - art exhibition — 艺术展览；美术展览\n  - exhibition centre — 展览中心\n  - exhibition area — 展区；参展面积\n  - on exhibition — 展出中\n  - exhibit\n\n【高中英语词汇库 · 第48批】\n# 高中英语词汇库 · 词汇第 48 批\n\n## split\n- **词性**: vt\n- **释义**: 撕开， 切开\n- **短语**:\n  - split up — 分裂，分离\n  - split second — 一刹那；极快的\n  - split hairs — 斤斤计较，在小事上争论不休；作无益的、琐碎的分析\n  - split off — 分离；分裂\n  - split type — 拼合式\n  - split share — 分割股\n\n## than\n- **词性**: conj\n- **释义**: 比\n- **短语**:\n  - than ever — 比以前\n  - no more than — adv. 只是；仅仅\n  - none other than — 不是别的而正是…\n  - no other than — 只有；就是\n\n## limit\n- **词性**: vt\n- **释义**: 限制， 限定； 减少\n- **短语**:\n  - time limit — 期限；限期\n  - upper limit — 上限；最高极限\n  - speed limit —\n\n【高中英语词汇库 · 第49批】\n# 高中英语词汇库 · 词汇第 49 批\n\n## recite\n- **词性**: v\n- **释义**: 背诵\n\n## seek\n- **词性**: v\n- **释义**: 试图； 寻找， 寻求\n- **短语**:\n  - seek for — v. 寻找；追求；探索\n  - seek out — 找出；搜出；想获得\n  - seek advice — 征求意见；请教\n  - seek help — 寻求帮助，求助\n  - seek after — 追求；探索\n  - hide and seek — 捉迷藏\n\n## seem\n- **词性**: v\n- **释义**: 似乎， 好像\n- **短语**:\n  - seem to be — 看来，好像\n  - seem like — 看起来像；看上去像…；好像…\n  - seem to do — 似乎做；好像\n\n## heel\n- **词性**: n\n- **释义**: 脚后跟\n- **短语**:\n  - achilles heel — 致命要害；薄弱环节\n  - high heel — 高跟鞋\n  - achilles' heel —",
+        "output": "根据提供的知识库上下文，**未找到“expand”的任何固定搭配或相关信息**。\n\n知识库中包含了多个词汇文档（如《高中英语词汇库 · 第5批》《第9批》《第11批》《第48批》《第49批》等），但其中均未收录“expand”一词及其短语。\n\n**补充常识**（非知识库内容）：在英语中，“expand”常见的固定搭配包括：\n- expand on/upon（详述）\n- expand into（扩展成）\n- expand the scope（扩大范围）\n\n**建议**：请提供包含“expand”词条的文档，以便我为您准确查找其固定搭配。"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    },
+    {
+      "id": "41ec9418-1e2e-4171-98a6-411ef4636051",
+      "question": "exist 和 existence 有什么区别？",
+      "answer": "抱歉，当前知识库中没有直接收录 **\"exist\"** 和 **\"existence\"** 这两个词汇及其区别的释义或用法说明。\n\n不过，根据常见的英语语法知识（此部分为补充，非知识库内容）：\n\n- **exist** 是动词，意为“存在、生存”。例如：*Does life exist on other planets?*\n- **existence** 是名词，意为“存在、生存状态”。例如：*I doubt the existence of ghosts.*\n\n如果您需要基于知识库的确认，目前所检索的文档（如《高中英语词汇库》第9、11、25、35、48批）均未包含这两个词条。建议您提供更多相关文档或重新提问。",
+      "sources": [
+        "高中英语词汇库 · 第11批",
+        "高中英语词汇库 · 第9批",
+        "高中英语词汇库 · 第35批",
+        "高中英语词汇库 · 第48批",
+        "高中英语词汇库 · 第25批"
+      ],
+      "context_docs": [
+        {
+          "id": "e0b43216-08b4-472f-b755-f38c0ec09434",
+          "title": "高中英语词汇库 · 第11批",
+          "content": "# 高中英语词汇库 · 词汇第 11 批\n\n## exercise\n- **词性**: n\n- **释义**: 运动；练习；运用；操练；礼拜；典礼；锻炼；练习；使用；使忙碌；使惊恐\n- **短语**:\n  - take exercise — 做运动；做体操\n  - physical exercise — 体育运动；身体操练\n  - regular exercise — 常规性的锻炼；经常操练，按时训练\n  - aerobic exercise — 有氧运动\n  - do exercise — 锻炼；做运动；做练习\n  - exercise more — 多锻炼，多运动\n\n## exhibition\n- **词性**: n\n- **释义**: 展览，显示；展览会；展览品\n- **短语**:\n  - exhibition hall — 展览厅\n  - art exhibition — 艺术展览；美术展览\n  - exhibition centre — 展览中心\n  - exhibition area — 展区；参展面积\n  - on exhibition — 展出中\n  - exhibit"
+        },
+        {
+          "id": "d0ce404e-6822-4406-ab69-2e30e9a55234",
+          "title": "高中英语词汇库 · 第9批",
+          "content": "# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心"
+        },
+        {
+          "id": "a8f652b7-71db-410e-aa2b-fb87ccfef1cf",
+          "title": "高中英语词汇库 · 第35批",
+          "content": "# 高中英语词汇库 · 词汇第 35 批\n\n## away\n- **词性**: adv\n- **释义**: 离开， 远离\n- **短语**:\n  - away from — 远离，离开；避开痛苦\n  - far away — 遥远的\n  - right away — 立刻\n  - away with — ◎把(物)拿走；去掉；把(人)带走\n  - far away from — 远离；离…远\n  - go away — 走开\n\n## memory\n- **词性**: n\n- **释义**: 回忆， 记忆\n- **短语**:\n  - in memory of — 纪念…\n  - shape memory — 形状记忆；外形记忆\n  - from memory — 根据记忆\n  - shape memory alloy — 形状记忆合金\n  - memory card — 记忆卡，存储插件\n  - working memory — 内存储器；工作存储器\n\n## concept\n- **词性**: n\n- **释义**: 概念， 观念\n- **短语**:\n  - new concept — "
+        },
+        {
+          "id": "42e6ab82-c6e9-4cdc-ab93-ebf99bc90865",
+          "title": "高中英语词汇库 · 第48批",
+          "content": "# 高中英语词汇库 · 词汇第 48 批\n\n## split\n- **词性**: vt\n- **释义**: 撕开， 切开\n- **短语**:\n  - split up — 分裂，分离\n  - split second — 一刹那；极快的\n  - split hairs — 斤斤计较，在小事上争论不休；作无益的、琐碎的分析\n  - split off — 分离；分裂\n  - split type — 拼合式\n  - split share — 分割股\n\n## than\n- **词性**: conj\n- **释义**: 比\n- **短语**:\n  - than ever — 比以前\n  - no more than — adv. 只是；仅仅\n  - none other than — 不是别的而正是…\n  - no other than — 只有；就是\n\n## limit\n- **词性**: vt\n- **释义**: 限制， 限定； 减少\n- **短语**:\n  - time limit — 期限；限期\n  - upper limit — 上限；最高极限\n  - speed limit —"
+        },
+        {
+          "id": "12673fec-39f1-4048-a069-e2c1928c9730",
+          "title": "高中英语词汇库 · 第25批",
+          "content": "# 高中英语词汇库 · 词汇第 25 批\n\n## silent\n- **词性**: adj\n- **释义**: 沉默的；寂静的；无记载的；无声电影\n- **短语**:\n  - keep silent — 保持沉默；缄默\n  - remain silent — 保持沉默\n  - silent night — 寂静的夜\n  - silent majority — 沉默的大多数（持温和观点并很少发表意见者）\n  - silent film — 默片，无声片\n\n## silk\n- **词性**: n\n- **释义**: 丝绸；蚕丝；丝织物；丝的；丝绸的；丝制的；（玉米）处于长须的阶段中\n- **短语**:\n  - silk road — 丝绸之路\n  - silk screen — 丝绢网印花法\n  - raw silk — 生丝\n  - silk fabric — 丝织品；绸缎\n  - real silk — 真丝\n  - silk ribbon — 丝带；绸带\n\n## silly\n- **词性**: adj\n- **释义**: 愚蠢的；不明事理的；没头脑的；傻瓜\n- **短语**:\n  -"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:21:54.856409+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "exist 和 existence 有什么区别？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第11批】\n# 高中英语词汇库 · 词汇第 11 批\n\n## exercise\n- **词性**: n\n- **释义**: 运动；练习；运用；操练；礼拜；典礼；锻炼；练习；使用；使忙碌；使惊恐\n- **短语**:\n  - take exercise — 做运动；做体操\n  - physical exercise — 体育运动；身体操练\n  - regular exercise — 常规性的锻炼；经常操练，按时训练\n  - aerobic exercise — 有氧运动\n  - do exercise — 锻炼；做运动；做练习\n  - exercise more — 多锻炼，多运动\n\n## exhibition\n- **词性**: n\n- **释义**: 展览，显示；展览会；展览品\n- **短语**:\n  - exhibition hall — 展览厅\n  - art exhibition — 艺术展览；美术展览\n  - exhibition centre — 展览中心\n  - exhibition area — 展区；参展面积\n  - on exhibition — 展出中\n  - exhibit\n\n【高中英语词汇库 · 第9批】\n# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心\n\n【高中英语词汇库 · 第35批】\n# 高中英语词汇库 · 词汇第 35 批\n\n## away\n- **词性**: adv\n- **释义**: 离开， 远离\n- **短语**:\n  - away from — 远离，离开；避开痛苦\n  - far away — 遥远的\n  - right away — 立刻\n  - away with — ◎把(物)拿走；去掉；把(人)带走\n  - far away from — 远离；离…远\n  - go away — 走开\n\n## memory\n- **词性**: n\n- **释义**: 回忆， 记忆\n- **短语**:\n  - in memory of — 纪念…\n  - shape memory — 形状记忆；外形记忆\n  - from memory — 根据记忆\n  - shape memory alloy — 形状记忆合金\n  - memory card — 记忆卡，存储插件\n  - working memory — 内存储器；工作存储器\n\n## concept\n- **词性**: n\n- **释义**: 概念， 观念\n- **短语**:\n  - new concept —\n\n【高中英语词汇库 · 第48批】\n# 高中英语词汇库 · 词汇第 48 批\n\n## split\n- **词性**: vt\n- **释义**: 撕开， 切开\n- **短语**:\n  - split up — 分裂，分离\n  - split second — 一刹那；极快的\n  - split hairs — 斤斤计较，在小事上争论不休；作无益的、琐碎的分析\n  - split off — 分离；分裂\n  - split type — 拼合式\n  - split share — 分割股\n\n## than\n- **词性**: conj\n- **释义**: 比\n- **短语**:\n  - than ever — 比以前\n  - no more than — adv. 只是；仅仅\n  - none other than — 不是别的而正是…\n  - no other than — 只有；就是\n\n## limit\n- **词性**: vt\n- **释义**: 限制， 限定； 减少\n- **短语**:\n  - time limit — 期限；限期\n  - upper limit — 上限；最高极限\n  - speed limit —\n\n【高中英语词汇库 · 第25批】\n# 高中英语词汇库 · 词汇第 25 批\n\n## silent\n- **词性**: adj\n- **释义**: 沉默的；寂静的；无记载的；无声电影\n- **短语**:\n  - keep silent — 保持沉默；缄默\n  - remain silent — 保持沉默\n  - silent night — 寂静的夜\n  - silent majority — 沉默的大多数（持温和观点并很少发表意见者）\n  - silent film — 默片，无声片\n\n## silk\n- **词性**: n\n- **释义**: 丝绸；蚕丝；丝织物；丝的；丝绸的；丝制的；（玉米）处于长须的阶段中\n- **短语**:\n  - silk road — 丝绸之路\n  - silk screen — 丝绢网印花法\n  - raw silk — 生丝\n  - silk fabric — 丝织品；绸缎\n  - real silk — 真丝\n  - silk ribbon — 丝带；绸带\n\n## silly\n- **词性**: adj\n- **释义**: 愚蠢的；不明事理的；没头脑的；傻瓜\n- **短语**:\n  -",
+        "output": "抱歉，当前知识库中没有直接收录 **\"exist\"** 和 **\"existence\"** 这两个词汇及其区别的释义或用法说明。\n\n不过，根据常见的英语语法知识（此部分为补充，非知识库内容）：\n\n- **exist** 是动词，意为“存在、生存”。例如：*Does life exist on other planets?*\n- **existence** 是名词，意为“存在、生存状态”。例如：*I doubt the existence of ghosts.*\n\n如果您需要基于知识库的确认，目前所检索的文档（如《高中英语词汇库》第9、11、25、35、48批）均未包含这两个词条。建议您提供更多相关文档或重新提问。"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    },
+    {
+      "id": "a22cb89d-f423-4197-8182-d7a55a5b6cda",
+      "question": "exhibition 是什么意思？",
+      "answer": "您好！“exhibition” 是一个英文单词，意思是 **展览** 或 **展览会**，通常指公开展示艺术品、商品、科技成果等活动。\n\n例如：\n- 艺术展览：an art exhibition\n- 贸易展览会：a trade exhibition\n\n如果您有上传的文档（如展会资料、技术规范、业务文档等），我可以基于这些内容为您做更精准的检索、归纳和解答。比如：\n\n- 查找某份文档中关于“展览流程”的描述；\n- 总结一份展览报告的核心要点；\n- 或根据文档回答您提出的具体问题。\n\n欢迎告诉我您想了解的具体内容！",
+      "sources": [
+        "高中英语词汇库 · 第11批",
+        "高中英语词汇库 · 第44批",
+        "高中英语词汇库 · 第2批",
+        "高中英语词汇库 · 第38批",
+        "高中英语词汇库 · 第9批"
+      ],
+      "context_docs": [
+        {
+          "id": "e0b43216-08b4-472f-b755-f38c0ec09434",
+          "title": "高中英语词汇库 · 第11批",
+          "content": "# 高中英语词汇库 · 词汇第 11 批\n\n## exercise\n- **词性**: n\n- **释义**: 运动；练习；运用；操练；礼拜；典礼；锻炼；练习；使用；使忙碌；使惊恐\n- **短语**:\n  - take exercise — 做运动；做体操\n  - physical exercise — 体育运动；身体操练\n  - regular exercise — 常规性的锻炼；经常操练，按时训练\n  - aerobic exercise — 有氧运动\n  - do exercise — 锻炼；做运动；做练习\n  - exercise more — 多锻炼，多运动\n\n## exhibition\n- **词性**: n\n- **释义**: 展览，显示；展览会；展览品\n- **短语**:\n  - exhibition hall — 展览厅\n  - art exhibition — 艺术展览；美术展览\n  - exhibition centre — 展览中心\n  - exhibition area — 展区；参展面积\n  - on exhibition — 展出中\n  - exhibit"
+        },
+        {
+          "id": "60b9bd3c-20d7-45d8-9922-d67e934f7d4d",
+          "title": "高中英语词汇库 · 第44批",
+          "content": "# 高中英语词汇库 · 词汇第 44 批\n\n## research\n- **词性**: n\n- **释义**: 研究， 调查\n- **短语**:\n  - research and development — （产品等的）研究与开发\n  - scientific research — 科学研究\n  - research results — 研究结果，研究成果\n  - research institute — 研究机构，研究所\n  - research work — 调查研究工作\n  - research center — 研究中心\n\n## debate\n- **词性**: n&v\n- **释义**: 讨论， 辩论\n- **短语**:\n  - debate on — 关于…进行辩论\n  - public debate — 公开辩论\n  - under debate — 在争论中\n  - general debate — 广泛的讨论；长时间的讨论\n  - subject of much debate — 有争议的问题\n\n## view\n- **词性**: n\n- **释义**: 看法； 景色"
+        },
+        {
+          "id": "8a2d15f6-63cb-4341-8dec-c3057e45303e",
+          "title": "高中英语词汇库 · 第2批",
+          "content": "# 高中英语词汇库 · 词汇第 2 批\n\n## album\n- **词性**: n\n- **释义**: 相簿；唱片集；集邮簿；签名纪念册\n- **短语**:\n  - photo album — 相册；相簿\n  - debut album — 首张专辑；处女专辑\n  - stamp album — n. 集邮册\n  - photograph album — 相册，影集\n\n## alcohol\n- **词性**: n\n- **释义**: 酒精，乙醇\n- **短语**:\n  - polyvinyl alcohol — 聚乙烯醇\n  - ethyl alcohol — 乙醇；酒精；威士忌\n  - alcohol content — 酒精含量\n  - fatty alcohol — 脂肪醇；脂肪族醇；高级醇\n  - methyl alcohol — 木精，甲醇（等于methanol）\n  - butyl alcohol — 丁醇；酪醇（等于butanol）\n\n## alcoholic\n- **词性**: adj\n- **释义**: 酒精的，含酒精的；酒鬼，酗酒者\n- **短语**:\n  - al"
+        },
+        {
+          "id": "a7afac7d-80f5-47f0-988b-12630bcf4f50",
+          "title": "高中英语词汇库 · 第38批",
+          "content": "# 高中英语词汇库 · 词汇第 38 批\n\n## mention\n- **词性**: vt\n- **释义**: 提到，说起；提及\n- **短语**:\n  - not to mention — 更不必说；不必提及\n  - mention of — 提及…\n  - make mention of — v. 提到，提及\n  - at the mention of — 在提到……时；一提起\n  - don't mention it — 不用介意\n  - special mention — 特别提名奖；（贷款等级）应加注意级\n\n## mad\n- **词性**: adj\n- **释义**: 发疯的； 生气的\n- **短语**:\n  - mad at — 生气；恼火\n  - mad dog — 疯狗\n  - mad cow disease — n. 疯牛病；牛绵状脑病\n  - mad with — 因...发狂\n  - get mad — 变的恼怒，发火；变得着迷\n  - mad money — n. 自备的零钱；女子备急用的钱\n\n## barbecue\n- **词性**: n\n- **释义**: "
+        },
+        {
+          "id": "d0ce404e-6822-4406-ab69-2e30e9a55234",
+          "title": "高中英语词汇库 · 第9批",
+          "content": "# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:21:58.040136+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "exhibition 是什么意思？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第11批】\n# 高中英语词汇库 · 词汇第 11 批\n\n## exercise\n- **词性**: n\n- **释义**: 运动；练习；运用；操练；礼拜；典礼；锻炼；练习；使用；使忙碌；使惊恐\n- **短语**:\n  - take exercise — 做运动；做体操\n  - physical exercise — 体育运动；身体操练\n  - regular exercise — 常规性的锻炼；经常操练，按时训练\n  - aerobic exercise — 有氧运动\n  - do exercise — 锻炼；做运动；做练习\n  - exercise more — 多锻炼，多运动\n\n## exhibition\n- **词性**: n\n- **释义**: 展览，显示；展览会；展览品\n- **短语**:\n  - exhibition hall — 展览厅\n  - art exhibition — 艺术展览；美术展览\n  - exhibition centre — 展览中心\n  - exhibition area — 展区；参展面积\n  - on exhibition — 展出中\n  - exhibit\n\n【高中英语词汇库 · 第44批】\n# 高中英语词汇库 · 词汇第 44 批\n\n## research\n- **词性**: n\n- **释义**: 研究， 调查\n- **短语**:\n  - research and development — （产品等的）研究与开发\n  - scientific research — 科学研究\n  - research results — 研究结果，研究成果\n  - research institute — 研究机构，研究所\n  - research work — 调查研究工作\n  - research center — 研究中心\n\n## debate\n- **词性**: n&v\n- **释义**: 讨论， 辩论\n- **短语**:\n  - debate on — 关于…进行辩论\n  - public debate — 公开辩论\n  - under debate — 在争论中\n  - general debate — 广泛的讨论；长时间的讨论\n  - subject of much debate — 有争议的问题\n\n## view\n- **词性**: n\n- **释义**: 看法； 景色\n\n【高中英语词汇库 · 第2批】\n# 高中英语词汇库 · 词汇第 2 批\n\n## album\n- **词性**: n\n- **释义**: 相簿；唱片集；集邮簿；签名纪念册\n- **短语**:\n  - photo album — 相册；相簿\n  - debut album — 首张专辑；处女专辑\n  - stamp album — n. 集邮册\n  - photograph album — 相册，影集\n\n## alcohol\n- **词性**: n\n- **释义**: 酒精，乙醇\n- **短语**:\n  - polyvinyl alcohol — 聚乙烯醇\n  - ethyl alcohol — 乙醇；酒精；威士忌\n  - alcohol content — 酒精含量\n  - fatty alcohol — 脂肪醇；脂肪族醇；高级醇\n  - methyl alcohol — 木精，甲醇（等于methanol）\n  - butyl alcohol — 丁醇；酪醇（等于butanol）\n\n## alcoholic\n- **词性**: adj\n- **释义**: 酒精的，含酒精的；酒鬼，酗酒者\n- **短语**:\n  - al\n\n【高中英语词汇库 · 第38批】\n# 高中英语词汇库 · 词汇第 38 批\n\n## mention\n- **词性**: vt\n- **释义**: 提到，说起；提及\n- **短语**:\n  - not to mention — 更不必说；不必提及\n  - mention of — 提及…\n  - make mention of — v. 提到，提及\n  - at the mention of — 在提到……时；一提起\n  - don't mention it — 不用介意\n  - special mention — 特别提名奖；（贷款等级）应加注意级\n\n## mad\n- **词性**: adj\n- **释义**: 发疯的； 生气的\n- **短语**:\n  - mad at — 生气；恼火\n  - mad dog — 疯狗\n  - mad cow disease — n. 疯牛病；牛绵状脑病\n  - mad with — 因...发狂\n  - get mad — 变的恼怒，发火；变得着迷\n  - mad money — n. 自备的零钱；女子备急用的钱\n\n## barbecue\n- **词性**: n\n- **释义**:\n\n【高中英语词汇库 · 第9批】\n# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心",
+        "output": "您好！“exhibition” 是一个英文单词，意思是 **展览** 或 **展览会**，通常指公开展示艺术品、商品、科技成果等活动。\n\n例如：\n- 艺术展览：an art exhibition\n- 贸易展览会：a trade exhibition\n\n如果您有上传的文档（如展会资料、技术规范、业务文档等），我可以基于这些内容为您做更精准的检索、归纳和解答。比如：\n\n- 查找某份文档中关于“展览流程”的描述；\n- 总结一份展览报告的核心要点；\n- 或根据文档回答您提出的具体问题。\n\n欢迎告诉我您想了解的具体内容！"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    },
+    {
+      "id": "08c6cee0-0352-4700-8ee0-80f1d0157f7f",
+      "question": "important 在高考作文里可以用哪些替换表达？",
+      "answer": "根据你提供的知识库内容，我进行了检索，但**知识库中并未直接收录“important”一词或其同义替换表达**。以下回答基于常识进行补充，并明确区分信息来源。\n\n---\n\n### 回答\n\n在高考作文中，要替换“important”（重要的），可以使用以下常见的高级词汇和短语。**请注意，以下内容仅为基于常识的补充，并非来自你提供的知识库文档。**\n\n1.  **vital**：至关重要的，生死攸关的。例如：`It is vital to...`（……是至关重要的。）\n2.  **essential**：本质的，必不可少的。例如：`Water is essential for life.`（水对生命必不可少。）\n3.  **crucial**：决定性的，关键性的。例如：`This step is crucial to success.`（这一步对成功至关重要。）\n4.  **significant**：有重大意义的，显著的。例如：`a significant contribution`（重大贡献）\n5.  **key**：关键的。例如：`a key factor`（关键因素）\n6.  **major**：主要的，重要的。例如：`a major issue`（重大问题）\n7.  **paramount**：至上的，最重要的。例如：`This is of paramount importance.`（这是最重要的。）\n8.  **indispensable**：不可或缺的。例如：`an indispensable part`（不可或缺的部分）\n\n---\n\n### 关于你提供的知识库文档\n\n你提供的文档（如《高中英语词汇库 · 第42批》等）中包含了**respect**（尊重）、**mention**（提到）、**reserve**（保留）等词汇，但**没有与“important”直接相关的同义替换词**。若你需要查询上述词语的用法，我可以基于文档为你进一步说明。",
+      "sources": [
+        "高中英语词汇库 · 第42批",
+        "高中英语词汇库 · 第32批",
+        "高中英语词汇库 · 第23批",
+        "高中英语词汇库 · 第38批",
+        "高中英语词汇库 · 第9批"
+      ],
+      "context_docs": [
+        {
+          "id": "74564aae-463b-4539-bb8f-272561d470e3",
+          "title": "高中英语词汇库 · 第42批",
+          "content": "# 高中英语词汇库 · 词汇第 42 批\n\n## respect\n- **词性**: n\n- **释义**: 尊敬，尊重；方面；尊敬， 尊重\n- **短语**:\n  - respect oneself — 自重\n  - in respect of — 关于，涉及\n  - respect for — 尊重…；对…的尊敬\n  - in this respect — 在这方面\n  - in all respects — 在各方面\n  - in many respects — 在许多方面\n\n## ache\n- **词性**: vi\n- **释义**: 疼痛；痛， 疼痛\n- **短语**:\n  - aches and pains — 痛苦；不适；各种各样的病痛\n  - stomach ache — 胃疼\n  - ache for — 想念，渴望\n  - tooth ache — 牙痛\n  - ache all over — 全身疼痛\n\n## loose\n- **词性**: adj\n- **释义**: 松散的； 宽松的\n- **短语**:\n  - let loose — 释放；使随心所欲；屈服；突"
+        },
+        {
+          "id": "e36109e6-f540-4157-837a-7bd3e528cfee",
+          "title": "高中英语词汇库 · 第32批",
+          "content": "# 高中英语词汇库 · 词汇第 32 批\n\n## roll\n- **词性**: v\n- **释义**: 滚动,打滚；面包圈； 卷状物\n- **短语**:\n  - roll out — 铺开；滚出\n  - work roll — 工作辊\n  - roll in — 蜂拥而来；[口]有大量的（钱财等）；[美俚]就寝；到达\n  - rock and roll — 摇滚乐\n  - roll up — 卷起；滚滚上升；到达；出现；积累成；迫敌退向中央\n  - roll gap — 轧辊开度；辊间距离\n\n## turn\n- **词性**: v\n- **释义**: 旋转；转变；转弯；轮流\n- **短语**:\n  - in turn — 轮流，依次\n  - turn off — 关掉，关闭；拐弯，使转变方向\n  - turn into — v. 变成；进入\n  - turn on — 打开，发动\n  - turn out — 生产；结果是；关掉；出动；驱逐\n  - turn over — 移交给；翻阅；把…翻过来；发动；营业额达到；反复考虑\n\n## elect\n- **词性**: vt\n- **释义*"
+        },
+        {
+          "id": "1a60ce0f-0905-4769-882e-b652aeffa0ec",
+          "title": "高中英语词汇库 · 第23批",
+          "content": "# 高中英语词汇库 · 词汇第 23 批\n\n## reserve\n- **词性**: n\n- **释义**: 储备，储存；自然保护区；预备队；缄默；[金融] 储备金；储备；保留；预约\n- **短语**:\n  - federal reserve — （美国）联邦储备系统\n  - nature reserve — n. 自然保护区\n  - in reserve — 备用的；留下的\n  - without reserve — 无保留地\n  - natural reserve — 自然保护区\n  - reserve currency — 储备货币\n\n## resign\n- **词性**: v\n- **释义**: 辞职；放弃；委托；使听从；辞去职务\n- **短语**:\n  - resign from — 辞职\n\n## resist\n- **词性**: v\n- **释义**: 抵抗，抗拒；忍耐；[助剂] 抗蚀剂；防染剂\n- **短语**:\n  - resist the temptation — 抵制诱惑；抵挡住诱惑\n  - hard to resist — 人见人爱；无法抗拒；惹人喜爱\n  - r"
+        },
+        {
+          "id": "a7afac7d-80f5-47f0-988b-12630bcf4f50",
+          "title": "高中英语词汇库 · 第38批",
+          "content": "# 高中英语词汇库 · 词汇第 38 批\n\n## mention\n- **词性**: vt\n- **释义**: 提到，说起；提及\n- **短语**:\n  - not to mention — 更不必说；不必提及\n  - mention of — 提及…\n  - make mention of — v. 提到，提及\n  - at the mention of — 在提到……时；一提起\n  - don't mention it — 不用介意\n  - special mention — 特别提名奖；（贷款等级）应加注意级\n\n## mad\n- **词性**: adj\n- **释义**: 发疯的； 生气的\n- **短语**:\n  - mad at — 生气；恼火\n  - mad dog — 疯狗\n  - mad cow disease — n. 疯牛病；牛绵状脑病\n  - mad with — 因...发狂\n  - get mad — 变的恼怒，发火；变得着迷\n  - mad money — n. 自备的零钱；女子备急用的钱\n\n## barbecue\n- **词性**: n\n- **释义**: "
+        },
+        {
+          "id": "d0ce404e-6822-4406-ab69-2e30e9a55234",
+          "title": "高中英语词汇库 · 第9批",
+          "content": "# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:03.741377+00:00",
+      "sft": {
+        "instruction": "你是高中英语词汇教练，面向高考备考。请基于检索内容讲解词义、搭配、熟词生义与写作替换表达，并给出贴近高考题的例句。信息不足时明确说明。",
+        "input": "important 在高考作文里可以用哪些替换表达？\n\n-----\n检索上下文：\n【高中英语词汇库 · 第42批】\n# 高中英语词汇库 · 词汇第 42 批\n\n## respect\n- **词性**: n\n- **释义**: 尊敬，尊重；方面；尊敬， 尊重\n- **短语**:\n  - respect oneself — 自重\n  - in respect of — 关于，涉及\n  - respect for — 尊重…；对…的尊敬\n  - in this respect — 在这方面\n  - in all respects — 在各方面\n  - in many respects — 在许多方面\n\n## ache\n- **词性**: vi\n- **释义**: 疼痛；痛， 疼痛\n- **短语**:\n  - aches and pains — 痛苦；不适；各种各样的病痛\n  - stomach ache — 胃疼\n  - ache for — 想念，渴望\n  - tooth ache — 牙痛\n  - ache all over — 全身疼痛\n\n## loose\n- **词性**: adj\n- **释义**: 松散的； 宽松的\n- **短语**:\n  - let loose — 释放；使随心所欲；屈服；突\n\n【高中英语词汇库 · 第32批】\n# 高中英语词汇库 · 词汇第 32 批\n\n## roll\n- **词性**: v\n- **释义**: 滚动,打滚；面包圈； 卷状物\n- **短语**:\n  - roll out — 铺开；滚出\n  - work roll — 工作辊\n  - roll in — 蜂拥而来；[口]有大量的（钱财等）；[美俚]就寝；到达\n  - rock and roll — 摇滚乐\n  - roll up — 卷起；滚滚上升；到达；出现；积累成；迫敌退向中央\n  - roll gap — 轧辊开度；辊间距离\n\n## turn\n- **词性**: v\n- **释义**: 旋转；转变；转弯；轮流\n- **短语**:\n  - in turn — 轮流，依次\n  - turn off — 关掉，关闭；拐弯，使转变方向\n  - turn into — v. 变成；进入\n  - turn on — 打开，发动\n  - turn out — 生产；结果是；关掉；出动；驱逐\n  - turn over — 移交给；翻阅；把…翻过来；发动；营业额达到；反复考虑\n\n## elect\n- **词性**: vt\n- **释义*\n\n【高中英语词汇库 · 第23批】\n# 高中英语词汇库 · 词汇第 23 批\n\n## reserve\n- **词性**: n\n- **释义**: 储备，储存；自然保护区；预备队；缄默；[金融] 储备金；储备；保留；预约\n- **短语**:\n  - federal reserve — （美国）联邦储备系统\n  - nature reserve — n. 自然保护区\n  - in reserve — 备用的；留下的\n  - without reserve — 无保留地\n  - natural reserve — 自然保护区\n  - reserve currency — 储备货币\n\n## resign\n- **词性**: v\n- **释义**: 辞职；放弃；委托；使听从；辞去职务\n- **短语**:\n  - resign from — 辞职\n\n## resist\n- **词性**: v\n- **释义**: 抵抗，抗拒；忍耐；[助剂] 抗蚀剂；防染剂\n- **短语**:\n  - resist the temptation — 抵制诱惑；抵挡住诱惑\n  - hard to resist — 人见人爱；无法抗拒；惹人喜爱\n  - r\n\n【高中英语词汇库 · 第38批】\n# 高中英语词汇库 · 词汇第 38 批\n\n## mention\n- **词性**: vt\n- **释义**: 提到，说起；提及\n- **短语**:\n  - not to mention — 更不必说；不必提及\n  - mention of — 提及…\n  - make mention of — v. 提到，提及\n  - at the mention of — 在提到……时；一提起\n  - don't mention it — 不用介意\n  - special mention — 特别提名奖；（贷款等级）应加注意级\n\n## mad\n- **词性**: adj\n- **释义**: 发疯的； 生气的\n- **短语**:\n  - mad at — 生气；恼火\n  - mad dog — 疯狗\n  - mad cow disease — n. 疯牛病；牛绵状脑病\n  - mad with — 因...发狂\n  - get mad — 变的恼怒，发火；变得着迷\n  - mad money — n. 自备的零钱；女子备急用的钱\n\n## barbecue\n- **词性**: n\n- **释义**:\n\n【高中英语词汇库 · 第9批】\n# 高中英语词汇库 · 词汇第 9 批\n\n## destination\n- **词性**: n\n- **释义**: 目的地，终点\n- **短语**:\n  - tourist destination — 旅游胜地；旅游目的地；旅游景点\n  - port of destination — 目的港\n  - final destination — 最终目的地\n  - destination port — 目的港；目的端口\n  - ultimate destination — 最终目的地\n  - destination airport — 目的地机场；到达机场\n\n## destroy\n- **词性**: v\n- **释义**: 破坏；消灭；毁坏\n\n## detective\n- **词性**: adj\n- **释义**: 侦探的；侦探\n- **短语**:\n  - detective story — 侦探小说\n  - private detective — 私家侦探\n  - detective film — 侦探片\n\n## determination\n- **词性**: n\n- **释义**: 决心",
+        "output": "根据你提供的知识库内容，我进行了检索，但**知识库中并未直接收录“important”一词或其同义替换表达**。以下回答基于常识进行补充，并明确区分信息来源。\n\n---\n\n### 回答\n\n在高考作文中，要替换“important”（重要的），可以使用以下常见的高级词汇和短语。**请注意，以下内容仅为基于常识的补充，并非来自你提供的知识库文档。**\n\n1.  **vital**：至关重要的，生死攸关的。例如：`It is vital to...`（……是至关重要的。）\n2.  **essential**：本质的，必不可少的。例如：`Water is essential for life.`（水对生命必不可少。）\n3.  **crucial**：决定性的，关键性的。例如：`This step is crucial to success.`（这一步对成功至关重要。）\n4.  **significant**：有重大意义的，显著的。例如：`a significant contribution`（重大贡献）\n5.  **key**：关键的。例如：`a key factor`（关键因素）\n6.  **major**：主要的，重要的。例如：`a major issue`（重大问题）\n7.  **paramount**：至上的，最重要的。例如：`This is of paramount importance.`（这是最重要的。）\n8.  **indispensable**：不可或缺的。例如：`an indispensable part`（不可或缺的部分）\n\n---\n\n### 关于你提供的知识库文档\n\n你提供的文档（如《高中英语词汇库 · 第42批》等）中包含了**respect**（尊重）、**mention**（提到）、**reserve**（保留）等词汇，但**没有与“important”直接相关的同义替换词**。若你需要查询上述词语的用法，我可以基于文档为你进一步说明。"
+      },
+      "persona_id": "english_senior_student",
+      "role_name": "高三备考学生"
+    }
+  ],
+  "errors": []
+}

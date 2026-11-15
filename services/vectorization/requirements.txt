@@ -1,0 +1,5 @@
+# CPU 版 PyTorch 在 Dockerfile 中单独安装（见 Dockerfile）
+fastapi>=0.109,<1
+uvicorn[standard]>=0.27,<1
+sentence-transformers>=2.2,<4
+numpy>=1.24,<3

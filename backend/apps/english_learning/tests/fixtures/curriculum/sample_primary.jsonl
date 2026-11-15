@@ -1,0 +1,2 @@
+{"wordRank": 1, "headWord": "apple", "content": {"word": {"wordHead": "apple", "content": {"trans": {"trans": [{"tranCn": "苹果", "pos": "n"}]}, "sentence": {"sentences": [{"sContent": "I like apples.", "sCn": "我喜欢苹果。"}]}}}}}
+{"wordRank": 2, "headWord": "book", "content": {"word": {"wordHead": "book", "content": {"trans": {"trans": [{"tranCn": "书", "pos": "n"}]}}}}}

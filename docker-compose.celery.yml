@@ -1,0 +1,79 @@
+# 可选：独立 Celery worker + beat（Redis），用于异步任务与英语学习 F4 定时 tick。
+#
+# 用法（项目根目录）：
+#   1) 在 .env 中增加（示例）：
+#        CELERY_TASK_ALWAYS_EAGER=false
+#        CELERY_BROKER_URL=redis://redis-celery:6379/0
+#        CELERY_RESULT_BACKEND=redis://redis-celery:6379/1
+#        ENGLISH_REMINDER_BEAT=true
+#   2) 启动主栈 + 本文件，并启用 profile：
+#        docker compose -f docker-compose.yml -f docker-compose.celery.yml --profile celery up -d --build
+#
+# 默认不合并本文件时，主 compose 仍用 memory broker + eager，无需 Redis。
+
+services:
+  redis-celery:
+    image: redis:7-alpine
+    profiles: ["celery"]
+    ports:
+      - "6380:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  celery-worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: chen-ai-ceshi-backend
+    profiles: ["celery"]
+    command: ["celery", "-A", "ai_qa_system", "worker", "-l", "INFO"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis-celery:
+        condition: service_healthy
+      vectorization:
+        condition: service_started
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-password}@postgres:5432/${POSTGRES_DB:-ai_qa_system}
+      - SECRET_KEY=${SECRET_KEY:-django-insecure-test-package-key}
+      - DEBUG=${DEBUG:-True}
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
+      - QWEN_API_KEY=${QWEN_API_KEY:-}
+      - GLM_API_KEY=${GLM_API_KEY:-}
+      - VECTORIZATION_SERVICE_URL=http://vectorization:8001
+      - CELERY_TASK_ALWAYS_EAGER=false
+      - CELERY_BROKER_URL=redis://redis-celery:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis-celery:6379/1
+    volumes:
+      - ./backend:/app
+      - media_volume:/app/media
+
+  celery-beat:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: chen-ai-ceshi-backend
+    profiles: ["celery"]
+    command: ["celery", "-A", "ai_qa_system", "beat", "-l", "INFO"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis-celery:
+        condition: service_healthy
+      celery-worker:
+        condition: service_started
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-password}@postgres:5432/${POSTGRES_DB:-ai_qa_system}
+      - SECRET_KEY=${SECRET_KEY:-django-insecure-test-package-key}
+      - DEBUG=${DEBUG:-True}
+      - CELERY_TASK_ALWAYS_EAGER=false
+      - CELERY_BROKER_URL=redis://redis-celery:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis-celery:6379/1
+      - ENGLISH_REMINDER_BEAT=${ENGLISH_REMINDER_BEAT:-true}
+    volumes:
+      - ./backend:/app
+      - media_volume:/app/media

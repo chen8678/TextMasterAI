@@ -1,0 +1,25 @@
+# 数据落在外置 SSD 项目目录，避免占用本机 Docker 默认可变卷。
+# 本机 8000 若被占用：在 .env 设 BACKEND_HOST_PORT=8010（默认 8000）。
+# 用法：docker compose up -d（会自动合并本文件）
+#
+# P0-01：本地开发兜底 DEBUG=True（生产 compose 默认 False）。SECRET_KEY 仍须在根 .env 提供。
+
+services:
+  postgres:
+    volumes:
+      - ./docker-data/postgres:/var/lib/postgresql/data
+      - ./docker/postgres-init:/docker-entrypoint-initdb.d:ro
+
+  backend:
+    environment:
+      - DEBUG=${DEBUG:-True}
+    volumes:
+      - ./backend:/app
+      - ./docker-data/media:/app/media
+      - ./docker-data/var:/app/var
+
+  vectorization:
+    volumes:
+      - ./docker-data/vectorization_models:/app/models
+
+# 不再使用 Docker 默认可变卷名，全部 bind 到 ./docker-data/

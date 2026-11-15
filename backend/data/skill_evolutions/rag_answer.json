@@ -1,0 +1,43 @@
+[
+  {
+    "staging_id": "c8bf471f-6242-4412-a029-c1f38b1c7ca0",
+    "provenance": "pro_sandbox_simulation",
+    "used_cases": 1,
+    "status": "sandbox_passed",
+    "recorded_at": "2026-04-16T12:01:49.376683+00:00"
+  },
+  {
+    "staging_id": "ed975acb-90b2-467c-ab49-6a4ccc80da4f",
+    "provenance": "pro_sandbox_simulation",
+    "used_cases": 0,
+    "status": "sandbox_failed",
+    "recorded_at": "2026-04-16T12:12:07.191663+00:00"
+  },
+  {
+    "staging_id": "1109b61e-544d-4da5-9e6a-33f840a4c98c",
+    "provenance": "pro_sandbox_simulation",
+    "used_cases": 1,
+    "used_rounds": 1,
+    "status": "sandbox_failed",
+    "sandbox_run_id": "3c8fd3d9-1d2d-45ce-93a5-14105123b6fb",
+    "recorded_at": "2026-04-17T06:42:11.747284+00:00"
+  },
+  {
+    "staging_id": "551b3277-ec9e-4091-a29a-d9ba8cc0a7c5",
+    "provenance": "pro_sandbox_simulation",
+    "used_cases": 1,
+    "used_rounds": 1,
+    "status": "sandbox_failed",
+    "sandbox_run_id": "0b596d22-02f5-4863-aee4-2b5c32680787",
+    "recorded_at": "2026-04-17T06:45:41.841545+00:00"
+  },
+  {
+    "staging_id": "44e3138f-45b8-4554-a408-976956b70b89",
+    "provenance": "pro_sandbox_simulation",
+    "used_cases": 1,
+    "used_rounds": 1,
+    "status": "sandbox_passed",
+    "sandbox_run_id": "4b58874a-2ee4-4273-9dad-a882c3e94eb9",
+    "recorded_at": "2026-04-17T07:23:43.859547+00:00"
+  }
+]

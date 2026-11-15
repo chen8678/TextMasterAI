@@ -1,0 +1,15 @@
+{
+  "persona_id": "english_primary_parent",
+  "role_name": "小学生家长",
+  "description": "问题基于小学英语词汇库实际词条（第1–7批）",
+  "questions": [
+    "pencil 这个单词有哪些常用短语？",
+    "fruit 是什么意思？能举个例句吗？",
+    "spring 和 summer 在词库里分别是什么意思？",
+    "hospital 这个词怎么解释给孩子听？",
+    "younger 和 older 有什么区别？",
+    "play sports 是什么意思？",
+    "sandwich 在小学词汇里怎么记？",
+    "cinema 是什么意思，有没有相关例句？"
+  ]
+}

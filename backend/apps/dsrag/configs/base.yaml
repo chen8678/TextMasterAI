@@ -1,0 +1,25 @@
+# DS-RAG base config（P05）
+# 路径相对仓库根 chen-AI-测试包/；密钥不进本文件，用环境变量 DEEPSEEK_API_KEY 等。
+
+corpus_chunks: SCAR/data/dsrag/chunks/chunks.jsonl
+corpus_docs: SCAR/data/dsrag/corpus/docs.jsonl
+corpus_manifest: SCAR/data/dsrag/corpus/MANIFEST.yaml
+index_dir: SCAR/data/dsrag/index_bge_20260930
+taskset: SCAR/data/dsrag/taskset/taskset_v1.jsonl
+scope_spec: SCAR/data/dsrag/scope/scope_spec_v1.txt
+
+# 沿用现网向量服务（BAAI/bge-large-zh-v1.5 @ :8001）
+embedding_model: BAAI/bge-large-zh-v1.5
+vectorization_service_url_env: VECTORIZATION_SERVICE_URL
+top_k: 5
+
+# 沿用现网 DeepSeek
+generator_model: deepseek-chat
+answerable_model: deepseek-chat
+temperature: 0
+max_tokens: 1024
+
+cost_unit: usd_per_1k_queries
+prompt_version: v0
+
+artifacts_dir: SCAR/artifacts/dsrag

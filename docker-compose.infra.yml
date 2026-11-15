@@ -1,0 +1,61 @@
+# 仅基础设施：PostgreSQL（pgvector）+ 向量化微服务
+# 前后端在宿主机本地运行时使用本文件，避免构建应用镜像。
+#
+# 启动：docker compose -f docker-compose.infra.yml up -d
+# 停止：docker compose -f docker-compose.infra.yml down
+#
+# 宿主机后端 .env 示例见 docs/LOCAL_DEV.md
+
+services:
+  postgres:
+    image: ${POSTGRES_IMAGE:-pgvector/pgvector:pg15}
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ai_qa_system}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
+    ports:
+      - "${POSTGRES_HOST_PORT:-5433}:5432"
+    volumes:
+      - postgres_infra_data:/var/lib/postgresql/data
+      - ./docker/postgres-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  vectorization:
+    build:
+      context: ./services/vectorization
+      dockerfile: Dockerfile
+      args:
+        BASE_IMAGE: ${VECTORIZATION_BASE_IMAGE:-python:3.11-slim-bookworm}
+    image: text-master-vectorization:local
+    # 存在时注入 HF_ENDPOINT 等（勿在文件里写 HF_ENDPOINT= 空行）
+    env_file:
+      - path: docker/infra-mirror.env
+        required: false
+    ports:
+      - "${VECTORIZATION_HOST_PORT:-8001}:8001"
+    environment:
+      - TRANSFORMERS_CACHE=/app/models
+      - HF_HOME=/app/models
+      - HF_HUB_CACHE=/app/models
+      # 默认走 hf-mirror，避免容器内直连 huggingface.co 超时；海外可 export HF_ENDPOINT=https://huggingface.co
+      - HF_ENDPOINT=${HF_ENDPOINT:-https://hf-mirror.com}
+    volumes:
+      - vectorization_models:/app/models
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8001/health || exit 1"]
+      interval: 20s
+      timeout: 15s
+      retries: 30
+      start_period: 600s
+    deploy:
+      resources:
+        limits:
+          memory: 6G
+
+volumes:
+  postgres_infra_data:
+  vectorization_models:

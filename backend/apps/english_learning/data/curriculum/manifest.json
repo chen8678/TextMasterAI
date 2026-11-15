@@ -1,0 +1,81 @@
+{
+  "tiers": [
+    {
+      "slug": "primary",
+      "kb_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "created_kb": true,
+      "skipped": false,
+      "documents_created": 7,
+      "documents": 7,
+      "words": 819
+    },
+    {
+      "slug": "junior",
+      "kb_id": "6178a9c2-4446-4df8-9a03-44525f09277d",
+      "created_kb": true,
+      "skipped": false,
+      "documents_created": 27,
+      "documents": 27,
+      "words": 3223
+    },
+    {
+      "slug": "senior",
+      "kb_id": "fdba18e8-9de2-49a5-864a-33e2afeead21",
+      "created_kb": true,
+      "skipped": false,
+      "documents_created": 51,
+      "documents": 51,
+      "words": 6008
+    },
+    {
+      "slug": "cet4",
+      "kb_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "created_kb": true,
+      "skipped": false,
+      "documents_created": 63,
+      "documents": 63,
+      "words": 7508
+    },
+    {
+      "slug": "cet6",
+      "kb_id": "e3535603-81b0-442c-88a3-3fb894824497",
+      "created_kb": true,
+      "skipped": false,
+      "documents_created": 48,
+      "documents": 48,
+      "words": 5651
+    }
+  ],
+  "sources": [
+    {
+      "slug": "primary",
+      "title": "小学英语词汇库",
+      "source": "kajweb_pep_primary",
+      "file": "primary_merged.jsonl"
+    },
+    {
+      "slug": "junior",
+      "title": "初中英语词汇库",
+      "source": "kylebing_json",
+      "file": "1-初中-顺序.json"
+    },
+    {
+      "slug": "senior",
+      "title": "高中英语词汇库",
+      "source": "kylebing_json",
+      "file": "2-高中-顺序.json"
+    },
+    {
+      "slug": "cet4",
+      "title": "大学英语四级词汇库",
+      "source": "kylebing_json",
+      "file": "3-CET4-顺序.json"
+    },
+    {
+      "slug": "cet6",
+      "title": "大学英语六级词汇库",
+      "source": "kylebing_json",
+      "file": "4-CET6-顺序.json"
+    }
+  ]
+}

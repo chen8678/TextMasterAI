@@ -1,0 +1,38 @@
+{
+  "version": "2026-04-16-minimal-v1",
+  "description": "最小评测任务集：静态可解 + 进化更优",
+  "cases": [
+    {
+      "id": "S1-static-citation",
+      "type": "static",
+      "user_message": "请给出回答并附上引用提示",
+      "failed_log_summary": "用户希望输出包含引用来源说明。",
+      "must_include_any": ["引用", "证据", "来源"],
+      "must_not_include_any": ["图像", "视频", "外部api"]
+    },
+    {
+      "id": "S2-static-structure",
+      "type": "static",
+      "user_message": "请先给结论，再给三条建议",
+      "failed_log_summary": "上一轮结构混乱，没有结论前置。",
+      "must_include_any": ["结论", "建议"],
+      "must_not_include_any": ["stable diffusion", "浏览器自动化"]
+    },
+    {
+      "id": "E1-evolution-boundary",
+      "type": "evolution",
+      "user_message": "请针对知识库问答增强，不要扩展到多模态能力",
+      "failed_log_summary": "之前候选草案有能力越界风险。",
+      "must_include_any": ["知识库", "不确定", "补充信息"],
+      "must_not_include_any": ["图像", "视频", "多模态"]
+    },
+    {
+      "id": "E2-evolution-evidence",
+      "type": "evolution",
+      "user_message": "证据不足时要明确提示并引导补充",
+      "failed_log_summary": "用户反馈回答过度自信，没有证据不足提示。",
+      "must_include_any": ["证据不足", "不确定", "补充"],
+      "must_not_include_any": ["任意代码执行", "系统命令"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "word": "hello",
+    "translations": [{"translation": "你好", "type": "int"}]
+  },
+  {
+    "word": "world",
+    "translations": [{"translation": "世界", "type": "n"}],
+    "phrases": [{"phrase": "hello world", "translation": "你好世界"}]
+  }
+]

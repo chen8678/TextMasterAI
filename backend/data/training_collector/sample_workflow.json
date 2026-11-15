@@ -1,0 +1,23 @@
+{
+  "question_source": "inline",
+  "questions": [],
+  "seed_path": "backend/data/training_collector/sample_questions.json",
+  "llm_question_count": 0,
+  "agent_id": "qa",
+  "ai_model": "deepseek",
+  "config": {
+    "max_tokens": 2000,
+    "temperature": 0.3
+  },
+  "retrieval_params": {
+    "strategy": "hybrid",
+    "top_k": 5,
+    "score_threshold": 0.15,
+    "alpha": 0.5
+  },
+  "instruction": "你是校内知识库问答助手。请根据提供的检索上下文准确回答用户问题；若上下文不足，请明确说明不知道，不要编造。",
+  "delay_seconds": 0.5,
+  "max_questions": 20,
+  "output_path": "",
+  "dry_run": false
+}

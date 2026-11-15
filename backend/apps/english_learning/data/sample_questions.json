@@ -1,0 +1,67 @@
+{
+  "default": [
+    {
+      "id": "vocab_b1_1",
+      "type": "single_choice",
+      "dimension": "vocabulary",
+      "level": "B1",
+      "stem": "Choose the word that best completes the sentence: The weather was so bad that they decided to ___ the trip.",
+      "choices": ["call off", "call on", "call in", "call for"],
+      "answer_key": "call off"
+    },
+    {
+      "id": "grammar_b1_1",
+      "type": "single_choice",
+      "dimension": "grammar",
+      "level": "B1",
+      "stem": "If I ___ you, I would apply earlier.",
+      "choices": ["am", "was", "were", "had been"],
+      "answer_key": "were"
+    },
+    {
+      "id": "reading_b1_1",
+      "type": "single_choice",
+      "dimension": "reading",
+      "level": "B1",
+      "stem": "According to common usage, 'precise' most closely means:",
+      "choices": ["exact", "quick", "expensive", "noisy"],
+      "answer_key": "exact"
+    },
+    {
+      "id": "listening_b1_1",
+      "type": "single_choice",
+      "dimension": "listening",
+      "level": "B1",
+      "stem": "In classroom instructions, 'Could you repeat that?' is used to ask for:",
+      "choices": ["a slower pace", "repetition", "permission to leave", "the answer key"],
+      "answer_key": "repetition"
+    },
+    {
+      "id": "writing_b1_1",
+      "type": "single_choice",
+      "dimension": "writing",
+      "level": "B1",
+      "stem": "Which closing is most appropriate in a formal email?",
+      "choices": ["Cheers,", "Yours faithfully,", "See ya,", "Later,"],
+      "answer_key": "Yours faithfully,"
+    },
+    {
+      "id": "vocab_a2_1",
+      "type": "single_choice",
+      "dimension": "vocabulary",
+      "level": "A2",
+      "stem": "She ___ lunch every day at noon.",
+      "choices": ["have", "has", "having", "haves"],
+      "answer_key": "has"
+    },
+    {
+      "id": "grammar_a2_1",
+      "type": "single_choice",
+      "dimension": "grammar",
+      "level": "A2",
+      "stem": "There ___ many books on the shelf.",
+      "choices": ["is", "are", "be", "was"],
+      "answer_key": "are"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "persona_id": "english_senior_student",
+  "role_name": "高三备考学生",
+  "description": "问题基于高中英语词汇库实际词条，偏辨析与写作",
+  "questions": [
+    "influence 和 effect 在词库里有什么区别？",
+    "affect 作动词时是什么意思？",
+    "patient 和 patience 怎么区分？",
+    "address 除了地址还有什么常见意思？",
+    "expand 有哪些固定搭配？",
+    "exist 和 existence 有什么区别？",
+    "exhibition 是什么意思？",
+    "important 在高考作文里可以用哪些替换表达？"
+  ]
+}

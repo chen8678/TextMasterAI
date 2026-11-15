@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-07-11T02:40:11.326543+00:00",
+  "system": {
+    "platform": "Darwin",
+    "machine": "arm64",
+    "cpu_brand": "Apple M3 Pro",
+    "physical_cores": "11",
+    "logical_cores": "11",
+    "ram_gb": 18.0,
+    "gpu_summary": "Chipset Model: Apple M3 Pro\nTotal Number of Cores: 14\nMetal Support: Metal 3",
+    "metal": "Metal 3",
+    "python": "3.9.6",
+    "disks": [
+      {
+        "path": "/Users/chenmofei",
+        "total_gb": 460.4,
+        "free_gb": 155.2,
+        "used_pct": 66.3
+      },
+      {
+        "path": "/Volumes/Samsung Protable SSD T5 Media",
+        "total_gb": 465.6,
+        "free_gb": 305.5,
+        "used_pct": 34.4
+      }
+    ]
+  },
+  "ml": {
+    "torch": "2.8.0",
+    "mps_available": true,
+    "cuda_available": false,
+    "cuda_device": null,
+    "cuda_mem_gb": null,
+    "packages": {
+      "transformers": "4.56.0",
+      "datasets": null,
+      "peft": null,
+      "accelerate": null,
+      "bitsandbytes": null,
+      "llamafactory": null,
+      "mlx": null,
+      "mlx_lm": null
+    },
+    "docker": true,
+    "docker_version": ""
+  },
+  "recommendation": {
+    "local_feasible": true,
+    "recommended_route": "local_mps_small_model",
+    "model_suggestions": [
+      {
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "method": "LoRA (fp16/bf16 on MPS)",
+        "fit": "recommended",
+        "note": "18GB 统一内存下最稳妥的本地首次实验"
+      },
+      {
+        "model": "Qwen/Qwen2.5-3B-Instruct",
+        "method": "LoRA (MPS)",
+        "fit": "possible",
+        "note": "可试，需减小 batch / cutoff_len，训练较慢"
+      },
+      {
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "method": "QLoRA",
+        "fit": "not_recommended_local",
+        "note": "Mac 上 bitsandbytes/Q CUDA 不可用，7B 本地训练风险高"
+      }
+    ],
+    "tool_suggestions": [
+      "首选: LLaMA-Factory（MPS + 小模型）",
+      "备选: mlx-lm（Apple Silicon 原生，适合 3B 推理/轻量微调）",
+      "7B 正式实验: AutoDL / ModelScope 租 24GB NVIDIA GPU"
+    ],
+    "warnings": [
+      "Apple Silicon 无 CUDA；bitsandbytes QLoRA 基本不能指望。",
+      "统一内存仅 18.0GB，训练时请关闭浏览器/IDE 等大内存应用。"
+    ],
+    "missing_packages": [
+      "datasets",
+      "peft",
+      "accelerate"
+    ]
+  }
+}

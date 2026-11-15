@@ -1,0 +1,63 @@
+{
+  "skill_id": "rag_answer",
+  "trials": 5,
+  "do_apply": false,
+  "started_at": "2026-04-16T11:55:16.825760+00:00",
+  "metrics": {
+    "guard_pass_rate": 0.8,
+    "apply_pass_rate": null,
+    "forbidden_reject_count": 1
+  },
+  "results": [
+    {
+      "idx": 1,
+      "note": "citation_missing",
+      "provenance": "template_mvp",
+      "guard_ok": true,
+      "guard_reason": "ok",
+      "applied": false,
+      "staging_id": null,
+      "draft_preview": "## Troubleshooting\n\n- **来源**: 用户纠正触发（MVP 模板）\n- **Skill**: `rag_answer`\n- **说明摘要**: 使用混合检索在知识库中查找相关文档\n- **失败/日志上下文**: 输出缺少引用；用户反馈证据不足。\n- **用户反馈**: 请补充引用原文片段，并说明不确定性。"
+    },
+    {
+      "idx": 2,
+      "note": "format_wrong",
+      "provenance": "template_mvp",
+      "guard_ok": true,
+      "guard_reason": "ok",
+      "applied": false,
+      "staging_id": null,
+      "draft_preview": "## Troubleshooting\n\n- **来源**: 用户纠正触发（MVP 模板）\n- **Skill**: `rag_answer`\n- **说明摘要**: 使用混合检索在知识库中查找相关文档\n- **失败/日志上下文**: 输出结构混乱；用户要求格式修正。\n- **用户反馈**: 这段格式不对，请按要点列表输出并避免冗余。"
+    },
+    {
+      "idx": 3,
+      "note": "structure_opt",
+      "provenance": "template_mvp",
+      "guard_ok": true,
+      "guard_reason": "ok",
+      "applied": false,
+      "staging_id": null,
+      "draft_preview": "## Troubleshooting\n\n- **来源**: 用户纠正触发（MVP 模板）\n- **Skill**: `rag_answer`\n- **说明摘要**: 使用混合检索在知识库中查找相关文档\n- **失败/日志上下文**: 用户指出结论后置且建议不够具体。\n- **用户反馈**: 请把结论前置，并给出三条可执行建议。"
+    },
+    {
+      "idx": 4,
+      "note": "boundary_guard",
+      "provenance": "template_mvp",
+      "guard_ok": false,
+      "guard_reason": "forbidden_marker:多模态",
+      "applied": false,
+      "staging_id": null,
+      "draft_preview": "## Troubleshooting\n\n- **来源**: 用户纠正触发（MVP 模板）\n- **Skill**: `rag_answer`\n- **说明摘要**: 使用混合检索在知识库中查找相关文档\n- **失败/日志上下文**: 候选草案疑似包含超出边界内容。\n- **用户反馈**: 请不要加入多模态/外部调用建议，只做纯文字知识库问答增强。"
+    },
+    {
+      "idx": 5,
+      "note": "citation_missing",
+      "provenance": "template_mvp",
+      "guard_ok": true,
+      "guard_reason": "ok",
+      "applied": false,
+      "staging_id": null,
+      "draft_preview": "## Troubleshooting\n\n- **来源**: 用户纠正触发（MVP 模板）\n- **Skill**: `rag_answer`\n- **说明摘要**: 使用混合检索在知识库中查找相关文档\n- **失败/日志上下文**: 输出缺少引用；用户反馈证据不足。\n- **用户反馈**: 请补充引用原文片段，并说明不确定性。"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "generated_at": "2026-07-11T01:06:40.042915+00:00",
+  "source_files": [
+    "kb_qa_4fe6ed80_20260710_090842_a561f695.json",
+    "kb_qa_6178a9c2_20260710_090914_02cc8ae5.json",
+    "kb_qa_fdba18e8_20260710_092203_e007e7b8.json",
+    "kb_qa_e34d217d_20260710_092231_d635f33d.json",
+    "kb_qa_e3535603_20260710_092302_fd10337f.json"
+  ],
+  "total_raw": 40,
+  "low_quality_count": 19,
+  "kept_count": 21,
+  "train_count": 16,
+  "val_count": 5,
+  "val_ratio": 0.15,
+  "seed": 42,
+  "filtered_low_quality": true,
+  "persona_train": {
+    "english_junior_student": 5,
+    "english_cet4_student": 3,
+    "english_primary_parent": 6,
+    "english_cet6_student": 1,
+    "english_senior_student": 1
+  },
+  "persona_val": {
+    "english_junior_student": 1,
+    "english_cet4_student": 1,
+    "english_primary_parent": 1,
+    "english_cet6_student": 1,
+    "english_senior_student": 1
+  },
+  "low_quality_examples": [
+    {
+      "question": "sandwich 在小学词汇里怎么记？",
+      "reasons": [
+        "常识补充",
+        "未包含"
+      ],
+      "persona_id": "english_primary_parent"
+    },
+    {
+      "question": "accept 和 except 怎么区分？",
+      "reasons": [
+        "未包含"
+      ],
+      "persona_id": "english_junior_student"
+    },
+    {
+      "question": "silence 和 silent 有什么区别？",
+      "reasons": [
+        "未包含",
+        "无法直接回答",
+        "通用英语知识"
+      ],
+      "persona_id": "english_junior_student"
+    },
+    {
+      "question": "influence 和 effect 在词库里有什么区别？",
+      "reasons": [
+        "均未收录",
+        "无法直接回答"
+      ],
+      "persona_id": "english_senior_student"
+    },
+    {
+      "question": "affect 作动词时是什么意思？",
+      "reasons": [
+        "常识补充"
+      ],
+      "persona_id": "english_senior_student"
+    },
+    {
+      "question": "patient 和 patience 怎么区分？",
+      "reasons": [
+        "常识补充"
+      ],
+      "persona_id": "english_senior_student"
+    },
+    {
+      "question": "address 除了地址还有什么常见意思？",
+      "reasons": [
+        "无法基于知识库"
+      ],
+      "persona_id": "english_senior_student"
+    },
+    {
+      "question": "expand 有哪些固定搭配？",
+      "reasons": [
+        "均未收录"
+      ],
+      "persona_id": "english_senior_student"
+    },
+    {
+      "question": "exist 和 existence 有什么区别？",
+      "reasons": [
+        "未包含"
+      ],
+      "persona_id": "english_senior_student"
+    },
+    {
+      "question": "available 有哪些固定搭配？",
+      "reasons": [
+        "常识补充"
+      ],
+      "persona_id": "english_cet4_student"
+    },
+    {
+      "question": "influence 和 impact 在四级词库里怎么区分？",
+      "reasons": [
+        "非来自知识库",
+        "均未出现",
+        "无法从知识库",
+        "通用英语知识",
+        "常识性补充",
+        "基于通用英语"
+      ],
+      "persona_id": "english_cet4_student"
+    },
+    {
+      "question": "access 和 accessible 分别怎么用？",
+      "reasons": [
+        "无法从知识库",
+        "基于通用英语"
+      ],
+      "persona_id": "english_cet4_student"
+    },
+    {
+      "question": "affect 和 effect 怎么区分？",
+      "reasons": [
+        "无法基于知识库",
+        "通用英语知识",
+        "基于通用英语"
+      ],
+      "persona_id": "english_cet4_student"
+    },
+    {
+      "question": "comprehensive 和 extensive 在词库里有什么区别？",
+      "reasons": [
+        "常识补充",
+        "未包含",
+        "无法从知识库"
+      ],
+      "persona_id": "english_cet6_student"
+    },
+    {
+      "question": "justice 有哪些常见搭配？",
+      "reasons": [
+        "均未收录"
+      ],
+      "persona_id": "english_cet6_student"
+    },
+    {
+      "question": "privilege 在六级词汇里怎么考？",
+      "reasons": [
+        "常识补充",
+        "未包含"
+      ],
+      "persona_id": "english_cet6_student"
+    },
+    {
+      "question": "elevate 有哪些短语或用法？",
+      "reasons": [
+        "均未收录",
+        "通用英语知识"
+      ],
+      "persona_id": "english_cet6_student"
+    },
+    {
+      "question": "significant 在学术写作里怎么用？",
+      "reasons": [
+        "无法基于知识库"
+      ],
+      "persona_id": "english_cet6_student"
+    },
+    {
+      "question": "contaminate 这个词是什么意思？",
+      "reasons": [
+        "未包含",
+        "均未出现"
+      ],
+      "persona_id": "english_cet6_student"
+    }
+  ],
+  "outputs": {
+    "train": "/Volumes/Samsung Protable SSD T5 Media/chen-AI-测试包/backend/data/sft/train.jsonl",
+    "val": "/Volumes/Samsung Protable SSD T5 Media/chen-AI-测试包/backend/data/sft/val.jsonl",
+    "all_filtered": "/Volumes/Samsung Protable SSD T5 Media/chen-AI-测试包/backend/data/sft/all_filtered.jsonl"
+  }
+}

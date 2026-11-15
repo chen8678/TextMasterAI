@@ -1,0 +1,77 @@
+:root {
+  /* ===== Brand / Semantic ===== */
+  --bg-100: #f3eded;
+  --bg-200: #e9e3e3;
+  --bg-300: #c0bbbb;
+  --primary-100: #ff5a5f;
+  --primary-200: #d9caca;
+  --primary-300: #fff7ef;
+  --accent-100: #00a699;
+  --accent-200: #004940;
+  --text-100: #333333;
+  --text-200: #5c5c5c;
+  --text-on-primary: #ffffff;
+
+  /* ===== Alias for existing Apple-like variable usage ===== */
+  --apple-background: var(--bg-100);
+  --apple-surface: var(--bg-200);
+  --apple-elevated: var(--bg-200);
+  --apple-border: var(--bg-300);
+  --apple-overlay: rgba(0, 0, 0, 0.06);
+  --apple-glass: rgba(255, 255, 255, 0.45);
+  --apple-text-primary: var(--text-100);
+  --apple-text-secondary: var(--text-200);
+  --apple-text-tertiary: var(--text-200);
+  --apple-brand-blue: var(--primary-100);
+  --apple-brand-blue-hover: var(--primary-200);
+  --apple-success: var(--accent-100);
+  --apple-warning: var(--primary-300);
+  --apple-danger: var(--primary-100);
+  --apple-chart-blue: var(--primary-100);
+  --apple-chart-blue-soft: rgba(255, 90, 95, 0.18);
+  --apple-chart-green: var(--accent-100);
+  --apple-chart-green-soft: rgba(0, 166, 153, 0.18);
+  --apple-chart-orange: var(--primary-200);
+  --apple-chart-orange-soft: rgba(217, 202, 202, 0.4);
+  --apple-chart-purple: var(--accent-200);
+  --apple-chart-purple-soft: rgba(0, 73, 64, 0.2);
+  --apple-chart-grid: rgba(255, 255, 255, 0.25);
+  --apple-chart-surface: rgba(0, 0, 0, 0.05);
+
+  /* ===== Radius ===== */
+  --apple-card-radius: 24px;
+  --apple-control-radius: 14px;
+  --apple-pill-radius: 999px;
+  --apple-radius-sm: 10px;
+  --apple-radius-md: 12px;
+  --apple-radius-lg: 20px;
+  --apple-radius-xl: 24px;
+  --apple-radius-pill: 999px;
+
+  /* ===== Spacing (8pt scale) ===== */
+  --apple-space-xs: 8px;
+  --apple-space-sm: 12px;
+  --apple-space-md: 16px;
+  --apple-space-lg: 24px;
+  --apple-space-xl: 32px;
+  --apple-spacing-xs: 6px;
+  --apple-spacing-sm: 12px;
+  --apple-spacing-md: 18px;
+  --apple-spacing-lg: 24px;
+
+  /* ===== Typography ===== */
+  --apple-font-family: 'SF Pro Display', 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  --apple-font-size-h1: 32px;
+  --apple-font-size-h2: 28px;
+  --apple-font-size-h3: 24px;
+  --apple-font-size-body: 16px;
+  --apple-font-size-body-lg: 18px;
+  --apple-font-size-caption: 14px;
+  --apple-input-height: 44px;
+
+  /* ===== Compatibility aliases ===== */
+  --apple-bg-page: var(--bg-100);
+  --apple-bg-card: var(--bg-200);
+  --apple-brand: var(--primary-100);
+  --apple-brand-alt: var(--primary-200);
+}

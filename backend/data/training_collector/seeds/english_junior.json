@@ -1,0 +1,15 @@
+{
+  "persona_id": "english_junior_student",
+  "role_name": "初二学生",
+  "description": "问题基于初中英语词汇库实际词条，含易混词与短语",
+  "questions": [
+    "accept 和 except 怎么区分？",
+    "silence 和 silent 有什么区别？",
+    "strong 有哪些常见搭配？",
+    "deal with 是什么意思？",
+    "diary 这个词怎么用？",
+    "machine 在词库里有哪几个常见短语？",
+    "stay 有哪些常用短语？",
+    "possible 这个词在中考里一般怎么考？"
+  ]
+}

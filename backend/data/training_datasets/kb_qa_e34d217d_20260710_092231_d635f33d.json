@@ -1,0 +1,523 @@
+{
+  "meta": {
+    "workflow": "kb_qa_collector",
+    "version": "2026-07-10-v2",
+    "run_id": "d635f33d-07e6-4430-9e47-d01923f17a6a",
+    "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+    "knowledge_base_title": "大学英语四级词汇库",
+    "persona_id": "english_cet4_student",
+    "role_name": "大二 CET-4 备考者",
+    "question_source": "seed_file",
+    "agent_id": "qa",
+    "retrieval_params": {
+      "strategy": "hybrid",
+      "top_k": 5,
+      "score_threshold": 0.15,
+      "alpha": 0.5
+    },
+    "total_questions": 8,
+    "total_collected": 8,
+    "total_errors": 0,
+    "dry_run": false,
+    "created_at": "2026-07-10T09:22:31.652393+00:00"
+  },
+  "records": [
+    {
+      "id": "7895e5a9-a732-4c45-baff-2d0e4151dda0",
+      "question": "available 有哪些固定搭配？",
+      "answer": "根据知识库内容，**available** 的固定搭配（短语）主要来自《大学英语四级词汇库 · 第13批》，具体如下：\n\n1. **available for** — 可用于…的；对…有效的；能参加…的  \n2. **available on** — 仅在…有效（付款）  \n3. **available from** — 可向…购买  \n4. **available with** — 向（指定银行）押汇  \n5. **available resources** — 可利用的资源  \n6. **commercially available** — 市场上可买到的  \n\n以上短语均出自文档《大学英语四级词汇库 · 第13批》中关于 **available** 的词条。知识库中未列出其他搭配，如需更全面的用法（如“available to sb.”），则属于常识补充。",
+      "sources": [
+        "大学英语四级词汇库 · 第13批",
+        "大学英语四级词汇库 · 第53批",
+        "大学英语四级词汇库 · 第5批",
+        "大学英语四级词汇库 · 第63批",
+        "大学英语四级词汇库 · 第50批"
+      ],
+      "context_docs": [
+        {
+          "id": "6571ea0f-803b-4a21-8c62-23541e903161",
+          "title": "大学英语四级词汇库 · 第13批",
+          "content": "# 大学英语四级词汇库 · 词汇第 13 批\n\n## available\n- **词性**: adj\n- **释义**: 可利用的；通用的\n- **短语**:\n  - available for — 可用于…的；对…有效的；能参加…的\n  - available on — 仅在…有效（付款）\n  - available from — 可向…购买\n  - available with — 向（指定银行）押汇\n  - available resources — 可利用的资源\n  - commercially available — 市场上可买到的\n\n## avenue\n- **词性**: n\n- **释义**: 林荫道，道路；大街\n- **短语**:\n  - fifth avenue — （美国纽约的）第五大道\n  - park avenue — 派克大街（美国纽约市的豪华大街街名，意译为公园大道或林荫大道）；林荫大道（别克汽车的旗舰品牌）\n  - madison avenue — 美国广告业；美国广告业作风；麦德逊大道（美国广告业中心）\n  - pennsylvania avenue —"
+        },
+        {
+          "id": "e8ac5a27-3ac4-4a65-b06a-8b7665677409",
+          "title": "大学英语四级词汇库 · 第53批",
+          "content": "# 大学英语四级词汇库 · 词汇第 53 批\n\n## endure\n- **词性**: v\n- **释义**: 忍受， 容忍； 持久， 持续\n\n## detail\n- **词性**: n\n- **释义**: 细节，枝节；零件；详细说明\n- **短语**:\n  - in detail — 详细地\n  - in more detail — 更详细地\n  - detail design — 详细设计；施工设计\n  - for further details — adv. 为了了解详情\n  - in some detail — 相当详细地\n  - detail oriented — 注重细节\n\n## shortly\n- **词性**: adv\n- **释义**: 立刻， 不久； 不耐烦地； 简短地\n- **短语**:\n  - shortly after — 不久之后，很快\n  - shortly before — 前不久；在...之前不久\n  - shortly afterwards — 不久以后；没过多久\n\n## hobby\n- **词性**: n\n- **释义**: 业余爱好， 癖好\n\n#"
+        },
+        {
+          "id": "0d053d3c-25a3-4bba-a1da-796503c20772",
+          "title": "大学英语四级词汇库 · 第5批",
+          "content": "# 大学英语四级词汇库 · 词汇第 5 批\n\n## irrationally\n- **词性**: adv\n- **释义**: 不合理地，无理性地\n\n## irritate\n- **词性**: v\n- **释义**: 激怒\n\n## issue\n- **词性**: v\n- **释义**: 发行；问题\n- **短语**:\n  - issue in — v. 导致\n  - new issue — n. 新发行的证券\n  - key issue — 关键议题\n  - in the issue — 结果，终于\n  - make an issue — 制造争端；引起争论\n  - hot issue — 热点问题；[证券]热门股票（上市后不久价格猛涨）\n\n## item\n- **词性**: n\n- **释义**: 条，条款\n- **短语**:\n  - menu item — [计]菜单项\n  - item on the agenda — 议程项目\n  - construction item — 施工项目，建设项目\n  - item by item — 逐项；逐条\n  - project item — "
+        },
+        {
+          "id": "ba6f3716-68e0-48d7-835b-06b59d32a16c",
+          "title": "大学英语四级词汇库 · 第63批",
+          "content": "# 大学英语四级词汇库 · 词汇第 63 批\n\n## tag\n- **词性**: vi\n- **释义**: 尾随；附加语；标签；给…加上标签\n- **短语**:\n  - price tag — 价格标签；标价\n  - name tag — 胸牌；名称标签\n  - tag along — 紧跟；尾随\n  - claim tag — n. 行李票\n  - tag line — n. 时髦用语；收尾语\n  - luggage tag — 行李牌\n\n## notebook\n- **词性**: n\n- **释义**: 笔记本\n- **短语**:\n  - notebook computer — 笔记型电脑\n  - notebook pc — 笔记本电脑；笔记本型个人计算机\n\n## curious\n- **词性**: adj\n- **释义**: 好奇的； 奇怪的\n- **短语**:\n  - curious about — 好奇；想知道\n\n## indirect\n- **词性**: adj\n- **释义**: 间接的， 婉转的\n- **短语**:\n  - indirect method — 间接法\n "
+        },
+        {
+          "id": "6396a86d-ad67-4a45-8346-a3ecd741110e",
+          "title": "大学英语四级词汇库 · 第50批",
+          "content": "# 大学英语四级词汇库 · 词汇第 50 批\n\n## receiver\n- **词性**: n\n- **释义**: 听筒； 接收器\n- **短语**:\n  - radio receiver — 无线电接收器\n  - television receiver — 电视接收器；电视机\n  - infrared receiver — [电]红外线接收机；红外探测器\n  - radar receiver — [电子学]雷达接收器\n  - superheterodyne receiver — n. 超外差式收音机\n  - official receiver — [经]官方接管人；清理受理员\n\n## outer\n- **词性**: adj\n- **释义**: 外面的， 外层的\n- **短语**:\n  - outer space — n. 太空；外层空间\n  - outer ring — 外环\n  - outer wall — 外墙\n  - outer layer — 外层\n  - outer shell — 外壳层，外壳\n  - outer diameter — 外直径\n\n## invent\n- *"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:07.230000+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "available 有哪些固定搭配？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第13批】\n# 大学英语四级词汇库 · 词汇第 13 批\n\n## available\n- **词性**: adj\n- **释义**: 可利用的；通用的\n- **短语**:\n  - available for — 可用于…的；对…有效的；能参加…的\n  - available on — 仅在…有效（付款）\n  - available from — 可向…购买\n  - available with — 向（指定银行）押汇\n  - available resources — 可利用的资源\n  - commercially available — 市场上可买到的\n\n## avenue\n- **词性**: n\n- **释义**: 林荫道，道路；大街\n- **短语**:\n  - fifth avenue — （美国纽约的）第五大道\n  - park avenue — 派克大街（美国纽约市的豪华大街街名，意译为公园大道或林荫大道）；林荫大道（别克汽车的旗舰品牌）\n  - madison avenue — 美国广告业；美国广告业作风；麦德逊大道（美国广告业中心）\n  - pennsylvania avenue —\n\n【大学英语四级词汇库 · 第53批】\n# 大学英语四级词汇库 · 词汇第 53 批\n\n## endure\n- **词性**: v\n- **释义**: 忍受， 容忍； 持久， 持续\n\n## detail\n- **词性**: n\n- **释义**: 细节，枝节；零件；详细说明\n- **短语**:\n  - in detail — 详细地\n  - in more detail — 更详细地\n  - detail design — 详细设计；施工设计\n  - for further details — adv. 为了了解详情\n  - in some detail — 相当详细地\n  - detail oriented — 注重细节\n\n## shortly\n- **词性**: adv\n- **释义**: 立刻， 不久； 不耐烦地； 简短地\n- **短语**:\n  - shortly after — 不久之后，很快\n  - shortly before — 前不久；在...之前不久\n  - shortly afterwards — 不久以后；没过多久\n\n## hobby\n- **词性**: n\n- **释义**: 业余爱好， 癖好\n\n#\n\n【大学英语四级词汇库 · 第5批】\n# 大学英语四级词汇库 · 词汇第 5 批\n\n## irrationally\n- **词性**: adv\n- **释义**: 不合理地，无理性地\n\n## irritate\n- **词性**: v\n- **释义**: 激怒\n\n## issue\n- **词性**: v\n- **释义**: 发行；问题\n- **短语**:\n  - issue in — v. 导致\n  - new issue — n. 新发行的证券\n  - key issue — 关键议题\n  - in the issue — 结果，终于\n  - make an issue — 制造争端；引起争论\n  - hot issue — 热点问题；[证券]热门股票（上市后不久价格猛涨）\n\n## item\n- **词性**: n\n- **释义**: 条，条款\n- **短语**:\n  - menu item — [计]菜单项\n  - item on the agenda — 议程项目\n  - construction item — 施工项目，建设项目\n  - item by item — 逐项；逐条\n  - project item —\n\n【大学英语四级词汇库 · 第63批】\n# 大学英语四级词汇库 · 词汇第 63 批\n\n## tag\n- **词性**: vi\n- **释义**: 尾随；附加语；标签；给…加上标签\n- **短语**:\n  - price tag — 价格标签；标价\n  - name tag — 胸牌；名称标签\n  - tag along — 紧跟；尾随\n  - claim tag — n. 行李票\n  - tag line — n. 时髦用语；收尾语\n  - luggage tag — 行李牌\n\n## notebook\n- **词性**: n\n- **释义**: 笔记本\n- **短语**:\n  - notebook computer — 笔记型电脑\n  - notebook pc — 笔记本电脑；笔记本型个人计算机\n\n## curious\n- **词性**: adj\n- **释义**: 好奇的； 奇怪的\n- **短语**:\n  - curious about — 好奇；想知道\n\n## indirect\n- **词性**: adj\n- **释义**: 间接的， 婉转的\n- **短语**:\n  - indirect method — 间接法\n\n【大学英语四级词汇库 · 第50批】\n# 大学英语四级词汇库 · 词汇第 50 批\n\n## receiver\n- **词性**: n\n- **释义**: 听筒； 接收器\n- **短语**:\n  - radio receiver — 无线电接收器\n  - television receiver — 电视接收器；电视机\n  - infrared receiver — [电]红外线接收机；红外探测器\n  - radar receiver — [电子学]雷达接收器\n  - superheterodyne receiver — n. 超外差式收音机\n  - official receiver — [经]官方接管人；清理受理员\n\n## outer\n- **词性**: adj\n- **释义**: 外面的， 外层的\n- **短语**:\n  - outer space — n. 太空；外层空间\n  - outer ring — 外环\n  - outer wall — 外墙\n  - outer layer — 外层\n  - outer shell — 外壳层，外壳\n  - outer diameter — 外直径\n\n## invent\n- *",
+        "output": "根据知识库内容，**available** 的固定搭配（短语）主要来自《大学英语四级词汇库 · 第13批》，具体如下：\n\n1. **available for** — 可用于…的；对…有效的；能参加…的  \n2. **available on** — 仅在…有效（付款）  \n3. **available from** — 可向…购买  \n4. **available with** — 向（指定银行）押汇  \n5. **available resources** — 可利用的资源  \n6. **commercially available** — 市场上可买到的  \n\n以上短语均出自文档《大学英语四级词汇库 · 第13批》中关于 **available** 的词条。知识库中未列出其他搭配，如需更全面的用法（如“available to sb.”），则属于常识补充。"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    },
+    {
+      "id": "4edf3073-8592-44f3-8824-6c06ac04e3dd",
+      "question": "influence 和 impact 在四级词库里怎么区分？",
+      "answer": "根据提供的知识库上下文，**“influence”和“impact”均未出现在《大学英语四级词汇库》的文档中**。因此，无法从知识库中直接找到这两个词在四级词库中的区分说明。\n\n不过，基于通用英语知识和四级考试常见用法，可以补充以下区分（此部分为常识性补充，非来自知识库）：\n\n- **influence**（影响）：通常指**潜移默化、长期或间接**的作用，可以是正面的或负面的，常与“对某人/某事产生影响”搭配，如“have an influence on”。\n- **impact**（影响/冲击）：通常指**强烈、直接或显著**的作用，语气更强，强调“冲击力”或“重大影响”，如“have a great impact on”。\n\n**建议**：若需确认这两个词是否在四级考纲中，可查阅完整的四级词汇表。当前知识库仅包含部分批次词汇，未收录“influence”和“impact”。",
+      "sources": [
+        "大学英语四级词汇库 · 第4批",
+        "大学英语四级词汇库 · 第10批",
+        "大学英语四级词汇库 · 第45批",
+        "大学英语四级词汇库 · 第11批",
+        "大学英语四级词汇库 · 第48批"
+      ],
+      "context_docs": [
+        {
+          "id": "436fd272-c491-4515-81f9-b69441210de3",
+          "title": "大学英语四级词汇库 · 第4批",
+          "content": "# 大学英语四级词汇库 · 词汇第 4 批\n\n## feedback\n- **词性**: n\n- **释义**: 反馈\n- **短语**:\n  - feedback control — [计]反馈控制；回馈控制\n  - negative feedback — 负反馈；负回授\n  - information feedback — 信息反馈\n  - positive feedback — 正反馈\n  - feedback system — 反馈系统；反馈方式\n  - feedback information — 反馈信息\n\n## fiction\n- **词性**: n\n- **释义**: 小说，虚构的文学作品\n- **短语**:\n  - science fiction — 科幻小说\n  - stranger than fiction — 奇幻人生（电影名称）\n  - horror fiction — 恐怖小说\n  - legal fiction — 法律虚拟（指法律事务上为权宜计在无真实依据情况下所作的假定）\n  - science fiction film — 科幻片\n  - pulp "
+        },
+        {
+          "id": "ea49b04c-b145-4300-af8f-b228c2c703be",
+          "title": "大学英语四级词汇库 · 第10批",
+          "content": "# 大学英语四级词汇库 · 词汇第 10 批\n\n## respectively\n- **词性**: adv\n- **释义**: 各自地\n\n## fundamentally\n- **词性**: adv\n- **释义**: 根本上\n\n## cruelty\n- **词性**: n\n- **释义**: 残暴，残酷\n\n## govern\n- **词性**: v\n- **释义**: 管理，支配\n\n## hinder\n- **词性**: v\n- **释义**: 阻碍\n\n## undervalue\n- **词性**: v\n- **释义**: 低估\n\n## evaluation\n- **词性**: n\n- **释义**: 评价，评估\n- **短语**:\n  - comprehensive evaluation — 综合评价，综合评价法\n  - performance evaluation — 性能评估；性能赋值\n  - evaluation model — 评价模型\n  - quality evaluation — 质量评定；品质评价；品质评估\n  - safety evaluation — 安全性评价"
+        },
+        {
+          "id": "1a04077f-7e44-4ca1-b751-c51149df3310",
+          "title": "大学英语四级词汇库 · 第45批",
+          "content": "# 大学英语四级词汇库 · 词汇第 45 批\n\n## correspondence\n- **词性**: n\n- **释义**: 信件， 函件； 通信， 通信联系； 符合， 一致， 相似\n- **短语**:\n  - correspondence with — 通信；符合\n  - by correspondence — 用写信的办法\n  - correspondence analysis — 对应分析，一致性分析\n  - in correspondence with — 与……一致；和……保持通信联系\n  - correspondence address — 通讯地址；通信地址\n  - business correspondence — 商业通信；业务书信\n\n## refresh\n- **词性**: v\n- **释义**: 振作精神， 恢复活力\n- **短语**:\n  - refresh oneself — 可以提神；清醒头脑\n  - refresh rate — 刷新率\n\n## librarian\n- **词性**: n\n- **释义**: 图书馆管理员\n\n## intimate\n- *"
+        },
+        {
+          "id": "20963f76-473a-4da4-a7aa-56b8002f9c9f",
+          "title": "大学英语四级词汇库 · 第11批",
+          "content": "# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration "
+        },
+        {
+          "id": "2aab3955-1514-490c-98bc-3eaba74ae64e",
+          "title": "大学英语四级词汇库 · 第48批",
+          "content": "# 大学英语四级词汇库 · 词汇第 48 批\n\n## beneficial\n- **词性**: adj\n- **释义**: 有利的， 有益的\n- **短语**:\n  - mutually beneficial — 互利的；双赢的\n  - beneficial owner — 受益所有人\n  - beneficial use — 享用，有权使用\n\n## tackle\n- **词性**: vt\n- **释义**: 对付，处理；与…交涉；阻截，擒抱；阻截， 擒抱； 用具， 钓具； 辘轳， 滑车\n- **短语**:\n  - fishing tackle — n. 渔具；钓鱼用具\n  - block and tackle — 滑车组；滑轮组\n  - tackle box — 工具盒；钓具盒\n  - lifting tackle — 起重滑车；提升滑轮；滑轮起吊设备\n  - sliding tackle — 铲球\n\n## reckon\n- **词性**: vt\n- **释义**: 认为， 估计； 指望， 盼望； 测算， 测量\n- **短语**:\n  - reckon with — 处理；对付；和…"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:11.693410+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "influence 和 impact 在四级词库里怎么区分？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第4批】\n# 大学英语四级词汇库 · 词汇第 4 批\n\n## feedback\n- **词性**: n\n- **释义**: 反馈\n- **短语**:\n  - feedback control — [计]反馈控制；回馈控制\n  - negative feedback — 负反馈；负回授\n  - information feedback — 信息反馈\n  - positive feedback — 正反馈\n  - feedback system — 反馈系统；反馈方式\n  - feedback information — 反馈信息\n\n## fiction\n- **词性**: n\n- **释义**: 小说，虚构的文学作品\n- **短语**:\n  - science fiction — 科幻小说\n  - stranger than fiction — 奇幻人生（电影名称）\n  - horror fiction — 恐怖小说\n  - legal fiction — 法律虚拟（指法律事务上为权宜计在无真实依据情况下所作的假定）\n  - science fiction film — 科幻片\n  - pulp\n\n【大学英语四级词汇库 · 第10批】\n# 大学英语四级词汇库 · 词汇第 10 批\n\n## respectively\n- **词性**: adv\n- **释义**: 各自地\n\n## fundamentally\n- **词性**: adv\n- **释义**: 根本上\n\n## cruelty\n- **词性**: n\n- **释义**: 残暴，残酷\n\n## govern\n- **词性**: v\n- **释义**: 管理，支配\n\n## hinder\n- **词性**: v\n- **释义**: 阻碍\n\n## undervalue\n- **词性**: v\n- **释义**: 低估\n\n## evaluation\n- **词性**: n\n- **释义**: 评价，评估\n- **短语**:\n  - comprehensive evaluation — 综合评价，综合评价法\n  - performance evaluation — 性能评估；性能赋值\n  - evaluation model — 评价模型\n  - quality evaluation — 质量评定；品质评价；品质评估\n  - safety evaluation — 安全性评价\n\n【大学英语四级词汇库 · 第45批】\n# 大学英语四级词汇库 · 词汇第 45 批\n\n## correspondence\n- **词性**: n\n- **释义**: 信件， 函件； 通信， 通信联系； 符合， 一致， 相似\n- **短语**:\n  - correspondence with — 通信；符合\n  - by correspondence — 用写信的办法\n  - correspondence analysis — 对应分析，一致性分析\n  - in correspondence with — 与……一致；和……保持通信联系\n  - correspondence address — 通讯地址；通信地址\n  - business correspondence — 商业通信；业务书信\n\n## refresh\n- **词性**: v\n- **释义**: 振作精神， 恢复活力\n- **短语**:\n  - refresh oneself — 可以提神；清醒头脑\n  - refresh rate — 刷新率\n\n## librarian\n- **词性**: n\n- **释义**: 图书馆管理员\n\n## intimate\n- *\n\n【大学英语四级词汇库 · 第11批】\n# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration\n\n【大学英语四级词汇库 · 第48批】\n# 大学英语四级词汇库 · 词汇第 48 批\n\n## beneficial\n- **词性**: adj\n- **释义**: 有利的， 有益的\n- **短语**:\n  - mutually beneficial — 互利的；双赢的\n  - beneficial owner — 受益所有人\n  - beneficial use — 享用，有权使用\n\n## tackle\n- **词性**: vt\n- **释义**: 对付，处理；与…交涉；阻截，擒抱；阻截， 擒抱； 用具， 钓具； 辘轳， 滑车\n- **短语**:\n  - fishing tackle — n. 渔具；钓鱼用具\n  - block and tackle — 滑车组；滑轮组\n  - tackle box — 工具盒；钓具盒\n  - lifting tackle — 起重滑车；提升滑轮；滑轮起吊设备\n  - sliding tackle — 铲球\n\n## reckon\n- **词性**: vt\n- **释义**: 认为， 估计； 指望， 盼望； 测算， 测量\n- **短语**:\n  - reckon with — 处理；对付；和…",
+        "output": "根据提供的知识库上下文，**“influence”和“impact”均未出现在《大学英语四级词汇库》的文档中**。因此，无法从知识库中直接找到这两个词在四级词库中的区分说明。\n\n不过，基于通用英语知识和四级考试常见用法，可以补充以下区分（此部分为常识性补充，非来自知识库）：\n\n- **influence**（影响）：通常指**潜移默化、长期或间接**的作用，可以是正面的或负面的，常与“对某人/某事产生影响”搭配，如“have an influence on”。\n- **impact**（影响/冲击）：通常指**强烈、直接或显著**的作用，语气更强，强调“冲击力”或“重大影响”，如“have a great impact on”。\n\n**建议**：若需确认这两个词是否在四级考纲中，可查阅完整的四级词汇表。当前知识库仅包含部分批次词汇，未收录“influence”和“impact”。"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    },
+    {
+      "id": "ec9fb98e-30f9-405f-9857-98c247a28986",
+      "question": "access 和 accessible 分别怎么用？",
+      "answer": "根据您提供的知识库上下文，**未找到 “access” 和 “accessible” 这两个词汇**。知识库中收录的词汇包括 abruptly、absorb、abuse、academic、level、lever、liable、convince、flexibility、plastic、section、secure、security、cabinet、cable、cafe 等，但没有 “access” 或 “accessible”。\n\n因此，我无法从知识库中直接引用相关文档来回答您的问题。以下内容为基于通用英语用法的补充说明，**非知识库来源**：\n\n- **access** 通常作名词或动词使用。作名词时意为“通道、进入权、访问权”，如“have access to”（有权使用/接近）。作动词时意为“访问、存取”，如“access the data”（访问数据）。\n- **accessible** 是形容词，意为“可进入的、可接近的、可使用的”，如“accessible to everyone”（对所有人开放）。\n\n若您需要更详细的用法说明或例句，建议查阅专门的英语语法或词汇资料。",
+      "sources": [
+        "大学英语四级词汇库 · 第1批",
+        "大学英语四级词汇库 · 第29批",
+        "大学英语四级词汇库 · 第9批",
+        "大学英语四级词汇库 · 第38批",
+        "大学英语四级词汇库 · 第15批"
+      ],
+      "context_docs": [
+        {
+          "id": "87964d94-f667-45ba-a488-73cbb1952a11",
+          "title": "大学英语四级词汇库 · 第1批",
+          "content": "# 大学英语四级词汇库 · 词汇第 1 批\n\n## abruptly\n- **词性**: adv\n- **释义**: 突然地\n\n## absorb\n- **词性**: v\n- **释义**: 吸收（液体、气体等）\n- **短语**:\n  - absorb in — 集中精力做某事；全神贯注于\n\n## abuse\n- **词性**: v\n- **释义**: 滥用，虐待\n- **短语**:\n  - drug abuse — 药物滥用；毒品滥用\n  - child abuse — 虐待儿童，摧残儿童\n  - substance abuse — 物质滥用；滥用药物\n  - sexual abuse — 性虐待\n  - abuse of power — 滥用权力\n  - alcohol abuse — 酒精滥用，酗酒\n\n## academic\n- **词性**: adj\n- **释义**: 学校(院)的，学术的\n- **短语**:\n  - academic research — 学术研究\n  - academic circles — 学术界\n  - academic year — 学年\n  - "
+        },
+        {
+          "id": "b446196a-b411-412b-a7b1-8127fc667c2c",
+          "title": "大学英语四级词汇库 · 第29批",
+          "content": "# 大学英语四级词汇库 · 词汇第 29 批\n\n## level\n- **词性**: n\n- **释义**: 水平面；水平的\n- **短语**:\n  - level of — …的水平；…的等级\n  - high level — 高层；高电平\n  - basic level — 基本水平\n  - on the level — 诚实的；可靠的；坦率地；老实说\n  - management level — 管理水平；管理[层]级\n  - advanced level — n. （英国）一般学历证书考试优等（等于A level）\n\n## lever\n- **词性**: n\n- **释义**: 杆，杠杆；控制杆\n- **短语**:\n  - release lever — 解锁手柄；分离杆\n  - lever principle — 杠杆原理\n  - brake lever — 制动杆\n  - lever handle — 手柄；杠杆手柄；杆式手柄；手柄操纵杆\n  - hand lever — 手柄；手制动杆；柄；手杆\n  - control lever — 控制杆；操纵杆\n\n## liable"
+        },
+        {
+          "id": "7374cee0-f4b1-421f-9628-1e4c964ec475",
+          "title": "大学英语四级词汇库 · 第9批",
+          "content": "# 大学英语四级词汇库 · 词汇第 9 批\n\n## convince\n- **词性**: v\n- **释义**: 使相信\n\n## flexibility\n- **词性**: n\n- **释义**: 灵活性；适应性\n- **短语**:\n  - flexibility matrix — 柔度矩阵；挠度矩阵\n  - strategic flexibility — 战略柔性，战略弹性；策略灵活性\n  - flexibility method — [工程]柔度法；挠度法\n  - operational flexibility — 操作弹性；运行灵活性\n\n## plastic\n- **词性**: adj\n- **释义**: 塑料的\n- **短语**:\n  - plastic deformation — [化]塑性变形，塑性应变\n  - plastic film — 塑料薄膜；塑胶膜\n  - plastic bag — 塑料袋；塑胶袋\n  - plastic packaging — 塑料封装\n  - plastic surgery — [医]整形外科\n  - reinforced plastic —"
+        },
+        {
+          "id": "cd1650c3-825d-48bb-9b40-b857988875d8",
+          "title": "大学英语四级词汇库 · 第38批",
+          "content": "# 大学英语四级词汇库 · 词汇第 38 批\n\n## section\n- **词性**: n\n- **释义**: 切片；一段；部门\n- **短语**:\n  - cross section — 横截面\n  - in this section — 在这部分；本节内容\n  - cesarean section — 剖腹产术\n  - section steel — 型钢\n  - section chief — 部门主管\n  - thin section — [生]薄片；薄剖面；薄切片\n\n## secure\n- **词性**: adj\n- **释义**: 安心的；安全的\n- **短语**:\n  - secure communication — 保密通信；安全通信\n  - secure electronic transaction — 安全电子交易\n  - secure sockets layer — 安全套层；安全套接层\n  - secure operating system — 安全操作系统\n\n## security\n- **词性**: n\n- **释义**: 安全，安全感\n- **短语**:"
+        },
+        {
+          "id": "75b19826-f0fb-43c3-a056-095c86165c1e",
+          "title": "大学英语四级词汇库 · 第15批",
+          "content": "# 大学英语四级词汇库 · 词汇第 15 批\n\n## cabinet\n- **词性**: n\n- **释义**: 橱，柜；内阁\n- **短语**:\n  - control cabinet — 控制柜；操纵室\n  - kitchen cabinet — n. 政府首脑的参谋团；厨房的餐具柜\n  - cabinet meeting — 内阁会议；大臣会议\n  - filing cabinet — 档案橱柜\n  - cabinet minister — n. 大臣；阁僚\n  - file cabinet — 文件柜；档案柜；文卷柜\n\n## cable\n- **词性**: n\n- **释义**: 缆，索；电缆；电报\n- **短语**:\n  - cable tv — 有线电视\n  - cable television — 电缆电视，有线电视\n  - power cable — 电力电缆\n  - coaxial cable — n. 同轴电缆\n  - optical cable — 光缆\n  - cable car — （美）缆车\n\n## cafe\n- **词性**: n\n- **释义**: 咖啡"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:15.667483+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "access 和 accessible 分别怎么用？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第1批】\n# 大学英语四级词汇库 · 词汇第 1 批\n\n## abruptly\n- **词性**: adv\n- **释义**: 突然地\n\n## absorb\n- **词性**: v\n- **释义**: 吸收（液体、气体等）\n- **短语**:\n  - absorb in — 集中精力做某事；全神贯注于\n\n## abuse\n- **词性**: v\n- **释义**: 滥用，虐待\n- **短语**:\n  - drug abuse — 药物滥用；毒品滥用\n  - child abuse — 虐待儿童，摧残儿童\n  - substance abuse — 物质滥用；滥用药物\n  - sexual abuse — 性虐待\n  - abuse of power — 滥用权力\n  - alcohol abuse — 酒精滥用，酗酒\n\n## academic\n- **词性**: adj\n- **释义**: 学校(院)的，学术的\n- **短语**:\n  - academic research — 学术研究\n  - academic circles — 学术界\n  - academic year — 学年\n  -\n\n【大学英语四级词汇库 · 第29批】\n# 大学英语四级词汇库 · 词汇第 29 批\n\n## level\n- **词性**: n\n- **释义**: 水平面；水平的\n- **短语**:\n  - level of — …的水平；…的等级\n  - high level — 高层；高电平\n  - basic level — 基本水平\n  - on the level — 诚实的；可靠的；坦率地；老实说\n  - management level — 管理水平；管理[层]级\n  - advanced level — n. （英国）一般学历证书考试优等（等于A level）\n\n## lever\n- **词性**: n\n- **释义**: 杆，杠杆；控制杆\n- **短语**:\n  - release lever — 解锁手柄；分离杆\n  - lever principle — 杠杆原理\n  - brake lever — 制动杆\n  - lever handle — 手柄；杠杆手柄；杆式手柄；手柄操纵杆\n  - hand lever — 手柄；手制动杆；柄；手杆\n  - control lever — 控制杆；操纵杆\n\n## liable\n\n【大学英语四级词汇库 · 第9批】\n# 大学英语四级词汇库 · 词汇第 9 批\n\n## convince\n- **词性**: v\n- **释义**: 使相信\n\n## flexibility\n- **词性**: n\n- **释义**: 灵活性；适应性\n- **短语**:\n  - flexibility matrix — 柔度矩阵；挠度矩阵\n  - strategic flexibility — 战略柔性，战略弹性；策略灵活性\n  - flexibility method — [工程]柔度法；挠度法\n  - operational flexibility — 操作弹性；运行灵活性\n\n## plastic\n- **词性**: adj\n- **释义**: 塑料的\n- **短语**:\n  - plastic deformation — [化]塑性变形，塑性应变\n  - plastic film — 塑料薄膜；塑胶膜\n  - plastic bag — 塑料袋；塑胶袋\n  - plastic packaging — 塑料封装\n  - plastic surgery — [医]整形外科\n  - reinforced plastic —\n\n【大学英语四级词汇库 · 第38批】\n# 大学英语四级词汇库 · 词汇第 38 批\n\n## section\n- **词性**: n\n- **释义**: 切片；一段；部门\n- **短语**:\n  - cross section — 横截面\n  - in this section — 在这部分；本节内容\n  - cesarean section — 剖腹产术\n  - section steel — 型钢\n  - section chief — 部门主管\n  - thin section — [生]薄片；薄剖面；薄切片\n\n## secure\n- **词性**: adj\n- **释义**: 安心的；安全的\n- **短语**:\n  - secure communication — 保密通信；安全通信\n  - secure electronic transaction — 安全电子交易\n  - secure sockets layer — 安全套层；安全套接层\n  - secure operating system — 安全操作系统\n\n## security\n- **词性**: n\n- **释义**: 安全，安全感\n- **短语**:\n\n【大学英语四级词汇库 · 第15批】\n# 大学英语四级词汇库 · 词汇第 15 批\n\n## cabinet\n- **词性**: n\n- **释义**: 橱，柜；内阁\n- **短语**:\n  - control cabinet — 控制柜；操纵室\n  - kitchen cabinet — n. 政府首脑的参谋团；厨房的餐具柜\n  - cabinet meeting — 内阁会议；大臣会议\n  - filing cabinet — 档案橱柜\n  - cabinet minister — n. 大臣；阁僚\n  - file cabinet — 文件柜；档案柜；文卷柜\n\n## cable\n- **词性**: n\n- **释义**: 缆，索；电缆；电报\n- **短语**:\n  - cable tv — 有线电视\n  - cable television — 电缆电视，有线电视\n  - power cable — 电力电缆\n  - coaxial cable — n. 同轴电缆\n  - optical cable — 光缆\n  - cable car — （美）缆车\n\n## cafe\n- **词性**: n\n- **释义**: 咖啡",
+        "output": "根据您提供的知识库上下文，**未找到 “access” 和 “accessible” 这两个词汇**。知识库中收录的词汇包括 abruptly、absorb、abuse、academic、level、lever、liable、convince、flexibility、plastic、section、secure、security、cabinet、cable、cafe 等，但没有 “access” 或 “accessible”。\n\n因此，我无法从知识库中直接引用相关文档来回答您的问题。以下内容为基于通用英语用法的补充说明，**非知识库来源**：\n\n- **access** 通常作名词或动词使用。作名词时意为“通道、进入权、访问权”，如“have access to”（有权使用/接近）。作动词时意为“访问、存取”，如“access the data”（访问数据）。\n- **accessible** 是形容词，意为“可进入的、可接近的、可使用的”，如“accessible to everyone”（对所有人开放）。\n\n若您需要更详细的用法说明或例句，建议查阅专门的英语语法或词汇资料。"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    },
+    {
+      "id": "4e3bfbf1-6e43-4e67-8bdf-169fa86366aa",
+      "question": "achieve 和 achievement 有什么区别？",
+      "answer": "你好！很高兴为你解答英语词汇问题。\n\n**achieve** 和 **achievement** 的区别主要在于**词性**和**用法**：\n\n- **achieve** 是 **动词**，意为“实现、达到、完成”，强调**动作或过程**。  \n  例：*She worked hard to achieve her goal.*（她努力实现目标。）\n\n- **achievement** 是 **名词**，意为“成就、成绩”，强调**结果或成果**。  \n  例：*Winning the award was a great achievement.*（获奖是一项巨大成就。）\n\n简单来说：achieve 是“做”的动作，achievement 是“做出来的成果”。\n\n---\n\n另外，我目前的知识库可以支持你上传各种文档（如技术规范、业务手册、学习资料等），并基于这些内容为你提供精准的问答、总结、关键词提取等服务。如果你有具体文档想查询或需要进一步帮助，随时告诉我！",
+      "sources": [
+        "大学英语四级词汇库 · 第1批",
+        "大学英语四级词汇库 · 第11批",
+        "大学英语四级词汇库 · 第24批",
+        "大学英语四级词汇库 · 第5批",
+        "大学英语四级词汇库 · 第6批"
+      ],
+      "context_docs": [
+        {
+          "id": "87964d94-f667-45ba-a488-73cbb1952a11",
+          "title": "大学英语四级词汇库 · 第1批",
+          "content": "# 大学英语四级词汇库 · 词汇第 1 批\n\n## abruptly\n- **词性**: adv\n- **释义**: 突然地\n\n## absorb\n- **词性**: v\n- **释义**: 吸收（液体、气体等）\n- **短语**:\n  - absorb in — 集中精力做某事；全神贯注于\n\n## abuse\n- **词性**: v\n- **释义**: 滥用，虐待\n- **短语**:\n  - drug abuse — 药物滥用；毒品滥用\n  - child abuse — 虐待儿童，摧残儿童\n  - substance abuse — 物质滥用；滥用药物\n  - sexual abuse — 性虐待\n  - abuse of power — 滥用权力\n  - alcohol abuse — 酒精滥用，酗酒\n\n## academic\n- **词性**: adj\n- **释义**: 学校(院)的，学术的\n- **短语**:\n  - academic research — 学术研究\n  - academic circles — 学术界\n  - academic year — 学年\n  - "
+        },
+        {
+          "id": "20963f76-473a-4da4-a7aa-56b8002f9c9f",
+          "title": "大学英语四级词汇库 · 第11批",
+          "content": "# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration "
+        },
+        {
+          "id": "3ae33b86-a468-4659-938b-13ee08efd8bc",
+          "title": "大学英语四级词汇库 · 第24批",
+          "content": "# 大学英语四级词汇库 · 词汇第 24 批\n\n## fuel\n- **词性**: n\n- **释义**: 燃料；给…加燃料\n- **短语**:\n  - fuel cell — 燃料电池\n  - fuel consumption — 耗油量\n  - fuel oil — 燃料油，燃油，重油\n  - fuel injection — 燃油喷射；燃料喷射\n  - fuel economy — 节约燃料；耗热率；燃料经济学\n  - diesel fuel — 柴油；柴油机燃料\n\n## fulfil\n- **词性**: v\n- **释义**: 履行；满足；完成\n\n## full\n- **词性**: adj\n- **释义**: 满的；完全的\n- **短语**:\n  - full of oneself — 骄傲；臭美；自以为是；只顾自己\n  - full of — 装满；全神贯注于…的\n  - in full — 全部；全额；充足\n  - make full use of — 充分利用\n  - full range — 全音域，全频；全距；全馏程\n  - to the full — 充分地；完全地"
+        },
+        {
+          "id": "0d053d3c-25a3-4bba-a1da-796503c20772",
+          "title": "大学英语四级词汇库 · 第5批",
+          "content": "# 大学英语四级词汇库 · 词汇第 5 批\n\n## irrationally\n- **词性**: adv\n- **释义**: 不合理地，无理性地\n\n## irritate\n- **词性**: v\n- **释义**: 激怒\n\n## issue\n- **词性**: v\n- **释义**: 发行；问题\n- **短语**:\n  - issue in — v. 导致\n  - new issue — n. 新发行的证券\n  - key issue — 关键议题\n  - in the issue — 结果，终于\n  - make an issue — 制造争端；引起争论\n  - hot issue — 热点问题；[证券]热门股票（上市后不久价格猛涨）\n\n## item\n- **词性**: n\n- **释义**: 条，条款\n- **短语**:\n  - menu item — [计]菜单项\n  - item on the agenda — 议程项目\n  - construction item — 施工项目，建设项目\n  - item by item — 逐项；逐条\n  - project item — "
+        },
+        {
+          "id": "0df464ee-badc-4cfb-9651-62177072d5db",
+          "title": "大学英语四级词汇库 · 第6批",
+          "content": "# 大学英语四级词汇库 · 词汇第 6 批\n\n## profitable\n- **词性**: adj\n- **释义**: 有利可图的，有益的\n\n## profound\n- **词性**: adj\n- **释义**: 深厚的\n\n## programming\n- **词性**: n\n- **释义**: 计划，节目(单)，程序；；编程\n- **短语**:\n  - linear programming — n. 线性规划\n  - programming language — 编程语言；程序设计语言\n  - dynamic programming — 动态规划；动态程序设计\n  - computer programming — 计算机编程；计算机程序设计\n  - nonlinear programming — 非线性规划\n  - object-oriented programming — [计]面向对象的程序设计\n\n## prohibit\n- **词性**: v\n- **释义**: 禁止，阻止，防止\n- **短语**:\n  - strictly prohibit — 严禁\n\n## project"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:19.153876+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "achieve 和 achievement 有什么区别？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第1批】\n# 大学英语四级词汇库 · 词汇第 1 批\n\n## abruptly\n- **词性**: adv\n- **释义**: 突然地\n\n## absorb\n- **词性**: v\n- **释义**: 吸收（液体、气体等）\n- **短语**:\n  - absorb in — 集中精力做某事；全神贯注于\n\n## abuse\n- **词性**: v\n- **释义**: 滥用，虐待\n- **短语**:\n  - drug abuse — 药物滥用；毒品滥用\n  - child abuse — 虐待儿童，摧残儿童\n  - substance abuse — 物质滥用；滥用药物\n  - sexual abuse — 性虐待\n  - abuse of power — 滥用权力\n  - alcohol abuse — 酒精滥用，酗酒\n\n## academic\n- **词性**: adj\n- **释义**: 学校(院)的，学术的\n- **短语**:\n  - academic research — 学术研究\n  - academic circles — 学术界\n  - academic year — 学年\n  -\n\n【大学英语四级词汇库 · 第11批】\n# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration\n\n【大学英语四级词汇库 · 第24批】\n# 大学英语四级词汇库 · 词汇第 24 批\n\n## fuel\n- **词性**: n\n- **释义**: 燃料；给…加燃料\n- **短语**:\n  - fuel cell — 燃料电池\n  - fuel consumption — 耗油量\n  - fuel oil — 燃料油，燃油，重油\n  - fuel injection — 燃油喷射；燃料喷射\n  - fuel economy — 节约燃料；耗热率；燃料经济学\n  - diesel fuel — 柴油；柴油机燃料\n\n## fulfil\n- **词性**: v\n- **释义**: 履行；满足；完成\n\n## full\n- **词性**: adj\n- **释义**: 满的；完全的\n- **短语**:\n  - full of oneself — 骄傲；臭美；自以为是；只顾自己\n  - full of — 装满；全神贯注于…的\n  - in full — 全部；全额；充足\n  - make full use of — 充分利用\n  - full range — 全音域，全频；全距；全馏程\n  - to the full — 充分地；完全地\n\n【大学英语四级词汇库 · 第5批】\n# 大学英语四级词汇库 · 词汇第 5 批\n\n## irrationally\n- **词性**: adv\n- **释义**: 不合理地，无理性地\n\n## irritate\n- **词性**: v\n- **释义**: 激怒\n\n## issue\n- **词性**: v\n- **释义**: 发行；问题\n- **短语**:\n  - issue in — v. 导致\n  - new issue — n. 新发行的证券\n  - key issue — 关键议题\n  - in the issue — 结果，终于\n  - make an issue — 制造争端；引起争论\n  - hot issue — 热点问题；[证券]热门股票（上市后不久价格猛涨）\n\n## item\n- **词性**: n\n- **释义**: 条，条款\n- **短语**:\n  - menu item — [计]菜单项\n  - item on the agenda — 议程项目\n  - construction item — 施工项目，建设项目\n  - item by item — 逐项；逐条\n  - project item —\n\n【大学英语四级词汇库 · 第6批】\n# 大学英语四级词汇库 · 词汇第 6 批\n\n## profitable\n- **词性**: adj\n- **释义**: 有利可图的，有益的\n\n## profound\n- **词性**: adj\n- **释义**: 深厚的\n\n## programming\n- **词性**: n\n- **释义**: 计划，节目(单)，程序；；编程\n- **短语**:\n  - linear programming — n. 线性规划\n  - programming language — 编程语言；程序设计语言\n  - dynamic programming — 动态规划；动态程序设计\n  - computer programming — 计算机编程；计算机程序设计\n  - nonlinear programming — 非线性规划\n  - object-oriented programming — [计]面向对象的程序设计\n\n## prohibit\n- **词性**: v\n- **释义**: 禁止，阻止，防止\n- **短语**:\n  - strictly prohibit — 严禁\n\n## project",
+        "output": "你好！很高兴为你解答英语词汇问题。\n\n**achieve** 和 **achievement** 的区别主要在于**词性**和**用法**：\n\n- **achieve** 是 **动词**，意为“实现、达到、完成”，强调**动作或过程**。  \n  例：*She worked hard to achieve her goal.*（她努力实现目标。）\n\n- **achievement** 是 **名词**，意为“成就、成绩”，强调**结果或成果**。  \n  例：*Winning the award was a great achievement.*（获奖是一项巨大成就。）\n\n简单来说：achieve 是“做”的动作，achievement 是“做出来的成果”。\n\n---\n\n另外，我目前的知识库可以支持你上传各种文档（如技术规范、业务手册、学习资料等），并基于这些内容为你提供精准的问答、总结、关键词提取等服务。如果你有具体文档想查询或需要进一步帮助，随时告诉我！"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    },
+    {
+      "id": "c60d9186-3611-4c0f-938c-27f9dec35877",
+      "question": "govern 在四级词汇里是什么意思？",
+      "answer": "根据知识库上下文，**govern** 在四级词汇中的释义为 **“管理，支配”**，词性为 **动词 (v)**。\n\n**参考文档**：《大学英语四级词汇库 · 词汇第 10 批》",
+      "sources": [
+        "大学英语四级词汇库 · 第29批",
+        "大学英语四级词汇库 · 第10批",
+        "大学英语四级词汇库 · 第55批",
+        "大学英语四级词汇库 · 第18批",
+        "大学英语四级词汇库 · 第61批"
+      ],
+      "context_docs": [
+        {
+          "id": "b446196a-b411-412b-a7b1-8127fc667c2c",
+          "title": "大学英语四级词汇库 · 第29批",
+          "content": "# 大学英语四级词汇库 · 词汇第 29 批\n\n## level\n- **词性**: n\n- **释义**: 水平面；水平的\n- **短语**:\n  - level of — …的水平；…的等级\n  - high level — 高层；高电平\n  - basic level — 基本水平\n  - on the level — 诚实的；可靠的；坦率地；老实说\n  - management level — 管理水平；管理[层]级\n  - advanced level — n. （英国）一般学历证书考试优等（等于A level）\n\n## lever\n- **词性**: n\n- **释义**: 杆，杠杆；控制杆\n- **短语**:\n  - release lever — 解锁手柄；分离杆\n  - lever principle — 杠杆原理\n  - brake lever — 制动杆\n  - lever handle — 手柄；杠杆手柄；杆式手柄；手柄操纵杆\n  - hand lever — 手柄；手制动杆；柄；手杆\n  - control lever — 控制杆；操纵杆\n\n## liable"
+        },
+        {
+          "id": "ea49b04c-b145-4300-af8f-b228c2c703be",
+          "title": "大学英语四级词汇库 · 第10批",
+          "content": "# 大学英语四级词汇库 · 词汇第 10 批\n\n## respectively\n- **词性**: adv\n- **释义**: 各自地\n\n## fundamentally\n- **词性**: adv\n- **释义**: 根本上\n\n## cruelty\n- **词性**: n\n- **释义**: 残暴，残酷\n\n## govern\n- **词性**: v\n- **释义**: 管理，支配\n\n## hinder\n- **词性**: v\n- **释义**: 阻碍\n\n## undervalue\n- **词性**: v\n- **释义**: 低估\n\n## evaluation\n- **词性**: n\n- **释义**: 评价，评估\n- **短语**:\n  - comprehensive evaluation — 综合评价，综合评价法\n  - performance evaluation — 性能评估；性能赋值\n  - evaluation model — 评价模型\n  - quality evaluation — 质量评定；品质评价；品质评估\n  - safety evaluation — 安全性评价"
+        },
+        {
+          "id": "a7e703cf-f894-4a39-878a-d05630f21d6d",
+          "title": "大学英语四级词汇库 · 第55批",
+          "content": "# 大学英语四级词汇库 · 词汇第 55 批\n\n## harden\n- **词性**: v\n- **释义**: 变硬； 变得坚强\n\n## eve\n- **词性**: n\n- **释义**: 前夜， 前夕， 前一刻\n- **短语**:\n  - christmas eve — 圣诞节前夕（12月24日）\n  - on the eve — 前夜\n  - on the eve of — 在…的前夜\n  - new year's eve — 除夕\n\n## pronoun\n- **词性**: n\n- **释义**: 代词\n- **短语**:\n  - personal pronoun — n. 人称代名词\n  - demonstrative pronoun — n. 指示代词\n  - interrogative pronoun — 疑问代词\n  - relative pronoun — [语]关系代词\n\n## define\n- **词性**: vt\n- **释义**: 给…下定义， 限定\n- **短语**:\n  - define as — vt. 解释为\n\n## dictate\n- **词性**: "
+        },
+        {
+          "id": "2206d4c5-89d7-4129-b831-63b32b8f83fe",
+          "title": "大学英语四级词汇库 · 第18批",
+          "content": "# 大学英语四级词汇库 · 词汇第 18 批\n\n## count\n- **词性**: v\n- **释义**: 计算；数，计数\n- **短语**:\n  - count on — 指望；依靠\n  - count for — 有价值，有重要性\n  - count in — 把…计算在内\n  - count for much — 关系重大；很有价值\n  - count as — 视为；算是；看成\n  - no count — 未计数\n\n## counter\n- **词性**: n\n- **释义**: 柜台；计数器\n- **短语**:\n  - counter measure — 对策；防范措施；反措施\n  - particle counter — 粒子计数器；粒子计数管；颗粒测量计数器\n  - over the counter — 成药；直接交易\n  - counter attack — 反攻，逆袭\n  - under the counter — 私下出售的；暗中作成的；违法的；走后门\n  - service counter — 服务台\n\n## country\n- **词性**: n\n- **释"
+        },
+        {
+          "id": "7eec8fdc-6ccf-4004-86d5-1c13f3bb6fc6",
+          "title": "大学英语四级词汇库 · 第61批",
+          "content": "# 大学英语四级词汇库 · 词汇第 61 批\n\n## mission\n- **词性**: n\n- **释义**: 使命， 任务； 使团\n- **短语**:\n  - mission statement — 宗旨\n  - space mission — 太空任务；航天任务\n  - mission impossible — 不可能的任务，棘手的任务\n  - rescue mission — 营救任务，救助任务；抢险救援任务\n  - mission control — 太空航行地面指挥中心\n  - diplomatic mission — 使馆；外交使团\n\n## attorney\n- **词性**: n\n- **释义**: 律师， 代理人\n- **短语**:\n  - power of attorney — 委托书\n  - attorney general — 司法部长；首席检察官\n  - district attorney — 美国地方检察官（略作D.A.）\n  - patent attorney — 代理人，专利代理人；专利律师；特许弁护士\n  - letter of attorney — "
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:21.134765+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "govern 在四级词汇里是什么意思？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第29批】\n# 大学英语四级词汇库 · 词汇第 29 批\n\n## level\n- **词性**: n\n- **释义**: 水平面；水平的\n- **短语**:\n  - level of — …的水平；…的等级\n  - high level — 高层；高电平\n  - basic level — 基本水平\n  - on the level — 诚实的；可靠的；坦率地；老实说\n  - management level — 管理水平；管理[层]级\n  - advanced level — n. （英国）一般学历证书考试优等（等于A level）\n\n## lever\n- **词性**: n\n- **释义**: 杆，杠杆；控制杆\n- **短语**:\n  - release lever — 解锁手柄；分离杆\n  - lever principle — 杠杆原理\n  - brake lever — 制动杆\n  - lever handle — 手柄；杠杆手柄；杆式手柄；手柄操纵杆\n  - hand lever — 手柄；手制动杆；柄；手杆\n  - control lever — 控制杆；操纵杆\n\n## liable\n\n【大学英语四级词汇库 · 第10批】\n# 大学英语四级词汇库 · 词汇第 10 批\n\n## respectively\n- **词性**: adv\n- **释义**: 各自地\n\n## fundamentally\n- **词性**: adv\n- **释义**: 根本上\n\n## cruelty\n- **词性**: n\n- **释义**: 残暴，残酷\n\n## govern\n- **词性**: v\n- **释义**: 管理，支配\n\n## hinder\n- **词性**: v\n- **释义**: 阻碍\n\n## undervalue\n- **词性**: v\n- **释义**: 低估\n\n## evaluation\n- **词性**: n\n- **释义**: 评价，评估\n- **短语**:\n  - comprehensive evaluation — 综合评价，综合评价法\n  - performance evaluation — 性能评估；性能赋值\n  - evaluation model — 评价模型\n  - quality evaluation — 质量评定；品质评价；品质评估\n  - safety evaluation — 安全性评价\n\n【大学英语四级词汇库 · 第55批】\n# 大学英语四级词汇库 · 词汇第 55 批\n\n## harden\n- **词性**: v\n- **释义**: 变硬； 变得坚强\n\n## eve\n- **词性**: n\n- **释义**: 前夜， 前夕， 前一刻\n- **短语**:\n  - christmas eve — 圣诞节前夕（12月24日）\n  - on the eve — 前夜\n  - on the eve of — 在…的前夜\n  - new year's eve — 除夕\n\n## pronoun\n- **词性**: n\n- **释义**: 代词\n- **短语**:\n  - personal pronoun — n. 人称代名词\n  - demonstrative pronoun — n. 指示代词\n  - interrogative pronoun — 疑问代词\n  - relative pronoun — [语]关系代词\n\n## define\n- **词性**: vt\n- **释义**: 给…下定义， 限定\n- **短语**:\n  - define as — vt. 解释为\n\n## dictate\n- **词性**:\n\n【大学英语四级词汇库 · 第18批】\n# 大学英语四级词汇库 · 词汇第 18 批\n\n## count\n- **词性**: v\n- **释义**: 计算；数，计数\n- **短语**:\n  - count on — 指望；依靠\n  - count for — 有价值，有重要性\n  - count in — 把…计算在内\n  - count for much — 关系重大；很有价值\n  - count as — 视为；算是；看成\n  - no count — 未计数\n\n## counter\n- **词性**: n\n- **释义**: 柜台；计数器\n- **短语**:\n  - counter measure — 对策；防范措施；反措施\n  - particle counter — 粒子计数器；粒子计数管；颗粒测量计数器\n  - over the counter — 成药；直接交易\n  - counter attack — 反攻，逆袭\n  - under the counter — 私下出售的；暗中作成的；违法的；走后门\n  - service counter — 服务台\n\n## country\n- **词性**: n\n- **释\n\n【大学英语四级词汇库 · 第61批】\n# 大学英语四级词汇库 · 词汇第 61 批\n\n## mission\n- **词性**: n\n- **释义**: 使命， 任务； 使团\n- **短语**:\n  - mission statement — 宗旨\n  - space mission — 太空任务；航天任务\n  - mission impossible — 不可能的任务，棘手的任务\n  - rescue mission — 营救任务，救助任务；抢险救援任务\n  - mission control — 太空航行地面指挥中心\n  - diplomatic mission — 使馆；外交使团\n\n## attorney\n- **词性**: n\n- **释义**: 律师， 代理人\n- **短语**:\n  - power of attorney — 委托书\n  - attorney general — 司法部长；首席检察官\n  - district attorney — 美国地方检察官（略作D.A.）\n  - patent attorney — 代理人，专利代理人；专利律师；特许弁护士\n  - letter of attorney —",
+        "output": "根据知识库上下文，**govern** 在四级词汇中的释义为 **“管理，支配”**，词性为 **动词 (v)**。\n\n**参考文档**：《大学英语四级词汇库 · 词汇第 10 批》"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    },
+    {
+      "id": "f37066f9-c79e-4a9c-b70c-c8554fcd3500",
+      "question": "delay 这个词常见怎么用？",
+      "answer": "根据知识库文档 **《大学英语四级词汇库 · 第19批》** 中的内容，“delay”一词的常见用法如下：\n\n- **词性**：动词（v.）\n- **释义**：推迟；耽搁；延误\n- **常见短语**：\n  - **without delay** — 立即；毫不迟延地\n  - **time delay** — 延时，延迟\n  - **delay time** — 延迟时间，推迟时间\n  - **transmission delay** — [计]传输延迟\n  - **long delay** — 长时延迟；长时间的推迟\n  - **group delay** — 群延迟\n\n因此，在日常使用中，“delay”常作为动词表示“推迟、耽搁”，也常与“without delay”、“time delay”等短语搭配使用。",
+      "sources": [
+        "大学英语四级词汇库 · 第19批",
+        "大学英语四级词汇库 · 第53批",
+        "大学英语四级词汇库 · 第5批",
+        "大学英语四级词汇库 · 第7批",
+        "大学英语四级词汇库 · 第12批"
+      ],
+      "context_docs": [
+        {
+          "id": "bc882786-b658-4eec-9cf1-00435ce2e6fa",
+          "title": "大学英语四级词汇库 · 第19批",
+          "content": "# 大学英语四级词汇库 · 词汇第 19 批\n\n## delay\n- **词性**: v\n- **释义**: 推迟；耽搁；延误\n- **短语**:\n  - without delay — 立即；毫不迟延地\n  - time delay — 延时，延迟\n  - delay time — 延迟时间，推迟时间\n  - transmission delay — [计]传输延迟\n  - long delay — 长时延迟；长时间的推迟\n  - group delay — 群延迟\n\n## delegation\n- **词性**: n\n- **释义**: 代表团\n- **短语**:\n  - delegation of authority — 授权；委任权\n\n## delete\n- **词性**: v\n- **释义**: 删除；擦掉\n- **短语**:\n  - delete all — 全部删除\n  - delete from — 删除；从…上删掉\n  - delete key — n. [计]删除字符键\n\n## delicate\n- **词性**: adj\n- **释义**: 纤细的；易碎的\n- *"
+        },
+        {
+          "id": "e8ac5a27-3ac4-4a65-b06a-8b7665677409",
+          "title": "大学英语四级词汇库 · 第53批",
+          "content": "# 大学英语四级词汇库 · 词汇第 53 批\n\n## endure\n- **词性**: v\n- **释义**: 忍受， 容忍； 持久， 持续\n\n## detail\n- **词性**: n\n- **释义**: 细节，枝节；零件；详细说明\n- **短语**:\n  - in detail — 详细地\n  - in more detail — 更详细地\n  - detail design — 详细设计；施工设计\n  - for further details — adv. 为了了解详情\n  - in some detail — 相当详细地\n  - detail oriented — 注重细节\n\n## shortly\n- **词性**: adv\n- **释义**: 立刻， 不久； 不耐烦地； 简短地\n- **短语**:\n  - shortly after — 不久之后，很快\n  - shortly before — 前不久；在...之前不久\n  - shortly afterwards — 不久以后；没过多久\n\n## hobby\n- **词性**: n\n- **释义**: 业余爱好， 癖好\n\n#"
+        },
+        {
+          "id": "0d053d3c-25a3-4bba-a1da-796503c20772",
+          "title": "大学英语四级词汇库 · 第5批",
+          "content": "# 大学英语四级词汇库 · 词汇第 5 批\n\n## irrationally\n- **词性**: adv\n- **释义**: 不合理地，无理性地\n\n## irritate\n- **词性**: v\n- **释义**: 激怒\n\n## issue\n- **词性**: v\n- **释义**: 发行；问题\n- **短语**:\n  - issue in — v. 导致\n  - new issue — n. 新发行的证券\n  - key issue — 关键议题\n  - in the issue — 结果，终于\n  - make an issue — 制造争端；引起争论\n  - hot issue — 热点问题；[证券]热门股票（上市后不久价格猛涨）\n\n## item\n- **词性**: n\n- **释义**: 条，条款\n- **短语**:\n  - menu item — [计]菜单项\n  - item on the agenda — 议程项目\n  - construction item — 施工项目，建设项目\n  - item by item — 逐项；逐条\n  - project item — "
+        },
+        {
+          "id": "ff9d8968-6396-4fff-acac-8fbccc30e741",
+          "title": "大学英语四级词汇库 · 第7批",
+          "content": "# 大学英语四级词汇库 · 词汇第 7 批\n\n## standardize\n- **词性**: v\n- **释义**: 使标准化\n\n## startle\n- **词性**: v\n- **释义**: 吃惊\n\n## steady\n- **词性**: adj\n- **释义**: 稳定的，逐步的\n- **短语**:\n  - steady state — 定态；恒稳态\n  - steady growth — 稳步增长，增长平稳\n  - steady flow — 稳定流\n  - go steady — 成为关系相当确定的情侣\n  - steady increase — 稳定的增长\n  - steady stream — 稳恒流；稳定流\n\n## steal\n- **词性**: v\n- **释义**: 偷窃\n- **短语**:\n  - steal away — （把某物）偷走；溜掉\n  - steal over — （感情等）渐渐控制…；渐渐弥漫；悄悄地呈现；不知不觉地袭来\n\n## steer\n- **词性**: v\n- **释义**: 驾驶\n- **短语**:\n  - steer clear of"
+        },
+        {
+          "id": "27c5f760-dffb-41f5-8482-80e59eea4557",
+          "title": "大学英语四级词汇库 · 第12批",
+          "content": "# 大学英语四级词汇库 · 词汇第 12 批\n\n## announce\n- **词性**: v\n- **释义**: 宣布，宣告，发表\n\n## announcer\n- **词性**: n\n- **释义**: 宣告者；播音员\n- **短语**:\n  - radio announcer — 电台播音员\n\n## annoy\n- **词性**: v\n- **释义**: 使恼怒；打搅\n\n## annual\n- **词性**: adj\n- **释义**: 每年的；年报\n- **短语**:\n  - annual meeting — 年会\n  - annual report — 年报，年度报告；年度决算；年度财务报告\n  - annual production — 年产量\n  - annual output — 年产量\n  - annual sales — 年销售额\n  - annual growth — 一年生长，年生长量\n\n## another\n- **词性**: adj\n- **释义**: 再一个的；别的\n- **短语**:\n  - one another — 彼此，互相\n  - for anot"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:24.107614+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "delay 这个词常见怎么用？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第19批】\n# 大学英语四级词汇库 · 词汇第 19 批\n\n## delay\n- **词性**: v\n- **释义**: 推迟；耽搁；延误\n- **短语**:\n  - without delay — 立即；毫不迟延地\n  - time delay — 延时，延迟\n  - delay time — 延迟时间，推迟时间\n  - transmission delay — [计]传输延迟\n  - long delay — 长时延迟；长时间的推迟\n  - group delay — 群延迟\n\n## delegation\n- **词性**: n\n- **释义**: 代表团\n- **短语**:\n  - delegation of authority — 授权；委任权\n\n## delete\n- **词性**: v\n- **释义**: 删除；擦掉\n- **短语**:\n  - delete all — 全部删除\n  - delete from — 删除；从…上删掉\n  - delete key — n. [计]删除字符键\n\n## delicate\n- **词性**: adj\n- **释义**: 纤细的；易碎的\n- *\n\n【大学英语四级词汇库 · 第53批】\n# 大学英语四级词汇库 · 词汇第 53 批\n\n## endure\n- **词性**: v\n- **释义**: 忍受， 容忍； 持久， 持续\n\n## detail\n- **词性**: n\n- **释义**: 细节，枝节；零件；详细说明\n- **短语**:\n  - in detail — 详细地\n  - in more detail — 更详细地\n  - detail design — 详细设计；施工设计\n  - for further details — adv. 为了了解详情\n  - in some detail — 相当详细地\n  - detail oriented — 注重细节\n\n## shortly\n- **词性**: adv\n- **释义**: 立刻， 不久； 不耐烦地； 简短地\n- **短语**:\n  - shortly after — 不久之后，很快\n  - shortly before — 前不久；在...之前不久\n  - shortly afterwards — 不久以后；没过多久\n\n## hobby\n- **词性**: n\n- **释义**: 业余爱好， 癖好\n\n#\n\n【大学英语四级词汇库 · 第5批】\n# 大学英语四级词汇库 · 词汇第 5 批\n\n## irrationally\n- **词性**: adv\n- **释义**: 不合理地，无理性地\n\n## irritate\n- **词性**: v\n- **释义**: 激怒\n\n## issue\n- **词性**: v\n- **释义**: 发行；问题\n- **短语**:\n  - issue in — v. 导致\n  - new issue — n. 新发行的证券\n  - key issue — 关键议题\n  - in the issue — 结果，终于\n  - make an issue — 制造争端；引起争论\n  - hot issue — 热点问题；[证券]热门股票（上市后不久价格猛涨）\n\n## item\n- **词性**: n\n- **释义**: 条，条款\n- **短语**:\n  - menu item — [计]菜单项\n  - item on the agenda — 议程项目\n  - construction item — 施工项目，建设项目\n  - item by item — 逐项；逐条\n  - project item —\n\n【大学英语四级词汇库 · 第7批】\n# 大学英语四级词汇库 · 词汇第 7 批\n\n## standardize\n- **词性**: v\n- **释义**: 使标准化\n\n## startle\n- **词性**: v\n- **释义**: 吃惊\n\n## steady\n- **词性**: adj\n- **释义**: 稳定的，逐步的\n- **短语**:\n  - steady state — 定态；恒稳态\n  - steady growth — 稳步增长，增长平稳\n  - steady flow — 稳定流\n  - go steady — 成为关系相当确定的情侣\n  - steady increase — 稳定的增长\n  - steady stream — 稳恒流；稳定流\n\n## steal\n- **词性**: v\n- **释义**: 偷窃\n- **短语**:\n  - steal away — （把某物）偷走；溜掉\n  - steal over — （感情等）渐渐控制…；渐渐弥漫；悄悄地呈现；不知不觉地袭来\n\n## steer\n- **词性**: v\n- **释义**: 驾驶\n- **短语**:\n  - steer clear of\n\n【大学英语四级词汇库 · 第12批】\n# 大学英语四级词汇库 · 词汇第 12 批\n\n## announce\n- **词性**: v\n- **释义**: 宣布，宣告，发表\n\n## announcer\n- **词性**: n\n- **释义**: 宣告者；播音员\n- **短语**:\n  - radio announcer — 电台播音员\n\n## annoy\n- **词性**: v\n- **释义**: 使恼怒；打搅\n\n## annual\n- **词性**: adj\n- **释义**: 每年的；年报\n- **短语**:\n  - annual meeting — 年会\n  - annual report — 年报，年度报告；年度决算；年度财务报告\n  - annual production — 年产量\n  - annual output — 年产量\n  - annual sales — 年销售额\n  - annual growth — 一年生长，年生长量\n\n## another\n- **词性**: adj\n- **释义**: 再一个的；别的\n- **短语**:\n  - one another — 彼此，互相\n  - for anot",
+        "output": "根据知识库文档 **《大学英语四级词汇库 · 第19批》** 中的内容，“delay”一词的常见用法如下：\n\n- **词性**：动词（v.）\n- **释义**：推迟；耽搁；延误\n- **常见短语**：\n  - **without delay** — 立即；毫不迟延地\n  - **time delay** — 延时，延迟\n  - **delay time** — 延迟时间，推迟时间\n  - **transmission delay** — [计]传输延迟\n  - **long delay** — 长时延迟；长时间的推迟\n  - **group delay** — 群延迟\n\n因此，在日常使用中，“delay”常作为动词表示“推迟、耽搁”，也常与“without delay”、“time delay”等短语搭配使用。"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    },
+    {
+      "id": "dc5d94dc-50ea-4060-ac81-d7049e5936ef",
+      "question": "affect 和 effect 怎么区分？",
+      "answer": "抱歉，根据您提供的知识库上下文（包含“大学英语四级词汇库”中的多个批次文档），**其中并未收录“affect”和“effect”这两个词条**，因此无法基于知识库直接给出这两个词的区分方法。\n\n以下是基于通用英语知识的补充说明：\n- **affect** 通常作动词，意为“影响”（例如：The weather affects my mood.）。\n- **effect** 通常作名词，意为“效果、影响”（例如：The effect of the medicine was immediate.）；它也可作动词，意为“实现、造成”，但较少见。\n\n这部分回答来自通用英语语法常识，并非源自您提供的知识库文档。如果您需要查询知识库中已有的其他词汇（如 feedback、accuracy 等），我可以为您详细解答。",
+      "sources": [
+        "大学英语四级词汇库 · 第4批",
+        "大学英语四级词汇库 · 第11批",
+        "大学英语四级词汇库 · 第45批",
+        "大学英语四级词汇库 · 第35批",
+        "大学英语四级词汇库 · 第12批"
+      ],
+      "context_docs": [
+        {
+          "id": "436fd272-c491-4515-81f9-b69441210de3",
+          "title": "大学英语四级词汇库 · 第4批",
+          "content": "# 大学英语四级词汇库 · 词汇第 4 批\n\n## feedback\n- **词性**: n\n- **释义**: 反馈\n- **短语**:\n  - feedback control — [计]反馈控制；回馈控制\n  - negative feedback — 负反馈；负回授\n  - information feedback — 信息反馈\n  - positive feedback — 正反馈\n  - feedback system — 反馈系统；反馈方式\n  - feedback information — 反馈信息\n\n## fiction\n- **词性**: n\n- **释义**: 小说，虚构的文学作品\n- **短语**:\n  - science fiction — 科幻小说\n  - stranger than fiction — 奇幻人生（电影名称）\n  - horror fiction — 恐怖小说\n  - legal fiction — 法律虚拟（指法律事务上为权宜计在无真实依据情况下所作的假定）\n  - science fiction film — 科幻片\n  - pulp "
+        },
+        {
+          "id": "20963f76-473a-4da4-a7aa-56b8002f9c9f",
+          "title": "大学英语四级词汇库 · 第11批",
+          "content": "# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration "
+        },
+        {
+          "id": "1a04077f-7e44-4ca1-b751-c51149df3310",
+          "title": "大学英语四级词汇库 · 第45批",
+          "content": "# 大学英语四级词汇库 · 词汇第 45 批\n\n## correspondence\n- **词性**: n\n- **释义**: 信件， 函件； 通信， 通信联系； 符合， 一致， 相似\n- **短语**:\n  - correspondence with — 通信；符合\n  - by correspondence — 用写信的办法\n  - correspondence analysis — 对应分析，一致性分析\n  - in correspondence with — 与……一致；和……保持通信联系\n  - correspondence address — 通讯地址；通信地址\n  - business correspondence — 商业通信；业务书信\n\n## refresh\n- **词性**: v\n- **释义**: 振作精神， 恢复活力\n- **短语**:\n  - refresh oneself — 可以提神；清醒头脑\n  - refresh rate — 刷新率\n\n## librarian\n- **词性**: n\n- **释义**: 图书馆管理员\n\n## intimate\n- *"
+        },
+        {
+          "id": "6151e655-8a45-4e3c-8f91-d7c73dcc95be",
+          "title": "大学英语四级词汇库 · 第35批",
+          "content": "# 大学英语四级词汇库 · 词汇第 35 批\n\n## powerful\n- **词性**: adj\n- **释义**: 强有力的；有权威的\n- **短语**:\n  - powerful force — 劲旅；强大的势力\n  - powerful drug — 剧药；强效药；特效药\n  - powerful machine — 强力电机\n\n## practical\n- **词性**: adj\n- **释义**: 实践的；实用的\n- **短语**:\n  - practical application — 实际应用\n  - practical experience — 实务经验，实践经验，实际经验\n  - practical value — 实际价值\n  - practical work — 社会实践；实际作业\n  - practical use — 实际用途；实际应用；实用\n  - practical situation — 实际情况\n\n## practically\n- **词性**: adv\n- **释义**: 实际上；几乎\n\n## practice\n- **词性**: n\n- **释义"
+        },
+        {
+          "id": "27c5f760-dffb-41f5-8482-80e59eea4557",
+          "title": "大学英语四级词汇库 · 第12批",
+          "content": "# 大学英语四级词汇库 · 词汇第 12 批\n\n## announce\n- **词性**: v\n- **释义**: 宣布，宣告，发表\n\n## announcer\n- **词性**: n\n- **释义**: 宣告者；播音员\n- **短语**:\n  - radio announcer — 电台播音员\n\n## annoy\n- **词性**: v\n- **释义**: 使恼怒；打搅\n\n## annual\n- **词性**: adj\n- **释义**: 每年的；年报\n- **短语**:\n  - annual meeting — 年会\n  - annual report — 年报，年度报告；年度决算；年度财务报告\n  - annual production — 年产量\n  - annual output — 年产量\n  - annual sales — 年销售额\n  - annual growth — 一年生长，年生长量\n\n## another\n- **词性**: adj\n- **释义**: 再一个的；别的\n- **短语**:\n  - one another — 彼此，互相\n  - for anot"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:27.863408+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "affect 和 effect 怎么区分？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第4批】\n# 大学英语四级词汇库 · 词汇第 4 批\n\n## feedback\n- **词性**: n\n- **释义**: 反馈\n- **短语**:\n  - feedback control — [计]反馈控制；回馈控制\n  - negative feedback — 负反馈；负回授\n  - information feedback — 信息反馈\n  - positive feedback — 正反馈\n  - feedback system — 反馈系统；反馈方式\n  - feedback information — 反馈信息\n\n## fiction\n- **词性**: n\n- **释义**: 小说，虚构的文学作品\n- **短语**:\n  - science fiction — 科幻小说\n  - stranger than fiction — 奇幻人生（电影名称）\n  - horror fiction — 恐怖小说\n  - legal fiction — 法律虚拟（指法律事务上为权宜计在无真实依据情况下所作的假定）\n  - science fiction film — 科幻片\n  - pulp\n\n【大学英语四级词汇库 · 第11批】\n# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration\n\n【大学英语四级词汇库 · 第45批】\n# 大学英语四级词汇库 · 词汇第 45 批\n\n## correspondence\n- **词性**: n\n- **释义**: 信件， 函件； 通信， 通信联系； 符合， 一致， 相似\n- **短语**:\n  - correspondence with — 通信；符合\n  - by correspondence — 用写信的办法\n  - correspondence analysis — 对应分析，一致性分析\n  - in correspondence with — 与……一致；和……保持通信联系\n  - correspondence address — 通讯地址；通信地址\n  - business correspondence — 商业通信；业务书信\n\n## refresh\n- **词性**: v\n- **释义**: 振作精神， 恢复活力\n- **短语**:\n  - refresh oneself — 可以提神；清醒头脑\n  - refresh rate — 刷新率\n\n## librarian\n- **词性**: n\n- **释义**: 图书馆管理员\n\n## intimate\n- *\n\n【大学英语四级词汇库 · 第35批】\n# 大学英语四级词汇库 · 词汇第 35 批\n\n## powerful\n- **词性**: adj\n- **释义**: 强有力的；有权威的\n- **短语**:\n  - powerful force — 劲旅；强大的势力\n  - powerful drug — 剧药；强效药；特效药\n  - powerful machine — 强力电机\n\n## practical\n- **词性**: adj\n- **释义**: 实践的；实用的\n- **短语**:\n  - practical application — 实际应用\n  - practical experience — 实务经验，实践经验，实际经验\n  - practical value — 实际价值\n  - practical work — 社会实践；实际作业\n  - practical use — 实际用途；实际应用；实用\n  - practical situation — 实际情况\n\n## practically\n- **词性**: adv\n- **释义**: 实际上；几乎\n\n## practice\n- **词性**: n\n- **释义\n\n【大学英语四级词汇库 · 第12批】\n# 大学英语四级词汇库 · 词汇第 12 批\n\n## announce\n- **词性**: v\n- **释义**: 宣布，宣告，发表\n\n## announcer\n- **词性**: n\n- **释义**: 宣告者；播音员\n- **短语**:\n  - radio announcer — 电台播音员\n\n## annoy\n- **词性**: v\n- **释义**: 使恼怒；打搅\n\n## annual\n- **词性**: adj\n- **释义**: 每年的；年报\n- **短语**:\n  - annual meeting — 年会\n  - annual report — 年报，年度报告；年度决算；年度财务报告\n  - annual production — 年产量\n  - annual output — 年产量\n  - annual sales — 年销售额\n  - annual growth — 一年生长，年生长量\n\n## another\n- **词性**: adj\n- **释义**: 再一个的；别的\n- **短语**:\n  - one another — 彼此，互相\n  - for anot",
+        "output": "抱歉，根据您提供的知识库上下文（包含“大学英语四级词汇库”中的多个批次文档），**其中并未收录“affect”和“effect”这两个词条**，因此无法基于知识库直接给出这两个词的区分方法。\n\n以下是基于通用英语知识的补充说明：\n- **affect** 通常作动词，意为“影响”（例如：The weather affects my mood.）。\n- **effect** 通常作名词，意为“效果、影响”（例如：The effect of the medicine was immediate.）；它也可作动词，意为“实现、造成”，但较少见。\n\n这部分回答来自通用英语语法常识，并非源自您提供的知识库文档。如果您需要查询知识库中已有的其他词汇（如 feedback、accuracy 等），我可以为您详细解答。"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    },
+    {
+      "id": "50b348f3-942d-444d-a9a2-b2a3030f09c8",
+      "question": "accurate 和 accuracy 有什么关系？",
+      "answer": "根据知识库内容，**accurate** 和 **accuracy** 是同一词根的两种词性变化，具体关系如下：\n\n1. **词性不同**：  \n   - **accurate** 是形容词（adj.），释义为“准确的，正确无误的”。  \n   - **accuracy** 是名词（n.），释义为“准确(性)；准确度”。  \n\n2. **含义关联**：  \n   - 两者均表达“准确”的核心含义。形容词 **accurate** 用于描述某事物具有准确的性质，而名词 **accuracy** 则指这种性质本身或准确的程度。例如，短语“accurate measurement”（精确测量）中的形容词修饰名词，而“high accuracy”（高准确度）中的名词表示属性。\n\n**参考文档**：  \n- 文档《大学英语四级词汇库 · 第11批》中分别列出了 **accuracy** 和 **accurate** 的词性、释义及短语。",
+      "sources": [
+        "大学英语四级词汇库 · 第11批",
+        "大学英语四级词汇库 · 第1批",
+        "大学英语四级词汇库 · 第6批",
+        "大学英语四级词汇库 · 第38批",
+        "大学英语四级词汇库 · 第45批"
+      ],
+      "context_docs": [
+        {
+          "id": "20963f76-473a-4da4-a7aa-56b8002f9c9f",
+          "title": "大学英语四级词汇库 · 第11批",
+          "content": "# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration "
+        },
+        {
+          "id": "87964d94-f667-45ba-a488-73cbb1952a11",
+          "title": "大学英语四级词汇库 · 第1批",
+          "content": "# 大学英语四级词汇库 · 词汇第 1 批\n\n## abruptly\n- **词性**: adv\n- **释义**: 突然地\n\n## absorb\n- **词性**: v\n- **释义**: 吸收（液体、气体等）\n- **短语**:\n  - absorb in — 集中精力做某事；全神贯注于\n\n## abuse\n- **词性**: v\n- **释义**: 滥用，虐待\n- **短语**:\n  - drug abuse — 药物滥用；毒品滥用\n  - child abuse — 虐待儿童，摧残儿童\n  - substance abuse — 物质滥用；滥用药物\n  - sexual abuse — 性虐待\n  - abuse of power — 滥用权力\n  - alcohol abuse — 酒精滥用，酗酒\n\n## academic\n- **词性**: adj\n- **释义**: 学校(院)的，学术的\n- **短语**:\n  - academic research — 学术研究\n  - academic circles — 学术界\n  - academic year — 学年\n  - "
+        },
+        {
+          "id": "0df464ee-badc-4cfb-9651-62177072d5db",
+          "title": "大学英语四级词汇库 · 第6批",
+          "content": "# 大学英语四级词汇库 · 词汇第 6 批\n\n## profitable\n- **词性**: adj\n- **释义**: 有利可图的，有益的\n\n## profound\n- **词性**: adj\n- **释义**: 深厚的\n\n## programming\n- **词性**: n\n- **释义**: 计划，节目(单)，程序；；编程\n- **短语**:\n  - linear programming — n. 线性规划\n  - programming language — 编程语言；程序设计语言\n  - dynamic programming — 动态规划；动态程序设计\n  - computer programming — 计算机编程；计算机程序设计\n  - nonlinear programming — 非线性规划\n  - object-oriented programming — [计]面向对象的程序设计\n\n## prohibit\n- **词性**: v\n- **释义**: 禁止，阻止，防止\n- **短语**:\n  - strictly prohibit — 严禁\n\n## project"
+        },
+        {
+          "id": "cd1650c3-825d-48bb-9b40-b857988875d8",
+          "title": "大学英语四级词汇库 · 第38批",
+          "content": "# 大学英语四级词汇库 · 词汇第 38 批\n\n## section\n- **词性**: n\n- **释义**: 切片；一段；部门\n- **短语**:\n  - cross section — 横截面\n  - in this section — 在这部分；本节内容\n  - cesarean section — 剖腹产术\n  - section steel — 型钢\n  - section chief — 部门主管\n  - thin section — [生]薄片；薄剖面；薄切片\n\n## secure\n- **词性**: adj\n- **释义**: 安心的；安全的\n- **短语**:\n  - secure communication — 保密通信；安全通信\n  - secure electronic transaction — 安全电子交易\n  - secure sockets layer — 安全套层；安全套接层\n  - secure operating system — 安全操作系统\n\n## security\n- **词性**: n\n- **释义**: 安全，安全感\n- **短语**:"
+        },
+        {
+          "id": "1a04077f-7e44-4ca1-b751-c51149df3310",
+          "title": "大学英语四级词汇库 · 第45批",
+          "content": "# 大学英语四级词汇库 · 词汇第 45 批\n\n## correspondence\n- **词性**: n\n- **释义**: 信件， 函件； 通信， 通信联系； 符合， 一致， 相似\n- **短语**:\n  - correspondence with — 通信；符合\n  - by correspondence — 用写信的办法\n  - correspondence analysis — 对应分析，一致性分析\n  - in correspondence with — 与……一致；和……保持通信联系\n  - correspondence address — 通讯地址；通信地址\n  - business correspondence — 商业通信；业务书信\n\n## refresh\n- **词性**: v\n- **释义**: 振作精神， 恢复活力\n- **短语**:\n  - refresh oneself — 可以提神；清醒头脑\n  - refresh rate — 刷新率\n\n## librarian\n- **词性**: n\n- **释义**: 图书馆管理员\n\n## intimate\n- *"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "e34d217d-161e-4995-995d-5caabdc19a5f",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:22:31.652217+00:00",
+      "sft": {
+        "instruction": "你是大学英语四级词汇助教。请依据检索到的 CET-4 词库解释词义、搭配和考点，可标注听/读/写常见用法。不要编造考纲外的内容。",
+        "input": "accurate 和 accuracy 有什么关系？\n\n-----\n检索上下文：\n【大学英语四级词汇库 · 第11批】\n# 大学英语四级词汇库 · 词汇第 11 批\n\n## accuracy\n- **词性**: n\n- **释义**: 准确(性)；准确度\n- **短语**:\n  - high accuracy — 高准确度\n  - measurement accuracy — 量测精度\n  - measuring accuracy — 测量精度；计量精度\n  - machining accuracy — 加工精度；精加工精确度\n  - control accuracy — 控制精度\n  - positioning accuracy — 定位精度；定位准确度\n\n## accurate\n- **词性**: adj\n- **释义**: 准确的，正确无误的\n- **短语**:\n  - accurate measurement — 精确测量\n  - accurate positioning — 精确定位\n  - accurate model — 准确模型\n  - accurate simulation — 准确模拟\n  - accurate at — 对…很正确\n  - accurate calibration\n\n【大学英语四级词汇库 · 第1批】\n# 大学英语四级词汇库 · 词汇第 1 批\n\n## abruptly\n- **词性**: adv\n- **释义**: 突然地\n\n## absorb\n- **词性**: v\n- **释义**: 吸收（液体、气体等）\n- **短语**:\n  - absorb in — 集中精力做某事；全神贯注于\n\n## abuse\n- **词性**: v\n- **释义**: 滥用，虐待\n- **短语**:\n  - drug abuse — 药物滥用；毒品滥用\n  - child abuse — 虐待儿童，摧残儿童\n  - substance abuse — 物质滥用；滥用药物\n  - sexual abuse — 性虐待\n  - abuse of power — 滥用权力\n  - alcohol abuse — 酒精滥用，酗酒\n\n## academic\n- **词性**: adj\n- **释义**: 学校(院)的，学术的\n- **短语**:\n  - academic research — 学术研究\n  - academic circles — 学术界\n  - academic year — 学年\n  -\n\n【大学英语四级词汇库 · 第6批】\n# 大学英语四级词汇库 · 词汇第 6 批\n\n## profitable\n- **词性**: adj\n- **释义**: 有利可图的，有益的\n\n## profound\n- **词性**: adj\n- **释义**: 深厚的\n\n## programming\n- **词性**: n\n- **释义**: 计划，节目(单)，程序；；编程\n- **短语**:\n  - linear programming — n. 线性规划\n  - programming language — 编程语言；程序设计语言\n  - dynamic programming — 动态规划；动态程序设计\n  - computer programming — 计算机编程；计算机程序设计\n  - nonlinear programming — 非线性规划\n  - object-oriented programming — [计]面向对象的程序设计\n\n## prohibit\n- **词性**: v\n- **释义**: 禁止，阻止，防止\n- **短语**:\n  - strictly prohibit — 严禁\n\n## project\n\n【大学英语四级词汇库 · 第38批】\n# 大学英语四级词汇库 · 词汇第 38 批\n\n## section\n- **词性**: n\n- **释义**: 切片；一段；部门\n- **短语**:\n  - cross section — 横截面\n  - in this section — 在这部分；本节内容\n  - cesarean section — 剖腹产术\n  - section steel — 型钢\n  - section chief — 部门主管\n  - thin section — [生]薄片；薄剖面；薄切片\n\n## secure\n- **词性**: adj\n- **释义**: 安心的；安全的\n- **短语**:\n  - secure communication — 保密通信；安全通信\n  - secure electronic transaction — 安全电子交易\n  - secure sockets layer — 安全套层；安全套接层\n  - secure operating system — 安全操作系统\n\n## security\n- **词性**: n\n- **释义**: 安全，安全感\n- **短语**:\n\n【大学英语四级词汇库 · 第45批】\n# 大学英语四级词汇库 · 词汇第 45 批\n\n## correspondence\n- **词性**: n\n- **释义**: 信件， 函件； 通信， 通信联系； 符合， 一致， 相似\n- **短语**:\n  - correspondence with — 通信；符合\n  - by correspondence — 用写信的办法\n  - correspondence analysis — 对应分析，一致性分析\n  - in correspondence with — 与……一致；和……保持通信联系\n  - correspondence address — 通讯地址；通信地址\n  - business correspondence — 商业通信；业务书信\n\n## refresh\n- **词性**: v\n- **释义**: 振作精神， 恢复活力\n- **短语**:\n  - refresh oneself — 可以提神；清醒头脑\n  - refresh rate — 刷新率\n\n## librarian\n- **词性**: n\n- **释义**: 图书馆管理员\n\n## intimate\n- *",
+        "output": "根据知识库内容，**accurate** 和 **accuracy** 是同一词根的两种词性变化，具体关系如下：\n\n1. **词性不同**：  \n   - **accurate** 是形容词（adj.），释义为“准确的，正确无误的”。  \n   - **accuracy** 是名词（n.），释义为“准确(性)；准确度”。  \n\n2. **含义关联**：  \n   - 两者均表达“准确”的核心含义。形容词 **accurate** 用于描述某事物具有准确的性质，而名词 **accuracy** 则指这种性质本身或准确的程度。例如，短语“accurate measurement”（精确测量）中的形容词修饰名词，而“high accuracy”（高准确度）中的名词表示属性。\n\n**参考文档**：  \n- 文档《大学英语四级词汇库 · 第11批》中分别列出了 **accuracy** 和 **accurate** 的词性、释义及短语。"
+      },
+      "persona_id": "english_cet4_student",
+      "role_name": "大二 CET-4 备考者"
+    }
+  ],
+  "errors": []
+}

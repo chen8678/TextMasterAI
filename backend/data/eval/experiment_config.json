@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "minimal-evolution-eval",
+    "version": "2026-04-16-v1",
+    "owner": "text-master-ai"
+  },
+  "llm": {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "temperature": 0.2,
+    "max_tokens": 2048
+  },
+  "embedding": {
+    "provider": "local",
+    "model": "text-embedding-placeholder"
+  },
+  "retrieval": {
+    "top_k": 5,
+    "score_threshold": 0.15,
+    "alpha": 0.5
+  },
+  "sandbox": {
+    "max_cases": 12,
+    "max_rounds": 1,
+    "judge_timeout_seconds": 20
+  },
+  "skill_version_freeze": {
+    "enabled": false,
+    "skill_id": "rag_answer",
+    "version": 2
+  },
+  "tenant_boundary": {
+    "mode": "global_skill_per_user_data_isolation",
+    "note": "Skill object global, but data evidence strictly user-owned scope."
+  },
+  "random_seed": 42
+}

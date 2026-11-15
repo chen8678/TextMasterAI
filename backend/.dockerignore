@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+.git
+.gitignore
+.env
+venv
+.venv
+*.egg-info
+.pytest_cache
+.coverage
+htmlcov
+*.log
+media/*
+!media/.gitkeep
+static/*
+!static/.gitkeep

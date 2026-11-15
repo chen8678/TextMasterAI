@@ -1,0 +1,57 @@
+{
+  "started_at": "2026-04-17T06:45:37.113646+00:00",
+  "inputs": {
+    "staff_email": "staff_test_local@example.com",
+    "pro_email": "staff_test_local@example.com",
+    "create_question": "创建技能：合同条款结构化摘要助手",
+    "sandbox_limit": 4
+  },
+  "create_skill": {
+    "payload": {
+      "triggered": true,
+      "created": false,
+      "skill_id": "custom_skill",
+      "skill_name": "自定义技能",
+      "message": "Skill 文件已存在：custom_skill.py。如需覆盖请传 overwrite=true。"
+    },
+    "skill_id": "custom_skill",
+    "lifecycle_status": null,
+    "is_active": null,
+    "version": null
+  },
+  "sandbox_run": {
+    "ok": false,
+    "reason": "judge_rejected",
+    "staging_id": "551b3277-ec9e-4091-a29a-d9ba8cc0a7c5",
+    "sandbox_run_id": "0b596d22-02f5-4863-aee4-2b5c32680787",
+    "used_cases": 1,
+    "used_rounds": 1,
+    "judge_reason": "judge_rejected",
+    "guard_reason": "guard_rejected_or_skipped",
+    "sandbox_threat_model": {
+      "scope": "仅用于私有知识库的纯文本片段，生成/验证 Markdown 风格的 Skill 说明补丁",
+      "capabilities": [
+        "检索到的证据片段只读（不写入知识库）",
+        "仅生成 Markdown（禁用多模态/外部 API/游戏等能力漂移）"
+      ],
+      "guardrails": {
+        "domain_guard": "EVOLUTION_ALLOWED_DOMAINS + skill metadata.evolution_domain",
+        "content_guard": "draft_markdown_allowed 禁区词拒绝",
+        "evidence_limit": "采样用例上限 SKILL_SANDBOX_MAX_CASES + LLM judge 截断"
+      },
+      "known_limitations": [
+        "当前沙盒为受限试运行（LLM-as-judge + 文本守卫），未实现容器/进程级资源隔离"
+      ]
+    }
+  },
+  "staging": {
+    "id": "551b3277-ec9e-4091-a29a-d9ba8cc0a7c5",
+    "status": "sandbox_failed",
+    "skill_id": "rag_answer",
+    "candidate_version": 3
+  },
+  "apply": {
+    "ok": false,
+    "reason": "staging_not_passed_or_missing"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "persona_id": "english_cet4_student",
+  "role_name": "大二 CET-4 备考者",
+  "description": "问题基于四级词汇库实际词条，覆盖搭配、辨析与考点",
+  "questions": [
+    "available 有哪些固定搭配？",
+    "influence 和 impact 在四级词库里怎么区分？",
+    "access 和 accessible 分别怎么用？",
+    "achieve 和 achievement 有什么区别？",
+    "govern 在四级词汇里是什么意思？",
+    "delay 这个词常见怎么用？",
+    "affect 和 effect 怎么区分？",
+    "accurate 和 accuracy 有什么关系？"
+  ]
+}

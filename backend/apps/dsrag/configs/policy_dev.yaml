@@ -1,0 +1,17 @@
+# DS-RAG policy（仅 dev 调阈值；锁定后禁止改口再报官方 test）
+policy_version: locked_v1
+answerable_threshold: 0.5
+scope_threshold: 0.5
+# 官方判定：先将 JSON 的 (answerable, prob) 校准为 p_yes=P(可答)，
+# 再 answerable_pred = (p_yes >= answerable_threshold)
+# 校准：p_yes 与 bool 一致时直接用 prob；不可答却给高 prob 时按置信度翻转为 1-prob
+answerable_decision_rule: calibrated_prob_threshold
+scope_decision_rule: calibrated_scope_threshold
+# JSON 解析失败默认拒答（不调 generate）
+parse_fail_default: refuse
+prompt_version: v0_ans_calibrated
+locked: true
+# chosen_tau_dev=0.5  # by 05_tune_threshold_dev.py · do not use test
+# S11: policy locked before official test run — do not retune on test
+score_threshold: 0.18
+# chosen_tau_rule_dev=0.18  # by 10_tune_r2_rule_dev.py

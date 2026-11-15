@@ -1,0 +1,499 @@
+{
+  "meta": {
+    "workflow": "kb_qa_collector",
+    "version": "2026-07-10-v2",
+    "run_id": "a561f695-8e0c-44c4-875c-f6fe9a3f5f1c",
+    "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+    "knowledge_base_title": "小学英语词汇库",
+    "persona_id": "english_primary_parent",
+    "role_name": "小学生家长",
+    "question_source": "seed_file",
+    "agent_id": "qa",
+    "retrieval_params": {
+      "strategy": "hybrid",
+      "top_k": 5,
+      "score_threshold": 0.15,
+      "alpha": 0.5
+    },
+    "total_questions": 8,
+    "total_collected": 8,
+    "total_errors": 0,
+    "dry_run": false,
+    "created_at": "2026-07-10T09:08:42.759170+00:00"
+  },
+  "records": [
+    {
+      "id": "670bde20-046a-44b2-9e13-b00c4a502e89",
+      "question": "pencil 这个单词有哪些常用短语？",
+      "answer": "根据知识库中《小学英语词汇库 · 第1批》文档的内容，单词 **pencil** 的常用短语如下：\n\n- **blue pencil** — 蓝铅笔（用于删改书稿或剧本等的）\n- **pencil case** — 文具盒\n- **pencil box** — 铅笔盒\n- **pencil sharpener** — 卷笔刀\n- **eyebrow pencil** — 眉笔\n- **pencil lead** — 铅笔心\n\n（以上短语均出自《小学英语词汇库 · 第1批》）",
+      "sources": [
+        "小学英语词汇库 · 第1批",
+        "小学英语词汇库 · 第3批",
+        "小学英语词汇库 · 第7批",
+        "小学英语词汇库 · 第4批",
+        "小学英语词汇库 · 第2批"
+      ],
+      "context_docs": [
+        {
+          "id": "a07a506a-d751-413c-afc8-bea70de02f04",
+          "title": "小学英语词汇库 · 第1批",
+          "content": "# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  - "
+        },
+        {
+          "id": "66fde94a-c08f-481b-a610-d7dc528f8b43",
+          "title": "小学英语词汇库 · 第3批",
+          "content": "# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释"
+        },
+        {
+          "id": "97cc1624-aecb-4e3b-9fc0-1198d97c4f59",
+          "title": "小学英语词汇库 · 第7批",
+          "content": "# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old"
+        },
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        },
+        {
+          "id": "42cd888e-091d-4014-a344-eb54bac1a823",
+          "title": "小学英语词汇库 · 第2批",
+          "content": "# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:14.662659+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "pencil 这个单词有哪些常用短语？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第1批】\n# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  -\n\n【小学英语词汇库 · 第3批】\n# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释\n\n【小学英语词汇库 · 第7批】\n# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old\n\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本\n\n【小学英语词汇库 · 第2批】\n# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to",
+        "output": "根据知识库中《小学英语词汇库 · 第1批》文档的内容，单词 **pencil** 的常用短语如下：\n\n- **blue pencil** — 蓝铅笔（用于删改书稿或剧本等的）\n- **pencil case** — 文具盒\n- **pencil box** — 铅笔盒\n- **pencil sharpener** — 卷笔刀\n- **eyebrow pencil** — 眉笔\n- **pencil lead** — 铅笔心\n\n（以上短语均出自《小学英语词汇库 · 第1批》）"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    },
+    {
+      "id": "b25b31e7-e52e-4314-85a5-85727991bdd6",
+      "question": "fruit 是什么意思？能举个例句吗？",
+      "answer": "根据知识库内容，**fruit** 的意思是 **“水果；产物；结果实”**（属于食品类词汇）。\n\n该释义及例句来源于 **《小学英语词汇库 · 第2批》** 文档。\n\n由于该文档中 fruit 的例句未完整显示（仅显示“Try to...”），我无法直接引用完整例句。若需要完整例句，可以补充一条符合该释义的常见例句：\n\n> **例句**: I like to eat fresh fruit every day. （我喜欢每天吃新鲜水果。）",
+      "sources": [
+        "小学英语词汇库 · 第2批",
+        "小学英语词汇库 · 第4批",
+        "小学英语词汇库 · 第1批",
+        "小学英语词汇库 · 第7批",
+        "小学英语词汇库 · 第5批"
+      ],
+      "context_docs": [
+        {
+          "id": "42cd888e-091d-4014-a344-eb54bac1a823",
+          "title": "小学英语词汇库 · 第2批",
+          "content": "# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to"
+        },
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        },
+        {
+          "id": "a07a506a-d751-413c-afc8-bea70de02f04",
+          "title": "小学英语词汇库 · 第1批",
+          "content": "# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  - "
+        },
+        {
+          "id": "97cc1624-aecb-4e3b-9fc0-1198d97c4f59",
+          "title": "小学英语词汇库 · 第7批",
+          "content": "# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old"
+        },
+        {
+          "id": "f189d0a6-aec7-46b8-9513-7a411761cd4c",
+          "title": "小学英语词汇库 · 第5批",
+          "content": "# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:17.966441+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "fruit 是什么意思？能举个例句吗？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第2批】\n# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to\n\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本\n\n【小学英语词汇库 · 第1批】\n# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  -\n\n【小学英语词汇库 · 第7批】\n# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old\n\n【小学英语词汇库 · 第5批】\n# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:",
+        "output": "根据知识库内容，**fruit** 的意思是 **“水果；产物；结果实”**（属于食品类词汇）。\n\n该释义及例句来源于 **《小学英语词汇库 · 第2批》** 文档。\n\n由于该文档中 fruit 的例句未完整显示（仅显示“Try to...”），我无法直接引用完整例句。若需要完整例句，可以补充一条符合该释义的常见例句：\n\n> **例句**: I like to eat fresh fruit every day. （我喜欢每天吃新鲜水果。）"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    },
+    {
+      "id": "bc49f931-403d-4098-a4d1-a763a86d8ea3",
+      "question": "spring 和 summer 在词库里分别是什么意思？",
+      "answer": "根据知识库中的文档，spring 和 summer 在词库中的释义如下：\n\n- **spring**（参考文档：**小学英语词汇库 · 第5批**）  \n  释义包括：春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开。相关短语如“spring festival”（春节）、“in spring”（在春天）等。\n\n- **summer**（参考文档：**小学英语词汇库 · 第5批**）  \n  释义为：[天]夏季；全盛时期；[天]夏季的。相关短语如“in summer”（在夏天）、“summer vacation”（暑假）等。\n\n以上信息均来源于“小学英语词汇库 · 第5批”文档。",
+      "sources": [
+        "小学英语词汇库 · 第5批",
+        "小学英语词汇库 · 第7批",
+        "小学英语词汇库 · 第3批",
+        "小学英语词汇库 · 第4批",
+        "小学英语词汇库 · 第2批"
+      ],
+      "context_docs": [
+        {
+          "id": "f189d0a6-aec7-46b8-9513-7a411761cd4c",
+          "title": "小学英语词汇库 · 第5批",
+          "content": "# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n"
+        },
+        {
+          "id": "97cc1624-aecb-4e3b-9fc0-1198d97c4f59",
+          "title": "小学英语词汇库 · 第7批",
+          "content": "# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old"
+        },
+        {
+          "id": "66fde94a-c08f-481b-a610-d7dc528f8b43",
+          "title": "小学英语词汇库 · 第3批",
+          "content": "# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释"
+        },
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        },
+        {
+          "id": "42cd888e-091d-4014-a344-eb54bac1a823",
+          "title": "小学英语词汇库 · 第2批",
+          "content": "# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:21.441690+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "spring 和 summer 在词库里分别是什么意思？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第5批】\n# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n\n【小学英语词汇库 · 第7批】\n# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old\n\n【小学英语词汇库 · 第3批】\n# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释\n\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本\n\n【小学英语词汇库 · 第2批】\n# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to",
+        "output": "根据知识库中的文档，spring 和 summer 在词库中的释义如下：\n\n- **spring**（参考文档：**小学英语词汇库 · 第5批**）  \n  释义包括：春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开。相关短语如“spring festival”（春节）、“in spring”（在春天）等。\n\n- **summer**（参考文档：**小学英语词汇库 · 第5批**）  \n  释义为：[天]夏季；全盛时期；[天]夏季的。相关短语如“in summer”（在夏天）、“summer vacation”（暑假）等。\n\n以上信息均来源于“小学英语词汇库 · 第5批”文档。"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    },
+    {
+      "id": "729dd925-9903-4179-a1d5-ff3e9dc95ef6",
+      "question": "hospital 这个词怎么解释给孩子听？",
+      "answer": "根据知识库中的《小学英语词汇库 · 第6批》文档，**hospital** 的意思是“医院”。\n\n给孩子解释时，可以这样说：\n\n**“hospital 就是‘医院’的意思。如果小朋友生病了或者受伤了，爸爸妈妈就会带你去医院（hospital），让医生和护士帮助你恢复健康。”**\n\n你也可以结合文档中的例句或短语来帮助理解，例如：\n- **in hospital** — 住院（生病住在医院里）\n- **in the hospital** — 在医院里（可能去看病或探望病人）\n\n（以上解释主要参考自《小学英语词汇库 · 第6批》文档。）",
+      "sources": [
+        "小学英语词汇库 · 第6批",
+        "小学英语词汇库 · 第4批",
+        "小学英语词汇库 · 第7批",
+        "小学英语词汇库 · 第3批",
+        "小学英语词汇库 · 第1批"
+      ],
+      "context_docs": [
+        {
+          "id": "a6ba1d69-87df-4e5a-bff8-0daf482e5fb3",
+          "title": "小学英语词汇库 · 第6批",
+          "content": "# 小学英语词汇库 · 词汇第 6 批\n\n## cinema\n- **释义**: [电影]电影；电影院；电影业，电影制作术\n- **短语**:\n  - go to the cinema — 去看电影\n  - at the cinema — 在电影院\n  - go to cinema — 去看电影\n  - home cinema — 家庭影院\n- **例句**:\n  - It’s on at the local cinema. (此片正在当地影院上映。)\n\n## hospital\n- **释义**: [医]医院\n- **短语**:\n  - in hospital — 住院\n  - in the hospital — 在医院里\n  - general hospital — 总医院；综合医院\n  - hospital information system — 医院信息系统；医院资讯系统\n  - affiliated hospital — 附属医院\n  - military hospital — 军事医院；陆军医院\n- **例句**:\n  - They are building a new h"
+        },
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        },
+        {
+          "id": "97cc1624-aecb-4e3b-9fc0-1198d97c4f59",
+          "title": "小学英语词汇库 · 第7批",
+          "content": "# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old"
+        },
+        {
+          "id": "66fde94a-c08f-481b-a610-d7dc528f8b43",
+          "title": "小学英语词汇库 · 第3批",
+          "content": "# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释"
+        },
+        {
+          "id": "a07a506a-d751-413c-afc8-bea70de02f04",
+          "title": "小学英语词汇库 · 第1批",
+          "content": "# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  - "
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:24.588427+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "hospital 这个词怎么解释给孩子听？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第6批】\n# 小学英语词汇库 · 词汇第 6 批\n\n## cinema\n- **释义**: [电影]电影；电影院；电影业，电影制作术\n- **短语**:\n  - go to the cinema — 去看电影\n  - at the cinema — 在电影院\n  - go to cinema — 去看电影\n  - home cinema — 家庭影院\n- **例句**:\n  - It’s on at the local cinema. (此片正在当地影院上映。)\n\n## hospital\n- **释义**: [医]医院\n- **短语**:\n  - in hospital — 住院\n  - in the hospital — 在医院里\n  - general hospital — 总医院；综合医院\n  - hospital information system — 医院信息系统；医院资讯系统\n  - affiliated hospital — 附属医院\n  - military hospital — 军事医院；陆军医院\n- **例句**:\n  - They are building a new h\n\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本\n\n【小学英语词汇库 · 第7批】\n# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old\n\n【小学英语词汇库 · 第3批】\n# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释\n\n【小学英语词汇库 · 第1批】\n# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  -",
+        "output": "根据知识库中的《小学英语词汇库 · 第6批》文档，**hospital** 的意思是“医院”。\n\n给孩子解释时，可以这样说：\n\n**“hospital 就是‘医院’的意思。如果小朋友生病了或者受伤了，爸爸妈妈就会带你去医院（hospital），让医生和护士帮助你恢复健康。”**\n\n你也可以结合文档中的例句或短语来帮助理解，例如：\n- **in hospital** — 住院（生病住在医院里）\n- **in the hospital** — 在医院里（可能去看病或探望病人）\n\n（以上解释主要参考自《小学英语词汇库 · 第6批》文档。）"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    },
+    {
+      "id": "2f1cea99-db64-4249-ab2d-48bf785c6f4d",
+      "question": "younger 和 older 有什么区别？",
+      "answer": "根据知识库中的文档，**younger** 和 **older** 的区别主要体现在词义和用法上，具体如下：\n\n### 1. 词义对比\n- **younger**（来自《小学英语词汇库 · 第7批》）：  \n  该文档未直接给出其中文释义，但通过短语（如“younger brother — 弟弟”、“younger generation — 年轻一代”）和例句（“The younger people might not like the idea.”）可知，**younger 意为“较年轻的”**，通常用于指年龄较小的人或事物，或表示相对年轻的关系（如弟弟、妹妹）。\n\n- **older**（来自《小学英语词汇库 · 第7批》）：  \n  文档明确释义为 **“年长的；较旧的”**。该词既可指年龄较大的人（如哥哥、姐姐），也可指物品或事物年代较久远（如较旧的建筑）。\n\n### 2. 主要区别\n- **年龄方向**：younger 指向“更年轻/年龄更小”，older 指向“更年长/年龄更大”。两者是反义关系。\n- **使用场景**：\n  - younger 常用于描述家庭关系（如 younger brother/sister）或群体中的相对年龄（如 younger generation）。\n  - older 可同时用于人（older brother/sister）和物（older building），适用范围更广。\n\n### 3. 示例对比（基于文档）\n- **younger**：younger brother（弟弟）—— 指年龄较小的兄弟。  \n- **older**：older person（年长者）—— 指年龄较大的人。\n\n**总结**：两者核心区别在于“年轻”与“年长”的对立，具体使用时需根据比较对象和语境选择。以上信息均来自《小学英语词汇库 · 第7批》。",
+      "sources": [
+        "小学英语词汇库 · 第7批",
+        "小学英语词汇库 · 第5批",
+        "小学英语词汇库 · 第1批",
+        "小学英语词汇库 · 第4批",
+        "小学英语词汇库 · 第2批"
+      ],
+      "context_docs": [
+        {
+          "id": "97cc1624-aecb-4e3b-9fc0-1198d97c4f59",
+          "title": "小学英语词汇库 · 第7批",
+          "content": "# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old"
+        },
+        {
+          "id": "f189d0a6-aec7-46b8-9513-7a411761cd4c",
+          "title": "小学英语词汇库 · 第5批",
+          "content": "# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n"
+        },
+        {
+          "id": "a07a506a-d751-413c-afc8-bea70de02f04",
+          "title": "小学英语词汇库 · 第1批",
+          "content": "# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  - "
+        },
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        },
+        {
+          "id": "42cd888e-091d-4014-a344-eb54bac1a823",
+          "title": "小学英语词汇库 · 第2批",
+          "content": "# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:30.893666+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "younger 和 older 有什么区别？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第7批】\n# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old\n\n【小学英语词汇库 · 第5批】\n# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n\n【小学英语词汇库 · 第1批】\n# 小学英语词汇库 · 词汇第 1 批\n\n## ruler\n- **释义**: [计量]尺；统治者；[测]划线板，划线的人\n- **例句**:\n  - a 12-inch ruler (一把12英寸的尺子)\n\n## pencil\n- **释义**: （暂无中文释义）\n- **短语**:\n  - blue pencil — 蓝铅笔（用于删改书稿或剧本等的）\n  - pencil case — 文具盒\n  - pencil box — 铅笔盒\n  - pencil sharpener — 卷笔刀\n  - eyebrow pencil — 眉笔\n  - pencil lead — 铅笔心\n- **例句**:\n  - a sharp pencil (尖尖的铅笔)\n  - a blue pencil (蓝色铅笔)\n  - a pencil sketch (铅笔速写)\n\n## eraser\n- **释义**: [计]擦除器；清除器\n- **短语**:\n  - eraser tool — 橡皮擦工具；擦除工具\n  - blackboard eraser — n. 黑板擦\n- **例句**:\n  -\n\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本\n\n【小学英语词汇库 · 第2批】\n# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to",
+        "output": "根据知识库中的文档，**younger** 和 **older** 的区别主要体现在词义和用法上，具体如下：\n\n### 1. 词义对比\n- **younger**（来自《小学英语词汇库 · 第7批》）：  \n  该文档未直接给出其中文释义，但通过短语（如“younger brother — 弟弟”、“younger generation — 年轻一代”）和例句（“The younger people might not like the idea.”）可知，**younger 意为“较年轻的”**，通常用于指年龄较小的人或事物，或表示相对年轻的关系（如弟弟、妹妹）。\n\n- **older**（来自《小学英语词汇库 · 第7批》）：  \n  文档明确释义为 **“年长的；较旧的”**。该词既可指年龄较大的人（如哥哥、姐姐），也可指物品或事物年代较久远（如较旧的建筑）。\n\n### 2. 主要区别\n- **年龄方向**：younger 指向“更年轻/年龄更小”，older 指向“更年长/年龄更大”。两者是反义关系。\n- **使用场景**：\n  - younger 常用于描述家庭关系（如 younger brother/sister）或群体中的相对年龄（如 younger generation）。\n  - older 可同时用于人（older brother/sister）和物（older building），适用范围更广。\n\n### 3. 示例对比（基于文档）\n- **younger**：younger brother（弟弟）—— 指年龄较小的兄弟。  \n- **older**：older person（年长者）—— 指年龄较大的人。\n\n**总结**：两者核心区别在于“年轻”与“年长”的对立，具体使用时需根据比较对象和语境选择。以上信息均来自《小学英语词汇库 · 第7批》。"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    },
+    {
+      "id": "2704c484-ea0d-42d3-8473-d62f47e49b05",
+      "question": "play sports 是什么意思？",
+      "answer": "根据知识库文档《小学英语词汇库 · 第4批》中的内容，**\"play sports\"** 的意思是 **“做运动”或“进行体育运动”**。\n\n### 依据说明：\n- 文档虽未直接给出中文释义，但通过三个例句可以明确其含义：\n  - 例句1：*\"Exercise regularly if you can, play sports, toss a ball around with your family.\"*（尽可能有规律地锻炼，**可以做运动**，或者和家人一起传球玩。）\n  - 例句2：*\"Women who play sports and frequently cycle or swim...\"*（女性**做运动**和经常性地骑自行车或游泳...）\n  - 例句3：*\"He liked to hang with the guys and play sports.\"*（他喜欢和男友一起打发时间或者**做些运动**。）\n\n### 补充说明：\n- 该词组中的 **\"sports\"** 为复数形式，泛指各类体育运动，如跑步、球类、游泳等。\n- 在英语中，\"play sports\" 是一个固定搭配，与 \"do sports\"（英式英语常用）意思相近，但更强调参与性游戏或比赛类运动。\n\n（以上释义部分来自知识库例句，补充说明为常识性扩展。）",
+      "sources": [
+        "小学英语词汇库 · 第4批"
+      ],
+      "context_docs": [
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:35.299318+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "play sports 是什么意思？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本",
+        "output": "根据知识库文档《小学英语词汇库 · 第4批》中的内容，**\"play sports\"** 的意思是 **“做运动”或“进行体育运动”**。\n\n### 依据说明：\n- 文档虽未直接给出中文释义，但通过三个例句可以明确其含义：\n  - 例句1：*\"Exercise regularly if you can, play sports, toss a ball around with your family.\"*（尽可能有规律地锻炼，**可以做运动**，或者和家人一起传球玩。）\n  - 例句2：*\"Women who play sports and frequently cycle or swim...\"*（女性**做运动**和经常性地骑自行车或游泳...）\n  - 例句3：*\"He liked to hang with the guys and play sports.\"*（他喜欢和男友一起打发时间或者**做些运动**。）\n\n### 补充说明：\n- 该词组中的 **\"sports\"** 为复数形式，泛指各类体育运动，如跑步、球类、游泳等。\n- 在英语中，\"play sports\" 是一个固定搭配，与 \"do sports\"（英式英语常用）意思相近，但更强调参与性游戏或比赛类运动。\n\n（以上释义部分来自知识库例句，补充说明为常识性扩展。）"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    },
+    {
+      "id": "d85a95a0-bca7-4288-9bfa-f939c4d50d0a",
+      "question": "sandwich 在小学词汇里怎么记？",
+      "answer": "根据您提供的知识库内容，**“sandwich”一词并未出现在任何一份已检索到的文档中**（包括《小学英语词汇库》第3批、第4批、第5批、第6批、第7批）。\n\n由于知识库中缺乏该词的记忆方法，以下内容属于**补充常识**（非知识库来源），供您参考：\n\n**sandwich 在小学词汇里的记忆方法（常识补充）：**\n\n1.  **拆解记忆**：将单词拆分为 **sand（沙子）+ wich（像“位置”的尾音）**。想象“三明治”里夹着像“沙子”一样的配料，或者直接联想“三明治”的发音与“sand”相近。\n2.  **形象记忆**：想象一个三明治的形状，中间夹着火腿和生菜，反复拼读 **s-a-n-d-w-i-c-h**。\n3.  **自然拼读**：按音节读成 **sand-wich**，注意“wich”发音类似“威奇”，避免漏掉字母“d”。\n\n**总结**：知识库中未包含“sandwich”的记法，以上为补充的常见小学记忆技巧。",
+      "sources": [
+        "小学英语词汇库 · 第3批",
+        "小学英语词汇库 · 第7批",
+        "小学英语词汇库 · 第4批",
+        "小学英语词汇库 · 第5批",
+        "小学英语词汇库 · 第6批"
+      ],
+      "context_docs": [
+        {
+          "id": "66fde94a-c08f-481b-a610-d7dc528f8b43",
+          "title": "小学英语词汇库 · 第3批",
+          "content": "# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释"
+        },
+        {
+          "id": "97cc1624-aecb-4e3b-9fc0-1198d97c4f59",
+          "title": "小学英语词汇库 · 第7批",
+          "content": "# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old"
+        },
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        },
+        {
+          "id": "f189d0a6-aec7-46b8-9513-7a411761cd4c",
+          "title": "小学英语词汇库 · 第5批",
+          "content": "# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n"
+        },
+        {
+          "id": "a6ba1d69-87df-4e5a-bff8-0daf482e5fb3",
+          "title": "小学英语词汇库 · 第6批",
+          "content": "# 小学英语词汇库 · 词汇第 6 批\n\n## cinema\n- **释义**: [电影]电影；电影院；电影业，电影制作术\n- **短语**:\n  - go to the cinema — 去看电影\n  - at the cinema — 在电影院\n  - go to cinema — 去看电影\n  - home cinema — 家庭影院\n- **例句**:\n  - It’s on at the local cinema. (此片正在当地影院上映。)\n\n## hospital\n- **释义**: [医]医院\n- **短语**:\n  - in hospital — 住院\n  - in the hospital — 在医院里\n  - general hospital — 总医院；综合医院\n  - hospital information system — 医院信息系统；医院资讯系统\n  - affiliated hospital — 附属医院\n  - military hospital — 军事医院；陆军医院\n- **例句**:\n  - They are building a new h"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:40.404101+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "sandwich 在小学词汇里怎么记？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第3批】\n# 小学英语词汇库 · 词汇第 3 批\n\n## now\n- **释义**: 现在；如今；立刻；现在的；现在；目前；由于；既然\n- **短语**:\n  - up to now — 到目前为止\n  - just now — 刚才；眼下\n  - for now — 目前，暂时\n  - from now on — 从现在开始\n  - by now — 到目前为止；到如今\n  - until now — 至今，直到现在，迄今为止\n- **例句**:\n  - She's a widow now. (她现在是一个寡妇。)\n  - But we are now a much more fragmented society. (但是我们现在是一个更加四分五裂的社会。)\n\n## o'clock\n- **释义**: （暂无中文释义）\n- **短语**:\n  - ten o'clock — 十点\n- **例句**:\n  - It's already 9 o'clock. (已经9点钟了。)\n  - The meeting is at 10 o'clock. (开会时间是10点钟。)\n\n## kid\n- **释\n\n【小学英语词汇库 · 第7批】\n# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old\n\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本\n\n【小学英语词汇库 · 第5批】\n# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n\n【小学英语词汇库 · 第6批】\n# 小学英语词汇库 · 词汇第 6 批\n\n## cinema\n- **释义**: [电影]电影；电影院；电影业，电影制作术\n- **短语**:\n  - go to the cinema — 去看电影\n  - at the cinema — 在电影院\n  - go to cinema — 去看电影\n  - home cinema — 家庭影院\n- **例句**:\n  - It’s on at the local cinema. (此片正在当地影院上映。)\n\n## hospital\n- **释义**: [医]医院\n- **短语**:\n  - in hospital — 住院\n  - in the hospital — 在医院里\n  - general hospital — 总医院；综合医院\n  - hospital information system — 医院信息系统；医院资讯系统\n  - affiliated hospital — 附属医院\n  - military hospital — 军事医院；陆军医院\n- **例句**:\n  - They are building a new h",
+        "output": "根据您提供的知识库内容，**“sandwich”一词并未出现在任何一份已检索到的文档中**（包括《小学英语词汇库》第3批、第4批、第5批、第6批、第7批）。\n\n由于知识库中缺乏该词的记忆方法，以下内容属于**补充常识**（非知识库来源），供您参考：\n\n**sandwich 在小学词汇里的记忆方法（常识补充）：**\n\n1.  **拆解记忆**：将单词拆分为 **sand（沙子）+ wich（像“位置”的尾音）**。想象“三明治”里夹着像“沙子”一样的配料，或者直接联想“三明治”的发音与“sand”相近。\n2.  **形象记忆**：想象一个三明治的形状，中间夹着火腿和生菜，反复拼读 **s-a-n-d-w-i-c-h**。\n3.  **自然拼读**：按音节读成 **sand-wich**，注意“wich”发音类似“威奇”，避免漏掉字母“d”。\n\n**总结**：知识库中未包含“sandwich”的记法，以上为补充的常见小学记忆技巧。"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    },
+    {
+      "id": "eac8671f-211c-40ab-b560-0c32839e1b4d",
+      "question": "cinema 是什么意思，有没有相关例句？",
+      "answer": "根据知识库中《小学英语词汇库 · 第6批》文档的内容：\n\n**cinema** 的意思是：电影、电影院、电影业、电影制作术。\n\n**相关例句**（来自同一文档）：\n- It’s on at the local cinema. （此片正在当地影院上映。）\n\n**常见短语**（来自同一文档）：\n- go to the cinema — 去看电影\n- at the cinema — 在电影院\n- home cinema — 家庭影院\n\n以上信息均来源于《小学英语词汇库 · 第6批》。",
+      "sources": [
+        "小学英语词汇库 · 第6批",
+        "小学英语词汇库 · 第7批",
+        "小学英语词汇库 · 第4批",
+        "小学英语词汇库 · 第5批",
+        "小学英语词汇库 · 第2批"
+      ],
+      "context_docs": [
+        {
+          "id": "a6ba1d69-87df-4e5a-bff8-0daf482e5fb3",
+          "title": "小学英语词汇库 · 第6批",
+          "content": "# 小学英语词汇库 · 词汇第 6 批\n\n## cinema\n- **释义**: [电影]电影；电影院；电影业，电影制作术\n- **短语**:\n  - go to the cinema — 去看电影\n  - at the cinema — 在电影院\n  - go to cinema — 去看电影\n  - home cinema — 家庭影院\n- **例句**:\n  - It’s on at the local cinema. (此片正在当地影院上映。)\n\n## hospital\n- **释义**: [医]医院\n- **短语**:\n  - in hospital — 住院\n  - in the hospital — 在医院里\n  - general hospital — 总医院；综合医院\n  - hospital information system — 医院信息系统；医院资讯系统\n  - affiliated hospital — 附属医院\n  - military hospital — 军事医院；陆军医院\n- **例句**:\n  - They are building a new h"
+        },
+        {
+          "id": "97cc1624-aecb-4e3b-9fc0-1198d97c4f59",
+          "title": "小学英语词汇库 · 第7批",
+          "content": "# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old"
+        },
+        {
+          "id": "183694bf-4056-4f3e-ad2e-54ea941c6ee3",
+          "title": "小学英语词汇库 · 第4批",
+          "content": "# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本"
+        },
+        {
+          "id": "f189d0a6-aec7-46b8-9513-7a411761cd4c",
+          "title": "小学英语词汇库 · 第5批",
+          "content": "# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n"
+        },
+        {
+          "id": "42cd888e-091d-4014-a344-eb54bac1a823",
+          "title": "小学英语词汇库 · 第2批",
+          "content": "# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to"
+        }
+      ],
+      "skills_used": [
+        "rag_answer",
+        "cite_snippets"
+      ],
+      "agent_id": "qa",
+      "agent_name": "知识问答助手",
+      "answer_source": "rag",
+      "knowledge_base_id": "4fe6ed80-a6e2-4ccb-a354-be3198d5d9f8",
+      "retrieval_params": {
+        "strategy": "hybrid",
+        "top_k": 5,
+        "score_threshold": 0.15,
+        "alpha": 0.5
+      },
+      "question_source": "seed_file",
+      "collected_at": "2026-07-10T09:08:42.759069+00:00",
+      "sft": {
+        "instruction": "你是小学英语词汇助教，面向小学生家长。请用简单易懂的中文解释单词读音、词义和例句；必要时给出音标或拼读提示。依据检索到的词汇库内容作答，不要编造。",
+        "input": "cinema 是什么意思，有没有相关例句？\n\n-----\n检索上下文：\n【小学英语词汇库 · 第6批】\n# 小学英语词汇库 · 词汇第 6 批\n\n## cinema\n- **释义**: [电影]电影；电影院；电影业，电影制作术\n- **短语**:\n  - go to the cinema — 去看电影\n  - at the cinema — 在电影院\n  - go to cinema — 去看电影\n  - home cinema — 家庭影院\n- **例句**:\n  - It’s on at the local cinema. (此片正在当地影院上映。)\n\n## hospital\n- **释义**: [医]医院\n- **短语**:\n  - in hospital — 住院\n  - in the hospital — 在医院里\n  - general hospital — 总医院；综合医院\n  - hospital information system — 医院信息系统；医院资讯系统\n  - affiliated hospital — 附属医院\n  - military hospital — 军事医院；陆军医院\n- **例句**:\n  - They are building a new h\n\n【小学英语词汇库 · 第7批】\n# 小学英语词汇库 · 词汇第 7 批\n\n## everyone\n- **释义**: 每个人\n- **例句**:\n  - If everyone is ready, I’ll begin. (如果大家都准备好了，我就开始。)\n  - Send my best wishes to everyone in the family. (请向全家人致以最美好的祝愿。)\n  - Of course everyone else thought it was hilarious! (当然其他所有人都觉得好笑极了！)\n\n## younger\n- **释义**: （暂无中文释义）\n- **短语**:\n  - younger brother — 弟弟\n  - younger sister — 妹妹\n  - younger generation — 年轻一代；青年一代\n- **例句**:\n  - The younger people might not like the idea. (年轻一些的人可能不喜欢这个主意。)\n\n## older\n- **释义**: 年长的；较旧的\n- **短语**:\n  - old\n\n【小学英语词汇库 · 第4批】\n# 小学英语词汇库 · 词汇第 4 批\n\n## play sports\n- **释义**: （暂无中文释义）\n- **例句**:\n  - Exercise regularly if you can, play sports, toss a ball around with your family. (尽可能有规律地锻炼，可以做运动，或者和家人一起传球玩。)\n  - Women who play sports and frequently cycle or swim can also break their hymen, even though they might be virgins. (女性做运动和经常性地骑自行车或游泳都可以让她们的处女膜破裂，即使她们可能是处女。)\n  - He liked to hang with the guys and play sports. (他喜欢和男友一起打发时间或者做些运动。)\n\n## should\n- **释义**: 应该；就；可能；将要\n- **短语**:\n  - should be — 应该是\n  - should have — 应该有；本\n\n【小学英语词汇库 · 第5批】\n# 小学英语词汇库 · 词汇第 5 批\n\n## spring\n- **释义**: 春天；弹簧；泉水；活力；跳跃；春天的；生长；涌出；跃出；裂开；使跳起；使爆炸；突然提出；使弹开\n- **短语**:\n  - spring festival — 春节（中国农历正月初一）\n  - in spring — 在春天\n  - spring and autumn — 春秋\n  - hot spring — 温泉\n  - spring tide — 大潮；涨潮\n  - spring and autumn period — 春秋时代\n- **例句**:\n  - spring flowers (春花)\n\n## summer\n- **释义**: [天]夏季；全盛时期；[天]夏季的\n- **短语**:\n  - in summer — 在夏天；在夏季\n  - last summer — 去年夏天；去年暑假\n  - summer vacation — 暑假\n  - hot summer — 炎热的夏天\n  - summer holiday — 暑假\n  - summer camp — 夏令营\n- **例句**:\n\n【小学英语词汇库 · 第2批】\n# 小学英语词汇库 · 词汇第 2 批\n\n## buy\n- **释义**: 购买；获得；贿赂；购买，买卖；所购的物品\n- **短语**:\n  - buy in — 大宗买进\n  - buy time — v. 争取时间\n  - buy back — 产品返销；补偿交易；补进\n  - good buy — 价廉物美的东西；廉价品\n  - buy into — v. 买进；入股\n  - buy up — 尽量收购；全买\n- **例句**:\n  - People say the judge had been bought by the Mafia. (人们都说法官被黑手党收买了。)\n\n## fruit\n- **释义**: [食品]水果；产物；[植]结果实\n- **短语**:\n  - fruit juice — 果汁\n  - bear fruit — 结出果实；奏效\n  - fresh fruit — 鲜果，水果拼盘\n  - fruit tree — n. 果树\n  - tropical fruit — 热带水果\n  - fruit wine — 果酒\n- **例句**:\n  - Try to",
+        "output": "根据知识库中《小学英语词汇库 · 第6批》文档的内容：\n\n**cinema** 的意思是：电影、电影院、电影业、电影制作术。\n\n**相关例句**（来自同一文档）：\n- It’s on at the local cinema. （此片正在当地影院上映。）\n\n**常见短语**（来自同一文档）：\n- go to the cinema — 去看电影\n- at the cinema — 在电影院\n- home cinema — 家庭影院\n\n以上信息均来源于《小学英语词汇库 · 第6批》。"
+      },
+      "persona_id": "english_primary_parent",
+      "role_name": "小学生家长"
+    }
+  ],
+  "errors": []
+}

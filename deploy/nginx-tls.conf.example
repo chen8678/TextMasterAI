@@ -1,0 +1,66 @@
+# Phase-0 TLS 示例（占位证书路径；勿提交真实证书）
+# 用法：复制并替换 server_name / ssl_certificate* / upstream 后接入主机 nginx。
+
+upstream smart_ask_backend {
+    server 127.0.0.1:8000;
+    keepalive 32;
+}
+
+server {
+    listen 80;
+    server_name YOUR_DOMAIN.example;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    server_name YOUR_DOMAIN.example;
+
+    ssl_certificate     /etc/ssl/certs/YOUR_DOMAIN.fullchain.pem;
+    ssl_certificate_key /etc/ssl/private/YOUR_DOMAIN.key;
+    ssl_session_timeout 1d;
+    ssl_session_cache shared:SSL:10m;
+    ssl_protocols TLSv1.2 TLSv1.3;
+
+    client_max_body_size 100M;
+    client_body_timeout 60s;
+    client_header_timeout 60s;
+
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1024;
+    gzip_proxied any;
+    gzip_comp_level 6;
+    gzip_types text/plain text/css text/xml text/javascript application/json application/javascript application/xml+rss application/rss+xml font/truetype font/opentype application/vnd.ms-fontobject image/svg+xml;
+
+    root /var/www/smart-ask-frontend;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+        add_header Cache-Control "public, max-age=3600";
+    }
+
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        access_log off;
+    }
+
+    location /api/ {
+        proxy_pass http://smart_ask_backend;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        # 关键：Django SECURE_HTTPS / SECURE_PROXY_SSL_HEADER 依赖此头
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header Connection "";
+        proxy_pass_request_headers on;
+        proxy_pass_request_body on;
+        proxy_connect_timeout 60s;
+        proxy_send_timeout 60s;
+        proxy_read_timeout 60s;
+        proxy_buffering off;
+    }
+}
